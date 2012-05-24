@@ -124,3 +124,10 @@ mob/verb/sexy_time()
 	name = "sex"
 	desc = "oh yeah baby!"
 
+obj/verb
+	get()
+		set src in usr.loc
+		loc = usr
+	drop()
+		set src in usr
+		loc = usr.loc
