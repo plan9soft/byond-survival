@@ -38,7 +38,7 @@ When you commit changes to SVN, you submit files you modified or added to the Go
 
 Navigate to your base folder (where the Byond project is), right click on it and hit "SVN Commit." A window will pop up that looks like this:
 
-[[Image(guide1.png)]]
+https://byond-survival.googlecode.com/svn-history/r19/wiki/guide2.png
 
 There is a space for a log message. *Please write out a brief description of the changes you are committing!* Next, check the box next to each modified file you wish to upload. Finally, hit "OK"
 
@@ -47,7 +47,7 @@ A prompt should open, asking for your user name and password. To get your userna
  * Go to the project's Google Code Page.
  * Click on the [https://code.google.com/p/byond-survival/source/checkout Source] link on the top banner of the Google Code page. You should see a box that looks like this:
 
-[[Image(guide2.png)]]
+https://byond-survival.googlecode.com/svn-history/r19/wiki/guide1.png
 
 Put in your username (circled in red in the picture), click the link and put in the password found there. Click the box on TortoiseSVN to save  your logon credentials so you don't have to jump through this hoop every time you want to make a commit. Then click "OK" and you're good to go!
 
