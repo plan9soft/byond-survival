@@ -119,19 +119,34 @@ obj/torchlit/verb/light()
 	set src in view(1)
 	luminosity = 3
 
+//sexy time verb
 mob/verb/sexy_time()
 	world << "[usr] sexes you up!"
 	name = "sex"
 	desc = "oh yeah baby!"
 
-obj/verb
-	get()
-		set src in usr.loc
-		loc = usr
-	drop()
-		set src in usr
-		loc = usr.loc
 
+//get and drop item commands
+obj
+	verb
+		get()
+			set src in usr.loc
+			loc = usr
+		drop()
+			set src in usr
+			loc = usr.loc
+
+//summon torch command
 obj/torchlit/verb/summon()
 	set src in oview()
 	loc = usr
+
+//change name command
+mob/verb/set_name(N as text)
+	set desc = "(\"new name\") Change your name."
+	name = N
+
+
+//whisper verb
+mob/verb/whisper(M as mob, msg as text)
+	M << "[usr] whiapwea, '[msg]'"
