@@ -131,3 +131,7 @@ obj/verb
 	drop()
 		set src in usr
 		loc = usr.loc
+
+obj/torchlit/verb/summon()
+	set src in oview()
+	loc = usr
