@@ -11,7 +11,7 @@ This guide was created based on the guide at [http://trac.wildfiregames.com/wiki
 
 *Commit Permission*
 
- * If you wish to add to the official version of the game, you must have commit permission. Have [https://code.google.com/p/byond-survival/people/list someone listed as an Owner] add you to the project as either a *Project Owner* or *Project Committer*. They will need your e-mail address to do this. (Owners: See the AddingCommitter guide for detailed instructions on how to add somebody as a project committer.)
+ * If you wish to add to the official version of the game, you must have commit permission. Have [https://code.google.com/p/byond-survival/people/list someone listed as an Owner] add you to the project as either a *Project Owner* or *Project Committer*. They will need your e-mail address to do this (Gmail is perfered, it's easier to work with). (Owners: See the AddingCommitter guide for detailed instructions on how to add somebody as a project committer.)
  * People who don't want to commit changes to the official version don't need this.
 
 == Step 1: Getting and Installing TortoiseSVN ==
@@ -21,8 +21,6 @@ You can obtain TortoiseSVN from [http://tortoisesvn.net/downloads here]. Select 
 First, you need to create a folder where you want the project files stored. I use `D:\Byond-Survial`, but feel free to use whatever folder you wish.
 
 Once you have the folder created (hereafter called the "base folder"), right click on it and select "SVN Checkout..."
-
-[[Image(guide1.png)]]
 
 Now we need to point you to the correct SVN URL. The URL of repository is:
 
@@ -36,4 +34,16 @@ Congratulations, you now have the latest version of the game!
 Whenever somebody updates the game files, you need to tell TortiseSVN to update your base folder. Right click on your base folder and select "SVN Update".
 
 == Step 4: Committing Changes to SVN ==
-When you commit changes to SVN, you submit the files you modified or added to Google Code servers so that other people can use them.
+When you commit changes to SVN, you submit files you modified or added to the Google Code servers so that other people can use them.
+
+First, you must log into the Gmail account that was added to the project as a committer. Click on the [https://code.google.com/p/byond-survival/source/checkout Source] link on the top banner of the Google Code page. You should see a box that looks like this:
+
+[[Image(guide1.png)]]
+
+Now, navigate to your base folder (where the Byond project is), right click on it and hit "SVN Commit." A window will pop up that looks like this:
+
+[[Image(guide2.png)]]
+
+There is a space for a log message. *Please write out a brief description of the changes you are committing!* Next, check the box next to each modified file you wish to upload. Finally, hit "OK"
+
+A prompt should open, asking for your user name and password.
