@@ -24,9 +24,9 @@ Once you have the folder created (hereafter called the "base folder"), right cli
 
 Now we need to point you to the correct SVN URL. The URL of repository is:
 
-  _*https://byond-survival.googlecode.com/svn/trunk/*_
+  `https://byond-survival.googlecode.com/svn/trunk/`
 
-(The URL for the project wiki is _https://byond-survival.googlecode.com/svn/wiki_ )
+(The URL for the project wiki is `https://byond-survival.googlecode.com/svn/wiki` )
 
 The default settings should be correct, just hit OK, and TortoiseSVN should checkout the latest version of the game to your base folder.
 
