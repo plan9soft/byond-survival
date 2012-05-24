@@ -36,14 +36,25 @@ Whenever somebody updates the game files, you need to tell TortiseSVN to update 
 == Step 4: Committing Changes to SVN ==
 When you commit changes to SVN, you submit files you modified or added to the Google Code servers so that other people can use them.
 
-First, you must log into the Gmail account that was added to the project as a committer. Click on the [https://code.google.com/p/byond-survival/source/checkout Source] link on the top banner of the Google Code page. You should see a box that looks like this:
+Navigate to your base folder (where the Byond project is), right click on it and hit "SVN Commit." A window will pop up that looks like this:
 
 [[Image(guide1.png)]]
 
-Now, navigate to your base folder (where the Byond project is), right click on it and hit "SVN Commit." A window will pop up that looks like this:
+There is a space for a log message. *Please write out a brief description of the changes you are committing!* Next, check the box next to each modified file you wish to upload. Finally, hit "OK"
+
+A prompt should open, asking for your user name and password. To get your username and password, do the following:
+ * Log into the Gmail account that was added to the project as a committer.
+ * Go to the project's Google Code Page.
+ * Click on the [https://code.google.com/p/byond-survival/source/checkout Source] link on the top banner of the Google Code page. You should see a box that looks like this:
 
 [[Image(guide2.png)]]
 
-There is a space for a log message. *Please write out a brief description of the changes you are committing!* Next, check the box next to each modified file you wish to upload. Finally, hit "OK"
+Put in your username (circled in red in the picture), click the link and put in the password found there. Click the box on TortoiseSVN to save  your logon credentials so you don't have to jump through this hoop every time you want to make a commit. Then click "OK" and you're good to go!
 
-A prompt should open, asking for your user name and password.
+Congratulations, you can now add SVN at will!
+
+== Step 5: Things to Remember ==
+ * You must right click and select "SVN Update" to update your _local copy_ of the game files.
+ * You must hit "SVN Commit" to commit changes to the master version.
+ * TortoiseSVN can't see changes you made that aren't in your base folder.
+ ** Write a brief description of your changes when you commit an update to the master version!*
