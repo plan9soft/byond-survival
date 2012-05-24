@@ -5,25 +5,45 @@
 "e" = (/turf/GrassWaterE,/area/dark)
 "f" = (/turf/Water,/area/dark)
 "g" = (/turf/GrassWaterS,/area/dark)
-"h" = (/obj/torchlit,/turf/grass,/area/dark)
-"i" = (/turf/GrassWaterNW,/area/dark)
-"j" = (/turf/GrassWaterN,/area/dark)
-"k" = (/turf/GrassWaterNW2,/area/dark)
-"l" = (/turf/GrassWaterNE2,/area/dark)
-"m" = (/turf/grass,/area)
-"n" = (/turf/Start,/area/dark)
-"o" = (/turf/DirtgrassNW,/area/dark)
-"p" = (/turf/DirtgrassN,/area/dark)
-"q" = (/turf/DirtgrassNE,/area/dark)
-"r" = (/turf/DirtgrassS,/area/dark)
-"s" = (/turf/DirtWaterSE2,/area/dark)
-"t" = (/turf/DirtWaterSW2,/area/dark)
-"u" = (/turf/DirtgrassE,/area/dark)
-"v" = (/turf/DirtWaterNE2,/area/dark)
-"w" = (/turf/DirtWaterNW2,/area/dark)
-"x" = (/turf/DirtgrassSW,/area/dark)
-"y" = (/turf/DirtgrassW,/area/dark)
-"z" = (/turf/DirtgrassSE,/area/dark)
+"h" = (/turf/TreetopNW,/area/dark)
+"i" = (/turf/Tree2topN,/area/dark)
+"j" = (/turf/TreetopNE,/area/dark)
+"k" = (/turf/Tree2topW,/area/dark)
+"l" = (/turf/Treecenter2,/area/dark)
+"m" = (/turf/Tree2topE,/area/dark)
+"n" = (/turf/TreetopSW,/area/dark)
+"o" = (/turf/Tree2topS,/area/dark)
+"p" = (/turf/TreetopSE,/area/dark)
+"q" = (/obj/torchlit,/turf/grass,/area/dark)
+"r" = (/turf/Treestump2,/area/dark)
+"s" = (/turf/Tree2topNW,/area/dark)
+"t" = (/turf/TreetopN,/area/dark)
+"u" = (/turf/GrassWaterNW,/area/dark)
+"v" = (/turf/GrassWaterN,/area/dark)
+"w" = (/turf/GrassWaterNW2,/area/dark)
+"x" = (/turf/TreetopW,/area/dark)
+"y" = (/turf/Treecenter1,/area/dark)
+"z" = (/turf/TreetopE,/area/dark)
+"A" = (/turf/Tree2topSW,/area/dark)
+"B" = (/turf/Tree2topSE,/area/dark)
+"C" = (/turf/GrassWaterNE2,/area/dark)
+"D" = (/turf/TreetopS,/area/dark)
+"E" = (/turf/Treestump1,/area/dark)
+"F" = (/turf/grass,/area)
+"G" = (/turf/Treestump,/area/dark)
+"H" = (/turf/Start,/area/dark)
+"I" = (/turf/DirtgrassNW,/area/dark)
+"J" = (/turf/DirtgrassN,/area/dark)
+"K" = (/turf/DirtgrassNE,/area/dark)
+"L" = (/turf/DirtgrassS,/area/dark)
+"M" = (/turf/DirtWaterSE2,/area/dark)
+"N" = (/turf/DirtWaterSW2,/area/dark)
+"O" = (/turf/DirtgrassE,/area/dark)
+"P" = (/turf/DirtWaterNE2,/area/dark)
+"Q" = (/turf/DirtWaterNW2,/area/dark)
+"R" = (/turf/DirtgrassSW,/area/dark)
+"S" = (/turf/DirtgrassW,/area/dark)
+"T" = (/turf/DirtgrassSE,/area/dark)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -40,20 +60,20 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaabcccccccccccccdaaaaaaaa
 aaaaaaaefffffffffffffgaaaaaaaa
 aaaaaaaefffffffffffffgaaaaaaaa
+aaahijaefffffffffffffgaaaaaaaa
+aaaklmaefffffffffffffgaaaaaaaa
+aaanopaefffffffffffffgaaaaqaaa
+aaaaraaefffffffffffffgaaaaaaaa
 aaaaaaaefffffffffffffgaaaaaaaa
 aaaaaaaefffffffffffffgaaaaaaaa
-aaaaaaaefffffffffffffgaaaahaaa
-aaaaaaaefffffffffffffgaaaaaaaa
-aaaaaaaefffffffffffffgaaaaaaaa
-aaaaaaaefffffffffffffgaaaaaaaa
-aaaaaaaefffffffffffffgaaaaaaaa
-aaaaaaaeffffffffijjjjkaaaaaaaa
-aaaaaaaljjjjjjjjkaaaaaaaaaaaaa
-aaaaaaaaaahaaamaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaahaaaaanaaaahaaaoppqaaaa
-aaaaaaaaaaaaaaaaaaaaaarstuaaaa
-aaaaaaaaaaaaaaaaaaaaaarvwuaaaa
-aaaaaaaaaaaaahaaaaaaaaxyyzaaaa
+aasijaaefffffffffffffgaahtjaaa
+aaklmaaeffffffffuvvvvwaaxyzaaa
+aaAoBaaCvvvvvvvvwaahtjaanDpaaa
+aaaEaaaaaaqaaaFaGaaxyzaaaEaaaa
+aaaaaaaaaGaaaaaaaaanDpaaaaaaaa
+aaaaaaaqaaaaaHaaaaqaraIJJKaaaa
+aaaaaGaaaaaaaaaaaaaaaaLMNOaaaa
+aaaaaaaaaaaaaaaaaGaaaaLPQOaaaa
+aaaaaaaaGaaaaqaaaaaaaaRSSTaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
