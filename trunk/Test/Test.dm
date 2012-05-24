@@ -90,23 +90,6 @@ turf
 	DirtWaterNW2
 		icon = 'Dirt water NW 2.dmi'
 
-	DirtgrassN
-		icon = 'Dirt grass N.dmi'
-	DirtgrassE
-		icon = 'Dirt grass E.dmi'
-	DirtgrassW
-		icon = 'Dirt grass S.dmi'
-	DirtgrassS
-		icon = 'Dirt grass W.dmi'
-	DirtgrassNE
-		icon = 'Dirt grass angle NE.dmi'
-	DirtgrassSE
-		icon = 'Dirt grass angle SE.dmi'
-	DirtgrassSW
-		icon = 'Dirt grass angle SW.dmi'
-	DirtgrassNW
-		icon = 'Dirt grass angle NW.dmi'
-
 
 obj/torchlit
 	icon = 'torchlit.dmi'
@@ -119,3 +102,9 @@ obj/torchlit/verb/extinguish()
 obj/torchlit/verb/light()
 	set src in view(1)
 	luminosity = 3
+
+mob/verb/sexy_time()
+	world << "[usr] sexes you up!"
+	name = "sex"
+	desc = "oh yeah baby!"
+
