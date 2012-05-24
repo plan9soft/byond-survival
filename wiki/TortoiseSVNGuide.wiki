@@ -24,7 +24,9 @@ Once you have the folder created (hereafter called the "base folder"), right cli
 
 Now we need to point you to the correct SVN URL. The URL of repository is:
 
-  _https://byond-survival.googlecode.com/svn/trunk/_
+  _*https://byond-survival.googlecode.com/svn/trunk/*_
+
+(The URL for the project wiki is _https://byond-survival.googlecode.com/svn/wiki_ )
 
 The default settings should be correct, just hit OK, and TortoiseSVN should checkout the latest version of the game to your base folder.
 
@@ -51,7 +53,7 @@ https://byond-survival.googlecode.com/svn-history/r19/wiki/guide1.png
 
 Put in your username (circled in red in the picture), click the link and put in the password found there. Click the box on TortoiseSVN to save  your logon credentials so you don't have to jump through this hoop every time you want to make a commit. Then click "OK" and you're good to go!
 
-Congratulations, you can now add SVN at will!
+Congratulations, you can now add to the SVN at will!
 
 == Step 5: Things to Remember ==
  * You must right click and select "SVN Update" to update your _local copy_ of the game files.
