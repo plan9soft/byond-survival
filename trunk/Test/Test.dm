@@ -106,6 +106,49 @@ turf
 	DirtgrassNW
 		icon = 'Dirt grass angle NW.dmi'
 
+	Treestump
+		icon = 'Tree stump.dmi'
+	Treestump1
+		icon = 'Tree stump 1.dmi'
+	Treestump2
+		icon = 'Tree stump 2.dmi'
+	Tree2topE
+		icon = 'Tree 2 top E.dmi'
+	Tree2topN
+		icon = 'Tree 2 top N.dmi'
+	Tree2topNE
+		icon = 'Tree 2 top NE.dmi'
+	Tree2topNW
+		icon = 'Tree 2 top NW.dmi'
+	Tree2topS
+		icon = 'Tree 2 top S.dmi'
+	Tree2topSE
+		icon = 'Tree 2 top SE.dmi'
+	Tree2topSW
+		icon = 'Tree 2 top SW.dmi'
+	Tree2topW
+		icon = 'Tree 2 top W.dmi'
+	Treecenter1
+		icon = 'Tree center 1.dmi'
+	Treecenter2
+		icon = 'Tree center 2.dmi'
+	TreetopN
+		icon = 'Tree top N.dmi'
+	TreetopNE
+		icon = 'Tree top NE.dmi'
+	TreetopNW
+		icon = 'Tree top NW.dmi'
+	TreetopS
+		icon = 'Tree top S.dmi'
+	TreetopSE
+		icon = 'Tree top SE.dmi'
+	TreetopSW
+		icon = 'Tree top SW.dmi'
+	TreetopW
+		icon = 'Tree top W.dmi'
+	TreetopE
+		icon = 'Tree top E.dmi'
+
 
 obj/torchlit
 	icon = 'torchlit.dmi'
