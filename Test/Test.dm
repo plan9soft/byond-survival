@@ -45,6 +45,7 @@ turf
 		icon = 'Grass water E.dmi'
 	GrassWaterW
 		icon = 'Grass water S.dmi'
+		density = 1
 	GrassWaterS
 		icon = 'Grass water W.dmi'
 	GrassWaterNE
@@ -108,10 +109,13 @@ turf
 
 	Treestump
 		icon = 'Tree stump.dmi'
+		density = 1
 	Treestump1
 		icon = 'Tree stump 1.dmi'
+		density = 1
 	Treestump2
 		icon = 'Tree stump 2.dmi'
+		density = 1
 	Tree2topE
 		icon = 'Tree 2 top E.dmi'
 	Tree2topN
@@ -153,8 +157,10 @@ turf
 		icon = 'Bush 1.dmi'
 	Bush2
 		icon = 'Bush 2.dmi'
+		density = 1
 	Bush3
 		icon = 'Bush 3.dmi'
+		density = 1
 	Grassflower1
 		icon = 'Grass flower 1.dmi'
 	Grassflower2
@@ -162,6 +168,7 @@ turf
 
 	Cavewall
 		icon = 'Cave wall.dmi'
+		density = 1
 	Cavefloor
 		icon = 'Cave floor.dmi'
 	Cavefloor2
@@ -170,10 +177,13 @@ turf
 		icon = 'Cave floor 3.dmi'
 	CliffB
 		icon = 'Cliff B.dmi'
+		density = 1
 	CliffM
 		icon = 'Cliff M.dmi'
+		density = 1
 	CliffT
 		icon = 'Cliff T.dmi'
+		density = 1
 
 obj/torchlit
 	icon = 'torchlit.dmi'
