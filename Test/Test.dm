@@ -149,6 +149,17 @@ turf
 	TreetopE
 		icon = 'Tree top E.dmi'
 
+	Bush1
+		icon = 'Bush 1.dmi'
+	Bush2
+		icon = 'Bush 2.dmi'
+	Bush3
+		icon = 'Bush 3.dmi'
+	Grassflower1
+		icon = 'Grass flower 1.dmi'
+	Grassflower2
+		icon = 'Grass flower 2.dmi'
+
 
 obj/torchlit
 	icon = 'torchlit.dmi'
