@@ -1,0 +1,47 @@
+"a" = (/turf/grass,/area/dark)
+"b" = (/turf/GrassWaterSE2,/area/dark)
+"c" = (/turf/GrassWaterW,/area/dark)
+"d" = (/turf/GrassWaterSW2,/area/dark)
+"e" = (/turf/GrassWaterE,/area/dark)
+"f" = (/turf/Water,/area/dark)
+"g" = (/turf/GrassWaterS,/area/dark)
+"h" = (/obj/torchlit,/turf/grass,/area/dark)
+"i" = (/turf/GrassWaterNW,/area/dark)
+"j" = (/turf/GrassWaterN,/area/dark)
+"k" = (/turf/GrassWaterNW2,/area/dark)
+"l" = (/turf/GrassWaterNE2,/area/dark)
+"m" = (/turf/grass,/area)
+"n" = (/turf/Start,/area/dark)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaabcccccccccccccdaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaahaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaefffffffffffffgaaaaaaaa
+aaaaaaaeffffffffijjjjkaaaaaaaa
+aaaaaaaljjjjjjjjkaaaaaaaaaaaaa
+aaaaaaaaaahaaamaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaahaaaaanaaaahaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaahaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
