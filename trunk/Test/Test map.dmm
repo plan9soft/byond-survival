@@ -1,0 +1,92 @@
+"a" = (/turf/grass,/area)
+"b" = (/turf/GrassWaterE,/area)
+"c" = (/turf/Water,/area)
+"d" = (/turf/GrassWaterS,/area)
+"e" = (/turf/Dirt,/area)
+"f" = (/turf/DirtWaterSE2,/area)
+"g" = (/turf/DirtWaterW,/area)
+"h" = (/turf/DirtWaterSW2,/area)
+"i" = (/turf/DirtWaterE,/area)
+"j" = (/turf/DirtWaterS,/area)
+"k" = (/turf/DirtWaterSE,/area)
+"l" = (/turf/Spawn,/area)
+"m" = (/turf/DirtWaterNW,/area)
+"n" = (/turf/DirtWaterNW2,/area)
+"o" = (/turf/DirtWaterNE2,/area)
+"p" = (/turf/DirtWaterN,/area)
+"q" = (/turf/GrassWaterSW,/area)
+"r" = (/turf/GrassWaterW,/area)
+"s" = (/turf/GrassWaterSW2,/area)
+"t" = (/turf/GrassWaterNE2,/area)
+"u" = (/turf/GrassWaterN,/area)
+"v" = (/turf/GrassWaterNE,/area)
+"w" = (/turf/GrassWaterSE2,/area)
+"x" = (/turf/GrassWaterSE,/area)
+"y" = (/turf/GrassWaterNW,/area)
+"z" = (/turf,/area)
+
+(1,1,1) = {"
+aaaaaaabccdaaaaaaaaaaaaaaaaaaa
+aaaaaaabccdaaaaaaaaaaaaaaaaaaa
+aaaaaaabccdaaaaaaaaaaaaaaaaaaa
+aaaaaaabccdaaaaaaaaaaaeeeaaaaa
+aaaaaaabccdaaaaaaaeeefgggheaaa
+aaaaaaabccdaaaaaaaeeeicccjeaaa
+aaaaaaabccdaaaaaaaeeeicccjeaaa
+aaaaaaabccdaaaaaaaeefkcccjeaaa
+aaaaaaabccdaaalaaaefkcccmneaaa
+aaaaaaabccdaaaaaaaeiccccjeeaaa
+aaaaaaabccdaaaaaaaeoppppneeaaa
+aaaaaaabccdaaaaaaaeeeeeeeeeaaa
+aaaaaaabccdaaaaaaaaaaaaaaaaaaa
+aaaaaaabccdaaaaaaaaaaaaaaaaaaa
+aaaaaaabccdaaaaaaaaaaaaaaaaaaa
+aaaaaaabccqrrrrsaaaaaaaaaaaaaa
+aaaaaaabcccccccdaaaaaaaaaaaaaa
+aaaaaaatuuuuvccdaaaaaaaaaaaaaa
+aaaaaaaaaaaabccdaaaaaaaaaaaaaa
+aaaaaaaaaaaabccdaaaaaaaaaaaaaa
+aaaaaawrrrrrxccqrrrrsaaaaaaaaa
+aaaaaabcccccccccccccdaaaaaaaaa
+aaaaaabcccccccccccccdaaaaaaaaa
+aaaaaabcyuuuuuuuuuvcdaaaaaaaaa
+aaaaaabcdaaaaaaaaabcdaaaaaaaaa
+aaaaaabcdaaaaaaaaabcdaaaaaaaaa
+aaaaaabcdaaaaaaaaabcdaaaaaaaaa
+aaaaaabcdaaaaaaaaabcdaaaaaaaaa
+aaaaaabcdaaaaaaaaabcdaaaaaaaaa
+aaaaaabcdaaaaaaaaabcdaaaaaaaaa
+"}
+
+(1,1,2) = {"
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+"}
