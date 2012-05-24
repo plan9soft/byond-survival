@@ -7,6 +7,7 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "turf"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
@@ -14,7 +15,6 @@
 
 // BEGIN_INCLUDE
 #include "Test.dm"
-#include "Turf.dm"
-#include "Test map.dmm"
+#include "map1.dmm"
 // END_INCLUDE
 
