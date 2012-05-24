@@ -5,50 +5,55 @@
 "ae" = (/turf/GrassWaterE,/area/dark)
 "af" = (/turf/Water,/area/dark)
 "ag" = (/turf/GrassWaterS,/area/dark)
-"ah" = (/turf/TreetopNW,/area/dark)
-"ai" = (/turf/Tree2topN,/area/dark)
-"aj" = (/turf/TreetopNE,/area/dark)
-"ak" = (/turf/Tree2topW,/area/dark)
-"al" = (/turf/Treecenter2,/area/dark)
-"am" = (/turf/Tree2topE,/area/dark)
-"an" = (/turf/TreetopSW,/area/dark)
-"ao" = (/turf/Tree2topS,/area/dark)
-"ap" = (/turf/TreetopSE,/area/dark)
-"aq" = (/obj/torchlit,/turf/grass,/area/dark)
-"ar" = (/turf/Treestump2,/area/dark)
-"as" = (/turf/Tree2topNW,/area/dark)
-"at" = (/turf/TreetopN,/area/dark)
-"au" = (/turf/GrassWaterNW,/area/dark)
-"av" = (/turf/GrassWaterN,/area/dark)
-"aw" = (/turf/GrassWaterNW2,/area/dark)
-"ax" = (/turf/TreetopW,/area/dark)
-"ay" = (/turf/Treecenter1,/area/dark)
-"az" = (/turf/TreetopE,/area/dark)
-"aA" = (/turf/Tree2topSW,/area/dark)
-"aB" = (/turf/Tree2topSE,/area/dark)
-"aC" = (/turf/GrassWaterNE2,/area/dark)
-"aD" = (/turf/TreetopS,/area/dark)
-"aE" = (/turf/Treestump1,/area/dark)
-"aF" = (/turf/Grassflower2,/area/dark)
-"aG" = (/turf/Bush1,/area/dark)
-"aH" = (/turf/grass,/area)
-"aI" = (/turf/Treestump,/area/dark)
-"aJ" = (/turf/Bush2,/area/dark)
-"aK" = (/turf/Bush3,/area/dark)
-"aL" = (/turf/Start,/area/dark)
-"aM" = (/turf/DirtgrassNW,/area/dark)
-"aN" = (/turf/DirtgrassN,/area/dark)
-"aO" = (/turf/DirtgrassNE,/area/dark)
-"aP" = (/turf/DirtgrassS,/area/dark)
-"aQ" = (/turf/DirtWaterSE2,/area/dark)
-"aR" = (/turf/DirtWaterSW2,/area/dark)
-"aS" = (/turf/DirtgrassE,/area/dark)
-"aT" = (/turf/Grassflower1,/area/dark)
-"aU" = (/turf/DirtWaterNE2,/area/dark)
-"aV" = (/turf/DirtWaterNW2,/area/dark)
-"aW" = (/turf/DirtgrassSW,/area/dark)
-"aX" = (/turf/DirtgrassW,/area/dark)
-"aY" = (/turf/DirtgrassSE,/area/dark)
+"ah" = (/turf/CliffT,/area/dark)
+"ai" = (/turf/TreetopNW,/area/dark)
+"aj" = (/turf/Tree2topN,/area/dark)
+"ak" = (/turf/TreetopNE,/area/dark)
+"al" = (/turf/CliffM,/area/dark)
+"am" = (/turf/Tree2topW,/area/dark)
+"an" = (/turf/Treecenter2,/area/dark)
+"ao" = (/turf/Tree2topE,/area/dark)
+"ap" = (/turf/CliffB,/area/dark)
+"aq" = (/turf/TreetopSW,/area/dark)
+"ar" = (/turf/Tree2topS,/area/dark)
+"as" = (/turf/TreetopSE,/area/dark)
+"at" = (/obj/torchlit,/turf/grass,/area/dark)
+"au" = (/turf/Treestump2,/area/dark)
+"av" = (/turf/Tree2topNW,/area/dark)
+"aw" = (/turf/TreetopN,/area/dark)
+"ax" = (/turf/GrassWaterNW,/area/dark)
+"ay" = (/turf/GrassWaterN,/area/dark)
+"az" = (/turf/GrassWaterNW2,/area/dark)
+"aA" = (/turf/TreetopW,/area/dark)
+"aB" = (/turf/Treecenter1,/area/dark)
+"aC" = (/turf/TreetopE,/area/dark)
+"aD" = (/turf/Tree2topSW,/area/dark)
+"aE" = (/turf/Tree2topSE,/area/dark)
+"aF" = (/turf/GrassWaterNE2,/area/dark)
+"aG" = (/turf/TreetopS,/area/dark)
+"aH" = (/turf/Treestump1,/area/dark)
+"aI" = (/turf/Grassflower2,/area/dark)
+"aJ" = (/turf/Bush1,/area/dark)
+"aK" = (/turf/grass,/area)
+"aL" = (/turf/Treestump,/area/dark)
+"aM" = (/turf/Bush2,/area/dark)
+"aN" = (/turf/Bush3,/area/dark)
+"aO" = (/turf/Start,/area/dark)
+"aP" = (/turf/DirtgrassNW,/area/dark)
+"aQ" = (/turf/DirtgrassN,/area/dark)
+"aR" = (/turf/DirtgrassNE,/area/dark)
+"aS" = (/turf/DirtgrassS,/area/dark)
+"aT" = (/turf/DirtWaterSE2,/area/dark)
+"aU" = (/turf/DirtWaterSW2,/area/dark)
+"aV" = (/turf/DirtgrassE,/area/dark)
+"aW" = (/turf/Cavewall,/area/dark)
+"aX" = (/turf/Grassflower1,/area/dark)
+"aY" = (/turf/DirtWaterNE2,/area/dark)
+"aZ" = (/turf/DirtWaterNW2,/area/dark)
+"ba" = (/turf/DirtgrassSW,/area/dark)
+"bb" = (/turf/DirtgrassW,/area/dark)
+"bc" = (/turf/DirtgrassSE,/area/dark)
+"bd" = (/turf/Cavefloor,/area/dark)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -64,21 +69,21 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaabacacacacacacacacacacacacacadaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaeafafafafafafafafafafafafafagaaahahahahaaahaa
+aaaaaaaiajakaaaeafafafafafafafafafafafafafagaaalalalalahalah
+aaaaaaamanaoaaaeafafafafafafafafafafafafafagaaapapapapapapap
+aaaaaaaqarasaaaeafafafafafafafafafafafafafagaaaaaaaaataaaaaa
+aaaaaaaaauaaaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
-aaaaaaahaiajaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
-aaaaaaakalamaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
-aaaaaaanaoapaaaeafafafafafafafafafafafafafagaaaaaaaaaqaaaaaa
-aaaaaaaaaraaaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaeafafafafafafafafafafafafafagaaaaaaaaaaaaaaaa
-aaaaasaiajaaaaaeafafafafafafafafafafafafafagaaaaahatajaaaaaa
-aaaaakalamaaaaaeafafafafafafafafauavavavavawaaaaaxayazaaaaaa
-aaaaaAaoaBaaaaaCavavavavavavavavawaaaaahatajaaaaanaDapaaaaaa
-aaaaaaaEaaaaaFaaaaaaaqaaaaaGaHaaaIaaaaaxayazaaaaaaaEaaaaaaaa
-aaaaaaaaaaaaaaaaaaaIaaaJaaaaaaaKaaaaaaanaDapaaaaaaaaaaaaaaaa
-aaaaaFaaaaaaaaaqaaaaaaaaaaaLaaaaaFaaaqaaaraaaMaNaNaOaaaaaaaa
-aaaaaaaaaaaIaaaaaaaaaKaaaaaaaaaJaaaaaGaaaaaaaPaQaRaSaaaaaaaa
-aaaaaaaaaaaaaFaaaaaaaaaaaGaaaFaaaaaIaaaTaTaaaPaUaVaSaaaaaaaa
-aaaFaaaaaaaaaaaaaIaaaaaJaaaqaaaKaaaaaaaTaTaaaWaXaXaYaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaavajakaaaaaeafafafafafafafafafafafafafagaaaaaiawakaaaaaa
+aaaaamanaoaaaaaeafafafafafafafafaxayayayayazaaaaaAaBaCaaaaaa
+aaaaaDaraEaaaaaFayayayayayayayayazaaaaaiawakaaaaaqaGasaaaaaa
+aaaaaaaHaaaaaIaaaaaaataaaaaJaKaaaLaaaaaAaBaCaaaaaaaHaaaaaaaa
+aaaaaaaaaaaaaaaaaaaLaaaMaaaaaaaNaaaaaaaqaGasaaaaaaaaaaaaaaaa
+aaaaaIaaaaaaaaataaaaaaaaaaaOaaaaaIaaataaauaaaPaQaQaRaaaaaaaa
+aaaaaaaaaaaLaaaaaaaaaNaaaaaaaaaMaaaaaJaaaaaaaSaTaUaVaaaaaaaa
+aaaWaWaWaWaWaIaaaaaaaaaaaJaaaIaaaaaLaaaXaXaaaSaYaZaVaaaaaaaa
+aaaWaWaWaWaWaaaaaLaaaaaMaaataaaNaaaaaaaXaXaababbbbbcaaaaaaaa
+aabdbdbdbdbdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}

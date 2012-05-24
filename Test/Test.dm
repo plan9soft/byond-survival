@@ -160,6 +160,20 @@ turf
 	Grassflower2
 		icon = 'Grass flower 2.dmi'
 
+	Cavewall
+		icon = 'Cave wall.dmi'
+	Cavefloor
+		icon = 'Cave floor.dmi'
+	Cavefloor2
+		icon = 'Cave floor 2.dmi'
+	cavefloor3
+		icon = 'Cave floor 3.dmi'
+	CliffB
+		icon = 'Cliff B.dmi'
+	CliffM
+		icon = 'Cliff M.dmi'
+	CliffT
+		icon = 'Cliff T.dmi'
 
 obj/torchlit
 	icon = 'torchlit.dmi'
