@@ -1,0 +1,39 @@
+= Using Subversion with TortoiseSVN =
+This guide will walk you through setting up TortoiseSVN to keep your version of the game in sync, and for committing changes you make to the code base.
+
+This guide was created based on the guide at [http://trac.wildfiregames.com/wiki/TortoiseSVN_Guide WildfireGames.com].
+
+== You Will Need ==
+*TortoiseSVN:* [http://tortoisesvn.tigris.org Link]
+
+ * "A free/open-source client for the Subversion version control system."
+ * An easy-to-use tool that integrates with Windows Explorer. It is used to access the Subversion repository.
+
+*Commit Permission*
+
+ * If you wish to add to the official version of the game, you must have commit permission. Have [https://code.google.com/p/byond-survival/people/list someone listed as an Owner] add you to the project as either a *Project Owner* or *Project Committer*. They will need your e-mail address to do this. (Owners: See the AddingCommitter guide for detailed instructions on how to add somebody as a project committer.)
+ * People who don't want to commit changes to the official version don't need this.
+
+== Step 1: Getting and Installing TortoiseSVN ==
+You can obtain TortoiseSVN from [http://tortoisesvn.net/downloads here]. Select the latest version available for your operating system. Follow the standard installation procedure and reboot when asked.
+
+== Step 2: Making your first Checkout ==
+First, you need to create a folder where you want the project files stored. I use `D:\Byond-Survial`, but feel free to use whatever folder you wish.
+
+Once you have the folder created (hereafter called the "base folder"), right click on it and select "SVN Checkout..."
+
+[[Image(guide1.png)]]
+
+Now we need to point you to the correct SVN URL. The URL of repository is:
+
+  _https://byond-survival.googlecode.com/svn/trunk/_
+
+The default settings should be correct, just hit OK, and TortoiseSVN should checkout the latest version of the game to your base folder.
+
+Congratulations, you now have the latest version of the game!
+
+== Step 3: Updating the Game Files ==
+Whenever somebody updates the game files, you need to tell TortiseSVN to update your base folder. Right click on your base folder and select "SVN Update".
+
+== Step 4: Committing Changes to SVN ==
+When you commit changes to SVN, you submit the files you modified or added to Google Code servers so that other people can use them.
