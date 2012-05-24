@@ -16,4 +16,5 @@ Input the user's email address into the appropriate box, with one email per line
 
 == Step 2: Things to Remember ==
  * Project Owners have _*complete control*_ over the project! They can add or remove memebers, delete files, or even the entire project.
+ * Most people should be added as Project Committers.
  * Project Contributors can't commit code to the project.
