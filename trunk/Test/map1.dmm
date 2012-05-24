@@ -12,6 +12,18 @@
 "l" = (/turf/GrassWaterNE2,/area/dark)
 "m" = (/turf/grass,/area)
 "n" = (/turf/Start,/area/dark)
+"o" = (/turf/DirtgrassNW,/area/dark)
+"p" = (/turf/DirtgrassN,/area/dark)
+"q" = (/turf/DirtgrassNE,/area/dark)
+"r" = (/turf/DirtgrassS,/area/dark)
+"s" = (/turf/DirtWaterSE2,/area/dark)
+"t" = (/turf/DirtWaterSW2,/area/dark)
+"u" = (/turf/DirtgrassE,/area/dark)
+"v" = (/turf/DirtWaterNE2,/area/dark)
+"w" = (/turf/DirtWaterNW2,/area/dark)
+"x" = (/turf/DirtgrassSW,/area/dark)
+"y" = (/turf/DirtgrassW,/area/dark)
+"z" = (/turf/DirtgrassSE,/area/dark)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -39,9 +51,9 @@ aaaaaaaeffffffffijjjjkaaaaaaaa
 aaaaaaaljjjjjjjjkaaaaaaaaaaaaa
 aaaaaaaaaahaaamaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaahaaaaanaaaahaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaahaaaaaaaaaaaaaaaa
+aaaaaaahaaaaanaaaahaaaoppqaaaa
+aaaaaaaaaaaaaaaaaaaaaarstuaaaa
+aaaaaaaaaaaaaaaaaaaaaarvwuaaaa
+aaaaaaaaaaaaahaaaaaaaaxyyzaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
