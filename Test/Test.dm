@@ -89,6 +89,22 @@ turf
 		icon = 'Dirt water SW 2.dmi'
 	DirtWaterNW2
 		icon = 'Dirt water NW 2.dmi'
+	DirtgrassN
+		icon = 'Dirt grass N.dmi'
+	DirtgrassE
+		icon = 'Dirt grass E.dmi'
+	DirtgrassW
+		icon = 'Dirt grass S.dmi'
+	DirtgrassS
+		icon = 'Dirt grass W.dmi'
+	DirtgrassNE
+		icon = 'Dirt grass angle NE.dmi'
+	DirtgrassSE
+		icon = 'Dirt grass angle SE.dmi'
+	DirtgrassSW
+		icon = 'Dirt grass angle SW.dmi'
+	DirtgrassNW
+		icon = 'Dirt grass angle NW.dmi'
 
 
 obj/torchlit
