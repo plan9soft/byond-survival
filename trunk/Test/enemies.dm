@@ -1,3 +1,5 @@
+
+
 mob/Enemies
     zombie_guy
         icon='Male zombie.dmi'
