@@ -1,0 +1,182 @@
+macro "macro"
+	elem 
+		name = "SPACE+REP"
+		command = "Attack"
+		is-disabled = false
+	elem 
+		name = "A+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "D+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "S+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "W+REP"
+		command = ".north"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "MainWindow"
+	elem "MainWindow"
+		type = MAIN
+		pos = 281,0
+		size = 1041x651
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = line
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = "Byond-Survival"
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = ""
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = "menu"
+		on-close = ""
+	elem "MainInfo"
+		type = INFO
+		pos = 344,560
+		size = 698x72
+		anchor1 = 33,86
+		anchor2 = 100,97
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = sunken
+		drop-zone = true
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		highlight-color = #00ff00
+		tab-text-color = #000000
+		tab-background-color = none
+		tab-font-family = ""
+		tab-font-size = 0
+		tab-font-style = ""
+		allow-html = true
+		multi-line = true
+		on-show = ""
+		on-hide = ""
+		on-tab = ""
+	elem "MainInput"
+		type = INPUT
+		pos = 344,632
+		size = 698x19
+		anchor1 = 33,97
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		command = ""
+		multi-line = false
+		is-password = false
+		no-command = false
+	elem "MainOutput"
+		type = OUTPUT
+		pos = -8,560
+		size = 350x96
+		anchor1 = 0,86
+		anchor2 = 48,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+	elem "map1"
+		type = MAP
+		pos = 0,0
+		size = 1041x560
+		anchor1 = 0,0
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = none
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		on-size = ""
+		icon-size = 0
+		text-mode = false
+		on-show = ""
+		on-hide = ""
+		style = ""
+
