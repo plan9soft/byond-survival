@@ -7,6 +7,7 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "backup"
 #define FILE_DIR "Items"
 #define FILE_DIR "Plants"
 #define FILE_DIR "turf"
@@ -17,6 +18,6 @@
 
 // BEGIN_INCLUDE
 #include "Test.dm"
-#include "map1.dmm"
+#include "Test map.dmm"
 // END_INCLUDE
 
