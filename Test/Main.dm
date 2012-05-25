@@ -5,6 +5,7 @@ world
 mob/Player
 	icon='knight.dmi'
 	icon_state="Player"
+	Bodtype="Hero"
 
 mob
     Login()

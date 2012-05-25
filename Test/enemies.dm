@@ -1,11 +1,10 @@
-
-
 mob/Enemies
     zombie_guy
         icon='Male zombie.dmi'
         MaxHP=100
         Str=10
         Def=5
+        Bodtype="Flesh" //This is the mob's body type. The sound played when this mob is hit depends on their body type.
 
 mob/Enemies/New()
     src.HP=src.MaxHP
