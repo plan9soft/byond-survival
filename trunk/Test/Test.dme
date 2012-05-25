@@ -10,6 +10,7 @@
 #define FILE_DIR "backup"
 #define FILE_DIR "Items"
 #define FILE_DIR "Plants"
+#define FILE_DIR "sfx"
 #define FILE_DIR "turf"
 // END_FILE_DIR
 
