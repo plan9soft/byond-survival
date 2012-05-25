@@ -1,6 +1,6 @@
 macro "macro"
 	elem 
-		name = "SPACE+REP"
+		name = "SPACE"
 		command = "Attack"
 		is-disabled = false
 	elem 
@@ -133,7 +133,7 @@ window "MainWindow"
 		pos = -8,560
 		size = 350x96
 		anchor1 = 0,86
-		anchor2 = 48,100
+		anchor2 = 33,100
 		font-family = ""
 		font-size = 0
 		font-style = ""
