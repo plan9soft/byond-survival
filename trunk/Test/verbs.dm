@@ -17,7 +17,8 @@ mob/verb
 		for(var/mob/M in get_step(src,src.dir))
 			var/Damage=max(0,src.Str-M.Def)
 			//view(M)<<"[src] hit [M] for [Damage] Damage!"
-			M.TakeDamage(Damage,src)
+			if(src!=M) //If the Target IS NOT the Attacker, do damage.
+				M.TakeDamage(Damage,src)
 
 
 
