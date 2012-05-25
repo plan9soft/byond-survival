@@ -17,7 +17,15 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "Test.dm"
-#include "Test map.dmm"
+#include "enemies.dm"
+#include "Enviroment.dm"
+#include "Main.dm"
+#include "procs.dm"
+#include "save.dm"
+#include "statpanel.dm"
+#include "vars.dm"
+#include "verbs.dm"
+#include "alpha.dmf"
+#include "alphamap.dmm"
 // END_INCLUDE
 
