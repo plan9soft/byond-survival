@@ -16,7 +16,7 @@ mob/verb
 		flick("Attack",src)
 		for(var/mob/M in get_step(src,src.dir))
 			var/Damage=max(0,src.Str-M.Def)
-			view(M)<<"[src] hit [M] for [Damage] Damage!"
+			//view(M)<<"[src] hit [M] for [Damage] Damage!"
 			M.TakeDamage(Damage,src)
 
 
