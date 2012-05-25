@@ -17,15 +17,6 @@ mob
 obj
 	step_size = 8
 
-mob
-	icon = 'knight.dmi'
-	Login()
-		loc = locate(/turf/Start)
-
-mob
-	verb
-		say(msg as text)
-			world << "[usr] says, [msg]"
 
 area/dark
 	luminosity = 0
@@ -213,12 +204,6 @@ obj/torchlit/verb/light()
 	set src in view(1)
 	luminosity = 3
 
-//sexy time verb
-mob/verb/sexy_time()
-	world << "[usr] sexes you up!"
-	name = "sex"
-	desc = "oh yeah baby!"
-
 
 //get and drop item commands
 obj
@@ -230,10 +215,13 @@ obj
 			set src in usr
 			loc = usr.loc
 
-//summon torch command
-obj/torchlit/verb/summon()
-	set src in oview()
-	loc = usr
+
+mob
+	icon = 'knight.dmi'
+	Login()
+		loc = locate(/turf/Start)
+	var
+		HP = 30
 
 //change name command
 mob/verb/set_name(N as text)
@@ -244,3 +232,40 @@ mob/verb/set_name(N as text)
 //whisper verb
 mob/verb/whisper(M as mob, msg as text)
 	M << "[usr] whiapwea, '[msg]'"
+
+// Say command
+mob/verb
+	say(msg as text)
+		view() << "[usr] says, [msg]"
+
+//out of character char (world chat)
+mob/verb
+	OOC_chat(t as text)
+		world <<"<b>[src]:</b> [t]"
+
+//who command
+mob/verb
+	who()
+		var/counter=0
+		for(var/mob/Player/M in world)
+			counter+=1
+			src<<"([M.Level1]    [M]"
+		src<<"<b>[counter] Players online"
+
+//HP variable ALL mobs have 30 hp default for now
+var
+	HP = 30
+
+//attack command
+mob/verb
+	attack(mob/M as mob in oview(1)) //attacks a mob 1 tile in front
+		flick("attack",src) // Switches to "attack" icon state when attacking
+		usr << "You attack [M]!" // Message user gets
+		oview() << "[usr] attacks [M]!" // Message to everyone in view
+		var/damage = rand(1,10) // Damgage variable 1 through 10
+		world << "[damage] damage!" // world sees damage dealt
+		M.HP-= damge // damage done taken from HP total
+
+
+
+
