@@ -37,7 +37,7 @@ window "MainWindow"
 	elem "MainWindow"
 		type = MAIN
 		pos = 281,0
-		size = 1041x651
+		size = 864x651
 		anchor1 = none
 		anchor2 = none
 		font-family = ""
@@ -75,9 +75,9 @@ window "MainWindow"
 		on-close = ""
 	elem "MainInfo"
 		type = INFO
-		pos = 344,560
-		size = 698x72
-		anchor1 = 33,86
+		pos = 640,0
+		size = 225x632
+		anchor1 = 74,0
 		anchor2 = 100,97
 		font-family = ""
 		font-size = 0
@@ -106,9 +106,9 @@ window "MainWindow"
 		on-tab = ""
 	elem "MainInput"
 		type = INPUT
-		pos = 344,632
-		size = 698x19
-		anchor1 = 33,97
+		pos = 0,632
+		size = 865x19
+		anchor1 = 0,100
 		anchor2 = 100,100
 		font-family = ""
 		font-size = 0
@@ -130,10 +130,10 @@ window "MainWindow"
 		no-command = false
 	elem "MainOutput"
 		type = OUTPUT
-		pos = -8,560
-		size = 350x96
-		anchor1 = 0,86
-		anchor2 = 33,100
+		pos = -7,480
+		size = 647x152
+		anchor1 = 0,74
+		anchor2 = 74,97
 		font-family = ""
 		font-size = 0
 		font-style = ""
@@ -157,9 +157,9 @@ window "MainWindow"
 	elem "map1"
 		type = MAP
 		pos = 0,0
-		size = 1041x560
+		size = 640x480
 		anchor1 = 0,0
-		anchor2 = 100,100
+		anchor2 = 74,74
 		font-family = ""
 		font-size = 0
 		font-style = ""
