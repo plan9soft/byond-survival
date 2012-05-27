@@ -5,6 +5,7 @@ mob/Enemies
         Str=10
         Def=5
         Bodtype="Flesh" //This is the mob's body type. The sound played when this mob is hit depends on their body type.
+        Pushable=0
 
 mob/Enemies/New() //Initializes stats & specifies AI
     src.HP=src.MaxHP
