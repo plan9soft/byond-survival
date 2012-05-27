@@ -4,7 +4,8 @@
 mob/objects //Define our boulder object
     Boulder
         icon='Boulder.dmi'
-        Pushable=1
+        Pushable=1 //Boulders are pushable.
+        Attackable=0 //Boulders are not attackable.
 
 mob
 

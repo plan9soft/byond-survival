@@ -9,10 +9,10 @@ mob/Enemies
 
 mob/Enemies/New() //Initializes stats & specifies AI
     src.HP=src.MaxHP
-    spawn(-1)    src.CombatAI()
+    spawn(-1)    src.ZombieAI()
     return ..()
 
-mob/Enemies/proc/CombatAI() //Appears to direct enemy AIs to step towards player.
+mob/Enemies/proc/ZombieAI() //Appears to direct enemy AIs to step towards player.
     while(src)
         for(var/mob/Player/M in oview())
             if(get_dist(src,M)<=1)

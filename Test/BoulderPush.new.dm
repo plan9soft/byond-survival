@@ -4,7 +4,8 @@
 mob/objects //Define our boulder object
     Boulder
         icon='Boulder.dmi'
-
+        Pushable=1 //Boulders are pushable.
+        Attackable=0 //Boulders are not attackable.
 mob
 
 	// Note that in this method we will move the object by pixels. That way
@@ -14,12 +15,14 @@ mob
 	// pixelOffset is the amount of pixels you want to move the enemy by to reach
 	// its tile goal.
 
+	//TODO: a MUCH better solution would be to find away to just tell the boulder to WALK one tile away from player.
+	//Look at ZomibeAI in enemies.dm for ideas.
+
 	proc/PushObject(mob/objects/e, tileOffset, pixelOffset)
 		var/static/step = 0 			// How far we have moved (not in pixels).
 		var/static/pixel_step = 0		// How far we have moved in pixels.
 
 		pixel_step += pixelOffset		// Update the amount of pixel movement.
-
 		// Here we check the tile offset. We only want to move the player by 1 tile.
 		if (tileOffset == 0)
 			step++

@@ -12,21 +12,19 @@ mob/verb
 			src<<"[M]"
 		src<<"<b>[counter] players online"
 
+	//The Attack action
 	Attack()
 		flick("Attack",src)
 		for(var/mob/M in get_step(src,src.dir))
-			var/Damage=max(0,src.Str-M.Def)
-			//view(M)<<"[src] hit [M] for [Damage] Damage!"
-			if(src!=M) //If the Target IS NOT the Attacker, do damage.
+			if(src!=M && M.Attackable==1) //If the Target IS NOT the Attacker AND Target IS attackable.
+				var/Damage=max(0,src.Str-M.Def)
 				M.TakeDamage(Damage,src)
 
-//This is the verb that Pushes boulders.
-mob/verb
-	PushBoulder(mob/objects/e)
-		// Check if the target is pushable.
-		if(e.Pushable==1)
-			src.PushObject(e, 1, 4) // Here we will move the object 1 tile at a rate of 4 pixels per 1/10 seconds.
-
+	//The Push Boulder verb
+	PushBoulder()//Filling in the paren means we need to provide an argument before the verb will execute. Hence the old drop down list.
+		for(var/mob/objects/e in get_step(src,src.dir))//Find a mob that is directly infront of us
+			if(e.Pushable==1) // Check if the target is pushable.
+				src.PushObject(e, 1, 4) // Here we will move the object 1 tile at a rate of 4 pixels per 1/10 seconds.
 
 
 
