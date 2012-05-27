@@ -31,5 +31,6 @@
 #include "verbs.dm"
 #include "alpha.dmf"
 #include "Interface.dmf"
+#include "alphamap.dmm"
 // END_INCLUDE
 
