@@ -1,10 +1,9 @@
 //This file contains all the code needed for the Boulder Push mechanic.
-//BoulderPush verb moved to verbs.dm
+//Push verb moved to verbs.dm
 
 mob/objects //Define our boulder object
     Boulder
         icon='Boulder.dmi'
-        Pushable=1
 
 mob
 
@@ -20,15 +19,32 @@ mob
 		var/static/pixel_step = 0		// How far we have moved in pixels.
 
 		pixel_step += pixelOffset		// Update the amount of pixel movement.
+
 		// Here we check the tile offset. We only want to move the player by 1 tile.
 		if (tileOffset == 0)
 			step++
 		else if(32 - pixel_step <= 0)
 			step++
 			pixel_step = 0
+
 		// Here we'll just wait 1/10 of a second before we call the function again. Also,
 		// we base the movement of the enemy from our direction.
-		spawn(1)
+
+	proc/North()
+		e.pixel_y += pixelOffset
+		e.loc = locate(e.loc.x, e.loc.y+step, 1)
+	proc/South()
+		e.pixel_y -= pixelOffset
+		e.loc = locate(e.loc.x, e.loc.y-step, 1)
+	proc/East()
+		e.pixel_x += pixelOffset
+		e.loc = locate(e.loc.x+step, e.loc.y, 1)
+	proc/West()
+		e.pixel_x -= pixelOffset
+		e.loc = locate(e.loc.x-step, e.loc.y, 1)
+
+
+		/*
 			if (step != tileOffset)
 				switch (src.dir)
 					if (NORTH)
@@ -59,3 +75,4 @@ mob
 				e.pixel_y = 0
 				step = 0
 				pixel_step = 0
+		*/
