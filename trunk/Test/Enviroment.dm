@@ -105,15 +105,24 @@ turf
 		icon = 'Grass flower 1.dmi'
 	Grassflower2
 		icon = 'Grass flower 2.dmi'
-	Cave/Cavewall
-		icon = 'Cave wall.dmi'
-		density = 1
-	Cave/Cavefloor
-		icon = 'Cave floor.dmi'
-	Cave/Cavefloor2
-		icon = 'Cave floor 2.dmi'
-	Cave/Cavefloor3
-		icon = 'Cave floor 3.dmi'
+	Cave/CavefloorW
+		icon = 'Cave floor W.dmi'
+	Cave/CavefloorC
+		icon = 'Cave floor C.dmi'
+	Cave/CavefloorE
+		icon = 'Cave floor E.dmi'
+	Cave/CavefloorW2
+		icon = 'Cave floor W2.dmi'
+	Cave/CavefloorC2
+		icon = 'Cave floor C2.dmi'
+	Cave/CavefloorE2
+		icon = 'Cave floor E2.dmi'
+	Cave/CaveWallW
+		icon = 'Cave wall W.dmi'
+	Cave/CaveWallC
+		icon = 'Cave wall C.dmi'
+	Cave/CaveWallE
+		icon = 'Cave wall E.dmi'
 	Grass/GrasscliffNW
 		icon = 'Grass cliff NW.dmi'
 		density = 1
