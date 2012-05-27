@@ -20,7 +20,7 @@ mob/verb
 			if(src!=M) //If the Target IS NOT the Attacker, do damage.
 				M.TakeDamage(Damage,src)
 
-//This is the actual verb that does the pushing.
+//This is the verb that Pushes boulders.
 mob/verb
 	PushBoulder(mob/objects/e)
 		// Check if the target is pushable.

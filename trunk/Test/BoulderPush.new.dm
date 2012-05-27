@@ -30,17 +30,13 @@ mob
 		// Here we'll just wait 1/10 of a second before we call the function again. Also,
 		// we base the movement of the enemy from our direction.
 
-	proc/North()
-		e.pixel_y += pixelOffset
+	proc/North(src.dir)
 		e.loc = locate(e.loc.x, e.loc.y+step, 1)
-	proc/South()
-		e.pixel_y -= pixelOffset
+	proc/South(src.dir)
 		e.loc = locate(e.loc.x, e.loc.y-step, 1)
-	proc/East()
-		e.pixel_x += pixelOffset
+	proc/East(src.dir)
 		e.loc = locate(e.loc.x+step, e.loc.y, 1)
-	proc/West()
-		e.pixel_x -= pixelOffset
+	proc/West(src.dir)
 		e.loc = locate(e.loc.x-step, e.loc.y, 1)
 
 
