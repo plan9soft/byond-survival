@@ -20,7 +20,12 @@ mob/verb
 			if(src!=M) //If the Target IS NOT the Attacker, do damage.
 				M.TakeDamage(Damage,src)
 
-
+//This is the actual verb that does the pushing.
+mob/verb
+	PushBoulder(mob/objects/e)
+		// Check if the target is pushable.
+		if(e.Pushable==1)
+			src.PushObject(e, 1, 4) // Here we will move the object 1 tile at a rate of 4 pixels per 1/10 seconds.
 
 
 
