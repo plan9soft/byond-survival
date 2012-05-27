@@ -24,58 +24,58 @@ turf
 	Water
 		icon = 'Calm water.dmi'
 		density = 1
-	grass
+	Grass/Grass
 		icon = 'Grass.dmi'
-	GrassWaterN
+	Grass/GrassWaterN
 		icon = 'Grass water N.dmi'
-	GrassWaterE
+	Grass/GrassWaterE
 		icon = 'Grass water E.dmi'
-	GrassWaterW
+	Grass/GrassWaterW
 		icon = 'Grass water S.dmi'
 		density = 1
-	GrassWaterS
+	Grass/GrassWaterS
 		icon = 'Grass water W.dmi'
-	GrassWaterNE
+	Grass/GrassWaterNE
 		icon = 'Grass water NE.dmi'
-	GrassWaterSE
+	Grass/GrassWaterSE
 		icon = 'Grass water SE.dmi'
-	GrassWaterSW
+	Grass/GrassWaterSW
 		icon = 'Grass water SW.dmi'
-	GrassWaterNW
+	Grass/GrassWaterNW
 		icon = 'Grass water NW.dmi'
-	GrassWaterNE2
+	Grass/GrassWaterNE2
 		icon = 'Grass water NE 2.dmi'
-	GrassWaterSE2
+	Grass/GrassWaterSE2
 		icon = 'Grass water SE 2.dmi'
-	GrassWaterSW2
+	Grass/GrassWaterSW2
 		icon = 'Grass water SW 2.dmi'
-	GrassWaterNW2
+	Grass/GrassWaterNW2
 		icon = 'Grass water NW 2.dmi'
-	Dirt
+	Dirt/Dirt
 		icon = 'Dirt.dmi'
-	DirtWaterN
+	Dirt/DirtWaterN
 		icon = 'Dirt water N.dmi'
-	DirtWaterE
+	Dirt/DirtWaterE
 		icon = 'Dirt water E.dmi'
-	DirtWaterW
+	Dirt/DirtWaterW
 		icon = 'Dirt water S.dmi'
-	DirtWaterS
+	Dirt/DirtWaterS
 		icon = 'Dirt water W.dmi'
-	DirtWaterNE
+	Dirt/DirtWaterNE
 		icon = 'Dirt water NE.dmi'
-	DirtWaterSE
+	Dirt/DirtWaterSE
 		icon = 'Dirt water SE.dmi'
-	DirtWaterSW
+	Dirt/DirtWaterSW
 		icon = 'Dirt water SW.dmi'
-	DirtWaterNW
+	Dirt/DirtWaterNW
 		icon = 'Dirt water NW.dmi'
-	DirtWaterNE2
+	Dirt/DirtWaterNE2
 		icon = 'Dirt water NE 2.dmi'
-	DirtWaterSE2
+	Dirt/DirtWaterSE2
 		icon = 'Dirt water SE 2.dmi'
-	DirtWaterSW2
+	Dirt/DirtWaterSW2
 		icon = 'Dirt water SW 2.dmi'
-	DirtWaterNW2
+	Dirt/DirtWaterNW2
 		icon = 'Dirt water NW 2.dmi'
 	DirtgrassN
 		icon = 'Dirt grass N.dmi'
@@ -105,40 +105,40 @@ turf
 		icon = 'Grass flower 1.dmi'
 	Grassflower2
 		icon = 'Grass flower 2.dmi'
-	Cavewall
+	Cave/Cavewall
 		icon = 'Cave wall.dmi'
 		density = 1
-	Cavefloor
+	Cave/Cavefloor
 		icon = 'Cave floor.dmi'
-	Cavefloor2
+	Cave/Cavefloor2
 		icon = 'Cave floor 2.dmi'
-	cavefloor3
+	Cave/Cavefloor3
 		icon = 'Cave floor 3.dmi'
-	GrasscliffNW
+	Grass/GrasscliffNW
 		icon = 'Grass cliff NW.dmi'
 		density = 1
-	GrasscliffN
+	Grass/GrasscliffN
 		icon = 'Grass cliff N.dmi'
 		density = 1
-	GrasscliffNE
+	Grass/GrasscliffNE
 		icon = 'Grass cliff NE.dmi'
 		density = 1
-	GrasscliffW
+	Grass/GrasscliffW
 		icon = 'Grass cliff W.dmi'
 		density = 1
-	GrasscliffC
+	Grass/GrasscliffC
 		icon = 'Grass cliff C.dmi'
 		density = 1
-	GrasscliffE
+	Grass/GrasscliffE
 		icon = 'Grass cliff E.dmi'
 		density = 1
-	GrasscliffSW
+	Grass/GrasscliffSW
 		icon = 'Grass cliff SW.dmi'
 		density = 1
-	GrasscliffS
+	Grass/GrasscliffS
 		icon = 'Grass cliff S.dmi'
 		density = 1
-	GrasscliffSE
+	Grass/GrasscliffSE
 		icon = 'Grass cliff SE.dmi'
 		density = 1
 
