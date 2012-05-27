@@ -3,6 +3,7 @@
 mob/objects //Define our boulder object
     Boulder
         icon='Boulder.dmi'
+        Pushable=1
 
 mob
 
@@ -18,14 +19,12 @@ mob
 		var/static/pixel_step = 0		// How far we have moved in pixels.
 
 		pixel_step += pixelOffset		// Update the amount of pixel movement.
-
 		// Here we check the tile offset. We only want to move the player by 1 tile.
 		if (tileOffset == 0)
 			step++
 		else if(32 - pixel_step <= 0)
 			step++
 			pixel_step = 0
-
 		// Here we'll just wait 1/10 of a second before we call the function again. Also,
 		// we base the movement of the enemy from our direction.
 		spawn(1)
@@ -64,5 +63,7 @@ mob
 //This is the actual verb that does the pushing.
 mob/verb
 	PushBoulder(mob/objects/e)
+		// Check if the target is pushable.
+		if(e.Pushable==1)
+			src.PushObject(e, 1, 4)
 		// Here we will move the object 1 tile at a rate of 4 pixels per 1/10 seconds.
-		src.PushObject(e, 1, 4)
