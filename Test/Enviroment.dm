@@ -123,6 +123,18 @@ turf
 		icon = 'Cave wall C.dmi'
 	Cave/CaveWallE
 		icon = 'Cave wall E.dmi'
+	Cave/CaveWallSW
+		icon = 'Cave wall SW.dmi'
+	Cave/CaveWallS
+		icon = 'Cave wall S.dmi'
+	Cave/CaveWallSE
+		icon = 'Cave wall SE.dmi'
+	Cave/CaveWallNE
+		icon = 'Cave wall NW.dmi'
+	Cave/CaveWallN
+		icon = 'Cave wall N.dmi'
+	Cave/CaveWallNW
+		icon = 'Cave wall NW.dmi'
 	Grass/GrasscliffNW
 		icon = 'Grass cliff NW.dmi'
 		density = 1
