@@ -114,14 +114,32 @@ turf
 		icon = 'Cave floor 2.dmi'
 	cavefloor3
 		icon = 'Cave floor 3.dmi'
-	CliffB
-		icon = 'Cliff B.dmi'
+	GrasscliffNW
+		icon = 'Grass cliff NW.dmi'
 		density = 1
-	CliffM
-		icon = 'Cliff M.dmi'
+	GrasscliffN
+		icon = 'Grass cliff N.dmi'
 		density = 1
-	CliffT
-		icon = 'Cliff T.dmi'
+	GrasscliffNE
+		icon = 'Grass cliff NE.dmi'
+		density = 1
+	GrasscliffW
+		icon = 'Grass cliff W.dmi'
+		density = 1
+	GrasscliffC
+		icon = 'Grass cliff C.dmi'
+		density = 1
+	GrasscliffE
+		icon = 'Grass cliff E.dmi'
+		density = 1
+	GrasscliffSW
+		icon = 'Grass cliff SW.dmi'
+		density = 1
+	GrasscliffS
+		icon = 'Grass cliff S.dmi'
+		density = 1
+	GrasscliffSE
+		icon = 'Grass cliff SE.dmi'
 		density = 1
 
 obj/Treestump
