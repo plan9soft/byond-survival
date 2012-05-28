@@ -136,6 +136,12 @@ turf
 		icon = 'Cave wall N.dmi'
 	Cave/CaveWallNW
 		icon = 'Cave wall NW.dmi'
+	Cave/CaveWallTop
+		icon = 'Cave wall top.dmi'
+	Cave/CaveWallMid
+		icon = 'Cave wall middle.dmi'
+	Cave/CaveWallBot
+		icon = 'Cave wall bottom.dmi'
 	Grass/GrasscliffNW
 		icon = 'Grass cliff NW.dmi'
 		density = 1

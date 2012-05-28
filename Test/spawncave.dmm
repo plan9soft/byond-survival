@@ -5,37 +5,42 @@
 "e" = (/turf/DirtgrassNW,/area)
 "f" = (/turf/DirtgrassN,/area)
 "g" = (/turf/DirtgrassNE,/area)
-"h" = (/turf/DirtgrassE,/area)
-"i" = (/mob/Player,/turf/Start,/area)
-"j" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
-"k" = (/turf/DirtgrassS,/area)
-"l" = (/turf/Bush3,/area)
-"m" = (/turf/Cave/CavefloorE2,/area)
-"n" = (/turf/Cave/CaveWallNW,/area)
-"o" = (/turf/Cave/CaveWallNE,/area)
-"p" = (/turf/Cave/CaveWallW,/area)
-"q" = (/turf/Cave/CaveWallE,/area)
-"r" = (/turf/Cave/CaveWallSW,/area)
-"s" = (/turf/Cave/CaveWallSE,/area)
-"t" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+"h" = (/turf/Cave/CaveWallNW,/area)
+"i" = (/turf/Cave/CaveWallNE,/area)
+"j" = (/turf/DirtgrassE,/area)
+"k" = (/turf/Start,/area)
+"l" = (/turf/Cave/CaveWallW,/area)
+"m" = (/turf/Cave/CaveWallE,/area)
+"n" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
+"o" = (/turf/DirtgrassS,/area)
+"p" = (/turf/Cave/CaveWallSW,/area)
+"q" = (/turf/Cave/CaveWallSE,/area)
+"r" = (/turf/Bush3,/area)
+"s" = (/turf/Cave/CavefloorE2,/area)
+"t" = (/turf/Cave/CaveWallTop,/area)
+"u" = (/turf/Cave/CaveWallMid,/area)
+"v" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
+"w" = (/turf/Cave/CaveWallBot,/area)
+"x" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+"y" = (/turf,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-dddeffffgdddddddddddddddddddddddddddddddddddddddddddddd
-dddhidddedddddddddddddddddddddddddddddddddddddddddddddd
-dddhddjdkddddddddddlllllllddddddddddddddddddddddddddddd
-dddlddddlmmmmmmmmmdldddddlddddddddddddddddddddddddddddd
-dddnoddnommmmmmmmmdldjlddlldddddddddddddddddddddddddddd
-dddpqddpqmmmmmmmmllljdldjdldddddddddddddddddddddddddddd
-dddrsddrsmmmmmmlllddjdljdjllllllddddddddddddddddddddddd
-ddlldddddlldddllddddddldjtddddddddddddddddddddddddddddd
-ddldddddddllllldddjlllldddddddddddddddddddddddddddddddd
-dllddddddddddddddldjdddjddllldddddddddddddddddddddddddd
-dllldddddddddddddldddtddllldllldddddddddddddddddddddddd
-dddllldddddddddddljdddllldddddllldddddddddddddddddddddd
-dddddlllddddddddllllllddddddddddldddddddddddddddddddddd
-dddddddlllllllllldddddddddddddddddddddddddddddddddddddd
+dddeffffgddddddddddhaaaaidddddddddddddddddddddddddddddd
+dddjkdddeddddddddddlbbbbmdddddddddddddddddddddddddddddd
+dddjddndoddddddddddpccccqhidddddddddddddddddddddddddddd
+dddrddddrsssssssshaidddddlmdddddddddddddddddddddddddddd
+dddhiddhissssssddlbmdntddpqdddddddddddddddddddddddddddd
+dddlmddlmhisssshipcqndudndrdddddddddddddddddddddddddddd
+dddpqddpqlmhaailmvddndwndnrrrrrrddddddddddddddddddddddd
+ddrrdddddpqlbbmpqdddddvdnxddddddddddddddddddddddddddddd
+ddrddddddddpccqdddnvvvvdddddddddddddddddddddddddddddddd
+drrddddddddddddddtdndddnddrrrdddddddddddddddddddddddddd
+drrrdddddddddddddudddxddrrrdrrrdddddddddddddddddddddddd
+yydrrrdddddddddddwndddrrrdddddrrrdddddddddddddddddddddd
+yydddrrrddddddddrrrrrrddddddddddrdddddddddddddddddddddd
+yydddddrrrrrrrrrrdddddddddddddddddddddddddddddddddddddd
 "}
