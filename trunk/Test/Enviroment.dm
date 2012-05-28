@@ -216,6 +216,7 @@ obj/TreetopW
 obj/TreetopE
 	icon = 'Tree top E.dmi'
 	layer = MOB_LAYER+1  //overhead
+obj/enemyspawner
 
 obj/torchlit
 	icon = 'torchlit.dmi'
@@ -224,9 +225,6 @@ obj/torchlit
 		extinguish()
 			set src in view(1)
 			luminosity = 0
-	verb
 		light()
 			set src in view(1)
 			luminosity = 3
-
-obj/enemyspawner
