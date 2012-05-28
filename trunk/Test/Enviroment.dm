@@ -123,6 +123,32 @@ turf
 		icon = 'Cave wall middle.dmi'
 	Cave/CaveWallBot
 		icon = 'Cave wall bottom.dmi'
+
+	Cave/CaveRimN
+		icon = 'Cave wall rim N.dmi'
+	Cave/CaveRimE
+		icon = 'Cave wall rim E.dmi'
+	Cave/CaveRimSW
+		icon = 'Cave wall rim SW.dmi'
+	Cave/CaveRimS
+		icon = 'Cave wall rim S.dmi'
+	Cave/CaveRimSE
+		icon = 'Cave wall rim SE.dmi'
+	Cave/CaveRimNE
+		icon = 'Cave wall rim NE.dmi'
+	Cave/CaveRimW
+		icon = 'Cave wall rim W.dmi'
+	Cave/CaveRimNW
+		icon = 'Cave wall rim NW.dmi'
+	Cave/CaveRimSW2
+		icon = 'Cave wall rim SW2.dmi'
+	Cave/CaveRimSE2
+		icon = 'Cave wall rim SE2.dmi'
+	Cave/CaveRimNW2
+		icon = 'Cave wall rim NW2.dmi'
+	Cave/CaveRimNE2
+		icon = 'Cave wall rim NE2.dmi'
+
 	Grass/GrasscliffNW
 		icon = 'Grass cliff NW.dmi'
 		density = 1
