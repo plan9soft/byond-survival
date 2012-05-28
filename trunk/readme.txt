@@ -9,5 +9,5 @@ W: Up
 A: Left
 S: Down
 D: Right
-Space: Attack
+Space: Attack (Hold space to attack at max speed.)
 E: Action

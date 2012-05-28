@@ -1,6 +1,6 @@
 macro "macro"
 	elem 
-		name = "SPACE"
+		name = "SPACE+REP"
 		command = "Attack"
 		is-disabled = false
 	elem 

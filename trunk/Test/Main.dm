@@ -28,6 +28,7 @@ mob
 		icon='knight.dmi'
 		icon_state="Player"
 		Bodtype="Hero"
+		AttackRate=5
 
 area //defines areas
 	dark

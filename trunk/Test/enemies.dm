@@ -8,6 +8,7 @@ mob
 			Def=5
 			Bodtype="Flesh" //This is the mob's body type. The sound played when this mob is hit depends on their body type.
 			Pushable=0
+			AttackRate=10
 
 		proc
 			ZombieAI() //Appears to direct enemy AIs to step towards player.
