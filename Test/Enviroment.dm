@@ -131,7 +131,7 @@ turf
 	Cave/CaveWallSE
 		icon = 'Cave wall SE.dmi'
 	Cave/CaveWallNE
-		icon = 'Cave wall NW.dmi'
+		icon = 'Cave wall NE.dmi'
 	Cave/CaveWallN
 		icon = 'Cave wall N.dmi'
 	Cave/CaveWallNW
