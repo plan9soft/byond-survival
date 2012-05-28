@@ -10,3 +10,4 @@ A: Left
 S: Down
 D: Right
 Space: Attack
+E: Action

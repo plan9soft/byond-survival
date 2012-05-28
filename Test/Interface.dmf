@@ -12,6 +12,10 @@ macro "macro"
 		command = ".east"
 		is-disabled = false
 	elem 
+		name = "E"
+		command = "Action"
+		is-disabled = false
+	elem 
 		name = "S+REP"
 		command = ".south"
 		is-disabled = false
@@ -22,6 +26,15 @@ macro "macro"
 
 
 menu "menu"
+	elem 
+		name = "&File"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
 	elem 
 		name = "&Quit"
 		command = ".quit"
