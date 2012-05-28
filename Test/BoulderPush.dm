@@ -1,12 +1,5 @@
 //This file contains all the code needed for the Boulder Push mechanic.
 //BoulderPush verb moved to verbs.dm
-
-mob/objects //Define our boulder object
-    Boulder
-        icon='Boulder.dmi'
-        Pushable=1 //Boulders are pushable.
-        Attackable=0 //Boulders are not attackable.
-
 mob
 
 	// Note that in this method we will move the object by pixels. That way
