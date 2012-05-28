@@ -1,0 +1,41 @@
+"a" = (/turf/Cave/CaveWallN,/area)
+"b" = (/turf/Cave/CaveWallC,/area)
+"c" = (/turf/Cave/CaveWallS,/area)
+"d" = (/turf/Cave/CavefloorC,/area)
+"e" = (/turf/DirtgrassNW,/area)
+"f" = (/turf/DirtgrassN,/area)
+"g" = (/turf/DirtgrassNE,/area)
+"h" = (/turf/DirtgrassE,/area)
+"i" = (/mob/Player,/turf/Start,/area)
+"j" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
+"k" = (/turf/DirtgrassS,/area)
+"l" = (/turf/Bush3,/area)
+"m" = (/turf/Cave/CavefloorE2,/area)
+"n" = (/turf/Cave/CaveWallNW,/area)
+"o" = (/turf/Cave/CaveWallNE,/area)
+"p" = (/turf/Cave/CaveWallW,/area)
+"q" = (/turf/Cave/CaveWallE,/area)
+"r" = (/turf/Cave/CaveWallSW,/area)
+"s" = (/turf/Cave/CaveWallSE,/area)
+"t" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+dddeffffgdddddddddddddddddddddddddddddddddddddddddddddd
+dddhidddedddddddddddddddddddddddddddddddddddddddddddddd
+dddhddjdkddddddddddlllllllddddddddddddddddddddddddddddd
+dddlddddlmmmmmmmmmdldddddlddddddddddddddddddddddddddddd
+dddnoddnommmmmmmmmdldjlddlldddddddddddddddddddddddddddd
+dddpqddpqmmmmmmmmllljdldjdldddddddddddddddddddddddddddd
+dddrsddrsmmmmmmlllddjdljdjllllllddddddddddddddddddddddd
+ddlldddddlldddllddddddldjtddddddddddddddddddddddddddddd
+ddldddddddllllldddjlllldddddddddddddddddddddddddddddddd
+dllddddddddddddddldjdddjddllldddddddddddddddddddddddddd
+dllldddddddddddddldddtddllldllldddddddddddddddddddddddd
+dddllldddddddddddljdddllldddddllldddddddddddddddddddddd
+dddddlllddddddddllllllddddddddddldddddddddddddddddddddd
+dddddddlllllllllldddddddddddddddddddddddddddddddddddddd
+"}
