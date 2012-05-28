@@ -1,22 +1,3 @@
-world
-	fps = 25		// 25 frames per second
-	icon_size = 32	// 32x32 icon size by default
-
-	view = 6		// show up to 6 tiles outward from center (13x13 view)
-
-
-// Make objects move 8 pixels per tick when walking
-
-mob
-	step_size = 8
-
-obj
-	step_size = 8
-
-
-area/dark
-	luminosity = 0
-
 turf
 
 	Start
@@ -239,13 +220,13 @@ obj/TreetopE
 obj/torchlit
 	icon = 'torchlit.dmi'
 	luminosity = 3
-
-obj/torchlit/verb/extinguish()
-	set src in view(1)
-	luminosity = 0
-
-obj/torchlit/verb/light()
-	set src in view(1)
-	luminosity = 3
+	verb
+		extinguish()
+			set src in view(1)
+			luminosity = 0
+	verb
+		light()
+			set src in view(1)
+			luminosity = 3
 
 obj/enemyspawner
