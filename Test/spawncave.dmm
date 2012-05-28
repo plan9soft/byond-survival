@@ -2,45 +2,52 @@
 "b" = (/turf/Cave/CaveWallC,/area)
 "c" = (/turf/Cave/CaveWallS,/area)
 "d" = (/turf/Cave/CavefloorC,/area)
-"e" = (/turf/DirtgrassNW,/area)
-"f" = (/turf/DirtgrassN,/area)
-"g" = (/turf/DirtgrassNE,/area)
-"h" = (/turf/Cave/CaveWallNW,/area)
-"i" = (/turf/Cave/CaveWallNE,/area)
-"j" = (/turf/DirtgrassE,/area)
-"k" = (/turf/Start,/area)
-"l" = (/turf/Cave/CaveWallW,/area)
-"m" = (/turf/Cave/CaveWallE,/area)
-"n" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
-"o" = (/turf/DirtgrassS,/area)
+"e" = (/turf/Cave/CaveRimNW,/area)
+"f" = (/turf/Cave/CaveRimN,/area)
+"g" = (/turf/Cave/CaveRimNE,/area)
+"h" = (/turf/Cave/CaveRimW,/area)
+"i" = (/turf/Cave/CaveRimE,/area)
+"j" = (/turf/Cave/CaveWallNW,/area)
+"k" = (/turf/Cave/CaveWallNE,/area)
+"l" = (/turf/Start,/area)
+"m" = (/turf/Cave/CaveWallW,/area)
+"n" = (/turf/Cave/CaveWallE,/area)
+"o" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
 "p" = (/turf/Cave/CaveWallSW,/area)
 "q" = (/turf/Cave/CaveWallSE,/area)
-"r" = (/turf/Bush3,/area)
-"s" = (/turf/Cave/CavefloorE2,/area)
-"t" = (/turf/Cave/CaveWallTop,/area)
-"u" = (/turf/Cave/CaveWallMid,/area)
-"v" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
-"w" = (/turf/Cave/CaveWallBot,/area)
-"x" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
-"y" = (/turf,/area)
+"r" = (/turf/Cave/CaveRimSW,/area)
+"s" = (/turf/Cave/CaveRimS,/area)
+"t" = (/turf/Cave/CaveRimSW2,/area)
+"u" = (/turf/Cave/CaveRimSE2,/area)
+"v" = (/turf/Cave/CaveRimSE,/area)
+"w" = (/turf/Cave/CavefloorE2,/area)
+"x" = (/turf/Cave/CaveWallTop,/area)
+"y" = (/turf/Cave/CaveWallMid,/area)
+"z" = (/turf/Bush3,/area)
+"A" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
+"B" = (/turf/Cave/CaveWallBot,/area)
+"C" = (/turf/Cave/CaveRimNW2,/area)
+"D" = (/turf/Cave/CaveRimNE2,/area)
+"E" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+"F" = (/turf,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-ddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-dddeffffgddddddddddhaaaaidddddddddddddddddddddddddddddd
-dddjkdddeddddddddddlbbbbmdddddddddddddddddddddddddddddd
-dddjddndoddddddddddpccccqhidddddddddddddddddddddddddddd
-dddrddddrsssssssshaidddddlmdddddddddddddddddddddddddddd
-dddhiddhissssssddlbmdntddpqdddddddddddddddddddddddddddd
-dddlmddlmhisssshipcqndudndrdddddddddddddddddddddddddddd
-dddpqddpqlmhaailmvddndwndnrrrrrrddddddddddddddddddddddd
-ddrrdddddpqlbbmpqdddddvdnxddddddddddddddddddddddddddddd
-ddrddddddddpccqdddnvvvvdddddddddddddddddddddddddddddddd
-drrddddddddddddddtdndddnddrrrdddddddddddddddddddddddddd
-drrrdddddddddddddudddxddrrrdrrrdddddddddddddddddddddddd
-yydrrrdddddddddddwndddrrrdddddrrrdddddddddddddddddddddd
-yydddrrrddddddddrrrrrrddddddddddrdddddddddddddddddddddd
-yydddddrrrrrrrrrrdddddddddddddddddddddddddddddddddddddd
+cbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccc
+dbeffffffgbdddddddddddddddddddddddddddddddddddddddddddd
+dbhddddddibddddddddjaaaakdddddddddddddddddddddddddddddd
+dbhdlddddibddddddddmbbbbndddddddddddddddddddddddddddddd
+dbhdddoddibddddddddpccccqjkdddddddddddddddddddddddddddd
+dbrstddusvbwwwwwwjakdddddmndddddddddddddddddddddddddddd
+dbbbhddibbbwwwwddmbndoxddpqdddddddddddddddddddddddddddd
+dddbhddibbbwwwwjkpcqodydodzdddddddddddddddddddddddddddd
+dbbbhddibbbjaakmnAddodBodozzzzzzddddddddddddddddddddddd
+dbefCfdDfgbmbbnpqdddddAdoEddddddddddddddddddddddddddddd
+dbhddddddDfpccqdddoAAAAdddddddddddddddddddddddddddddddd
+dfCddddddddddddddxdodddoddzzzdddddddddddddddddddddddddd
+dzzzdddddddddddddydddEddzzzdzzzdddddddddddddddddddddddd
+FFdzzzdddddddddddBodddzzzdddddzzzdddddddddddddddddddddd
+FFdddzzzddddddddzzzzzzddddddddddzdddddddddddddddddddddd
+FFdddddzzzzzzzzzzdddddddddddddddddddddddddddddddddddddd
 "}
