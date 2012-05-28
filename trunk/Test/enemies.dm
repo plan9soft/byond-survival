@@ -22,3 +22,12 @@ mob/Enemies/proc/ZombieAI() //Appears to direct enemy AIs to step towards player
                 step_to(src,M)
             break
         sleep(rand(4,8))
+
+//Interactable Objects
+
+//Boulder
+mob/objects
+    Boulder
+        icon='Boulder.dmi'
+        Pushable=1 //Boulders are pushable.
+        Attackable=0 //Boulders are not attackable.
