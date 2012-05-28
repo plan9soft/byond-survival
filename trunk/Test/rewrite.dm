@@ -1,4 +1,3 @@
-//This file rewritten
 mob
 	Enemies //defines enemy info
 		zombie_guy //zombies
