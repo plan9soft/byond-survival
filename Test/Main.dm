@@ -12,15 +12,12 @@ obj //defines global properties of obj
 mob
 	step_size = 8 //global step size for all mobs
 
-	Stat() //creates stat panel
-		statpanel("[src]'s stats")
+	Stat()
+		statpanel("[src]'s stats") //creates stat panel
 		stat("Health:","[src.HP]/[src.MaxHP]")
 		stat("Strength:","[src.Str]")
 		stat("Defense:","[src.Def]")
-	/* Following lines overwrite the Stats Pannel with an Inventory
-	Stat()
-		statpanel("Inventory",contents)
-	*/
+		statpanel("Inventory",contents) //creates inventory panel
 
 	Player //defines player info
 		icon='knight.dmi'
