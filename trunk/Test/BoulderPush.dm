@@ -2,6 +2,7 @@
 //BoulderPush verb moved to verbs.dm
 mob
 
+
 	// Note that in this method we will move the object by pixels. That way
 	// we don't get a choppy push animation.
 	// mob/object/e is the object in question
@@ -53,3 +54,9 @@ mob
 				e.pixel_y = 0
 				step = 0
 				pixel_step = 0
+
+//The verb that pushes the boulder.
+PushBoulder()//Filling in the paren means we need to provide an argument before the verb will execute. Hence the old drop down list.
+		for(var/mob/objects/e in get_step(src,src.dir))//Find a mob that is directly infront of us
+			if(e.Pushable==1) // Check if the target is pushable.
+				PushObject(e,1,4) //The mob then steps in the direction the usr is facing.

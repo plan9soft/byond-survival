@@ -26,7 +26,9 @@ mob/verb
 	Action()//Filling in the paren means we need to provide an argument before the verb will execute. Hence the old drop down list.
 		for(var/mob/objects/e in get_step(src,src.dir))//Find a mob that is directly infront of us
 			if(e.Pushable==1) // Check if the target is pushable.
-				src.PushObject(e, 1, 4) // Here we will move the object 1 tile at a rate of 4 pixels per 1/10 seconds.
+				walk(e,usr.dir,0,4) //The mob then walks in the direction the usr is facing.
+				sleep(3.5) //Give the mob time to walk
+				walk(e,0,0,0) //The mob then halts
 
 
 
