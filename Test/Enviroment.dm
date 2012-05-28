@@ -101,6 +101,9 @@ turf
 	Bush3
 		icon = 'Bush 3.dmi'
 		density = 1
+	BigRock
+		icon = 'Big rock.dmi'
+		density = 1
 	Grassflower1
 		icon = 'Grass flower 1.dmi'
 	Grassflower2
