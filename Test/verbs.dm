@@ -14,11 +14,15 @@ mob/verb
 
 	//The Attack action
 	Attack()
-		flick("Attack",src)
-		for(var/mob/M in get_step(src,src.dir))
-			if(src!=M && M.Attackable==1) //If the Target IS NOT the Attacker AND Target IS attackable.
-				var/Damage=max(0,src.Str-M.Def)
-				M.TakeDamage(Damage,src)
+		if(src.AttackDelay<world.time) //First, we check the clock to see if we can attack again.
+			flick("Attack",src)
+			src.AttackDelay=world.time+AttackRate //Add AttackRate to the current time, we can't attack again till that is past.
+			for(var/mob/M in get_step(src,src.dir))
+				if(src!=M && M.Attackable==1) //If the Target IS NOT the Attacker AND Target IS attackable.
+					var/Damage=max(0,src.Str-M.Def)
+					M.TakeDamage(Damage,src)
+		else
+			return
 
 	//The Action verb.
 	//Checks each mob nearby
