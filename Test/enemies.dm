@@ -7,28 +7,28 @@ mob
 			Str=10
 			Def=5
 			Bodtype="Flesh" //This is the mob's body type. The sound played when this mob is hit depends on their body type.
-			Pushable=0
 			AttackRate=10
 
-		proc
-			ZombieAI() //Appears to direct enemy AIs to step towards player.
-				while(src)
-					for(var/mob/Player/M in oview())
-						if(get_dist(src,M)<=1)
-							src.dir=get_dir(src,M)
-							src.Attack()
-						else
-							step_to(src,M)
+mob/Enemies/proc
+	ZombieAI() //Appears to direct enemy AIs to step towards player.
+		while(src)
+			for(var/mob/Player/M in oview())
+				if(get_dist(src,M)<=1)
+					src.dir=get_dir(src,M)
+					src.Attack()
+				else
+					step_to(src,M)
 					break
-				sleep(rand(4,8))
+			sleep(rand(4,8))
 
-		New() //Initializes stats & specifies AI
-			src.HP=src.MaxHP
-			spawn(-1)    src.ZombieAI() //ZombiaAI() must be defined before this line
-			return ..()
+mob/Enemies/New() //Initializes stats & specifies AI
+		src.HP=src.MaxHP
+		spawn(-1)    src.ZombieAI() //ZombiaAI() must be defined before this line
+		return ..()
 
-	objects //Defines interactive object info
-		Boulder //boulder
-			icon='Boulder.dmi'
-			Pushable=1 //Boulders are pushable.
-			Attackable=0 //Boulders are not attackable.
+//Defines Objects
+mob/objects //Defines interactive object info
+	Boulder //boulder
+		icon='Boulder.dmi'
+		Pushable=1 //Boulders are pushable.
+		Attackable=0 //Boulders are not attackable.
