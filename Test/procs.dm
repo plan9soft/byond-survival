@@ -11,7 +11,7 @@ mob
 			else if(src.Bodtype=="Hero")
 				world << sound('Impact - Metal.wav', volume=40)
 			src.DeathCheck(Attacker)
-			sleep(1.5)
+			sleep(2)
 			src.overlays -= image('Overlay hit.dmi')
 
 		DeathCheck(var/mob/Killer)
