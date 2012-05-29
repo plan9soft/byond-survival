@@ -1,15 +1,27 @@
-//This file rewritten
+//List of all enemy monsters.
+//See vars.dm for explanations of each var.
 mob
-	Enemies //defines enemy info
-		zombie_guy //zombies
+	Enemies
+		zombie_guy //Zombies
 			icon='Male zombie.dmi'
 			MaxHP=100
 			Str=10
 			Def=5
-			Bodtype="Flesh" //This is the mob's body type. The sound played when this mob is hit depends on their body type.
+			Bodtype="Flesh"
 			AttackRate=10
 			AI="Zombie"
 
+		skele_archer //Skeleton Archers
+			icon='Skel archer.dmi'
+			MaxHP=50
+			Str=7
+			Def=2
+			Bodtype="Bone"
+			AttackRate=10
+			AI="Archer"
+
+//All enemy monster AI.
+//The AI each monster uses is determined by it's AI var
 mob/Enemies/proc
 	ZombieAI() //Appears to direct enemy AIs to step towards player.
 		while(src)
@@ -22,7 +34,7 @@ mob/Enemies/proc
 					break
 			sleep(rand(4,8))
 
-	ArcherAI() //Appears to direct enemy AIs to step towards player.
+	ArcherAI() //AI for ranged attack mobs. Work in progress. TODO:Make mobs face target when shooting >_>.
 		while(src)
 			for(var/mob/Player/M in oview())
 				if(get_dist(src,M)<=1) //If we're right next to our target, attack him
@@ -37,7 +49,8 @@ mob/Enemies/proc
 					break
 			sleep(4)
 
-mob/Enemies/New() //Initializes stats & specifies AI
+ //Initializes stats & specifies AI
+mob/Enemies/New()
 	src.HP=src.MaxHP
 	if(src.AI=="Zombie")
 		spawn(-1)	src.ZombieAI()
@@ -45,9 +58,3 @@ mob/Enemies/New() //Initializes stats & specifies AI
 		spawn(-1)	src.ArcherAI()
 	return ..()
 
-//Defines Objects
-mob/objects //Defines interactive object info
-	Boulder //boulder
-		icon='Boulder.dmi'
-		Pushable=1 //Boulders are pushable.
-		Attackable=0 //Boulders are not attackable.
