@@ -11,7 +11,7 @@
 "k" = (/turf/Cave/CaveRimE,/area)
 "l" = (/turf/Start,/area)
 "m" = (/turf/Cave/CaveWallE,/area)
-"n" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
+"n" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area)
 "o" = (/turf/Cave/CaveWallSE,/area)
 "p" = (/turf/Cave/CaveWallNW,/area)
 "q" = (/turf/Cave/CaveWallNE,/area)
