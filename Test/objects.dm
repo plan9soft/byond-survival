@@ -10,7 +10,7 @@ obj
 	//Projectiles
 	projectile
 		Arrow //Arrow Projectile. Arrows use default range and damage.
-			icon = 'Boulder.dmi'
+			icon = 'Arrow.dmi'
 			density = 1
 
 //Object Specific Procs
