@@ -38,7 +38,7 @@
 "aL" = (/obj/Treestump2,/turf/Grass/Grass,/area)
 "aM" = (/obj/Bigrock,/turf/Grass/Grass,/area)
 "aN" = (/mob/Enemies/zombie_guy,/turf/Grass/Grass,/area)
-"aO" = (/mob/objects/Boulder,/turf/Grass/Grass,/area)
+"aO" = (/obj/Pushable_Boulder,/turf/Grass/Grass,/area)
 "aP" = (/turf/DirtgrassNW,/area)
 "aQ" = (/turf/DirtgrassN,/area)
 "aR" = (/turf/DirtgrassNE,/area)

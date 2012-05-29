@@ -26,7 +26,7 @@ mob
 		AttackRate=10
 
 //Defines Objects
-	Boulder //boulder
-		icon='Boulder.dmi'
-		Pushable=1 //Boulders are pushable.
-		Attackable=0 //Boulders are not attackable.
+mob/Boulder //boulder
+	icon='Boulder.dmi'
+	Pushable=1 //Boulders are pushable.
+	Attackable=0 //Boulders are not attackable.
