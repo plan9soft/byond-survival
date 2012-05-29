@@ -9,3 +9,4 @@ mob
 		Attackable=1 //Is the mob attackable? 1=yes, 0=no
 		AttackRate=6 //1/10ths of seconds between attacks.
 		AttackDelay //Used to determine when mob can next attack. Leave undefined!
+		AI="Zombie" //The AI that this mob will use.

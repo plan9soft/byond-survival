@@ -16,6 +16,7 @@ mob
 			Def=2
 			Bodtype="Bone"
 			AttackRate=10
+			AI="Archer"
 
 //Define the arrow projectile
 obj/projectile/var
@@ -43,7 +44,7 @@ obj/projectile
 			O:TakeDamage(src.damage,src.owner)
 			del src
 		else if(isobj(O)) del src //If we hit an object, delete the arrow
-		else if(isturf(O)) ;//If we hit obstructing turf...
+		//else if(isturf(O)) ;//If we hit obstructing turf...
 		del src
 
 	Arrow //Arrow
