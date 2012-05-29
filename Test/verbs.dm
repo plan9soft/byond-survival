@@ -34,11 +34,7 @@ mob/verb
 				sleep(3.5) //Give the mob time to walk
 				walk(e,0,0,0) //The mob then halts
 
-
-
-
-
 //change name command
-mob/verb/set_name(N as text)
-	set desc = "(\"new name\") Change your name."
-	name = N
+	set_name(N as text)
+		set desc = "(\"new name\") Change your name."
+		name = N
