@@ -23,6 +23,7 @@
 #include "Enviroment.dm"
 #include "Main.dm"
 #include "procs.dm"
+#include "projectiles.dm"
 #include "save.dm"
 #include "vars.dm"
 #include "verbs.dm"
