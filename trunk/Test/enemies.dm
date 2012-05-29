@@ -23,7 +23,7 @@ mob/Enemies/proc
 
 mob/Enemies/New() //Initializes stats & specifies AI
 		src.HP=src.MaxHP
-		spawn(-1)    src.ZombieAI() //ZombiaAI() must be defined before this line
+		spawn(-1)	src.ZombieAI() //ZombieAI() must be defined before this line
 		return ..()
 
 //Defines Objects
