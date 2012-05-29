@@ -38,16 +38,16 @@ obj/projectile
 		if(src.maxrange<=0) del src //if length is 0, delete the projectile
 		return ..() //otherwise, continue on.
 
-	Bump(atom/O) //Called when movement fails due to blockage. O is \
-					the obstacle; src is the beam.
-		if(ismob(O)) //if O is a mob...
-			//O.TakeDamage(src.damage,src.owner) This isn't working! D:<
-		else if(isobj(O)) del O //If we hit an object, delete the arrow
+	Bump(atom/O) //Called when movement fails due to blockage. O is the blockage, src is the arrow.
+		if(ismob(O)) //if O is a mob, deal damage then delete the arrow
+			O:TakeDamage(src.damage,src.owner)
+			del src
+		else if(isobj(O)) del src //If we hit an object, delete the arrow
 		else if(isturf(O)) ;//If we hit obstructing turf...
 		del src
 
 	Arrow //Arrow
-		icon_state = "energyball"
+		icon_state = "arrow"
 
 		damage=1.25 //low dmg..whatever
 

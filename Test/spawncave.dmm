@@ -5,23 +5,23 @@
 "e" = (/turf/Cave/CaveRimNW,/area)
 "f" = (/turf/Cave/CaveRimN,/area)
 "g" = (/turf/Cave/CaveRimNE,/area)
-"h" = (/turf/Cave/CaveRimW,/area)
-"i" = (/turf/Cave/CaveRimE,/area)
-"j" = (/turf/Cave/CaveWallNW,/area)
-"k" = (/turf/Cave/CaveWallNE,/area)
+"h" = (/turf/Cave/CaveRimSE2,/area)
+"i" = (/turf/Cave/CaveRimS,/area)
+"j" = (/turf/Cave/CaveRimW,/area)
+"k" = (/turf/Cave/CaveRimE,/area)
 "l" = (/turf/Start,/area)
-"m" = (/turf/Cave/CaveWallW,/area)
-"n" = (/turf/Cave/CaveWallE,/area)
-"o" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
-"p" = (/turf/Cave/CaveWallSW,/area)
-"q" = (/turf/Cave/CaveWallSE,/area)
+"m" = (/turf/Cave/CaveWallE,/area)
+"n" = (/mob/objects/Boulder,/turf/Cave/CavefloorC,/area)
+"o" = (/turf/Cave/CaveWallSE,/area)
+"p" = (/turf/Cave/CaveWallNW,/area)
+"q" = (/turf/Cave/CaveWallNE,/area)
 "r" = (/turf/Cave/CaveRimSW,/area)
-"s" = (/turf/Cave/CaveRimS,/area)
-"t" = (/turf/Cave/CaveRimSW2,/area)
-"u" = (/turf/Cave/CaveRimSE2,/area)
-"v" = (/turf/Cave/CaveRimSE,/area)
-"w" = (/turf/Cave/CavefloorE2,/area)
-"x" = (/turf/Cave/CaveWallTop,/area)
+"s" = (/turf/Cave/CaveRimSW2,/area)
+"t" = (/turf/Cave/CaveRimSE,/area)
+"u" = (/turf/Cave/CavefloorE2,/area)
+"v" = (/turf/Cave/CaveWallW,/area)
+"w" = (/turf/Cave/CaveWallTop,/area)
+"x" = (/turf/Cave/CaveWallSW,/area)
 "y" = (/turf/Cave/CaveWallMid,/area)
 "z" = (/turf/Bush3,/area)
 "A" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
@@ -35,19 +35,19 @@
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 cbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccc
-dbeffffffgbdddddddddddddddddddddddddddddddddddddddddddd
-dbhddddddibddddddddjaaaakdddddddddddddddddddddddddddddd
-dbhdlddddibddddddddmbbbbndddddddddddddddddddddddddddddd
-dbhdddoddibddddddddpccccqjkdddddddddddddddddddddddddddd
-dbrstddusvbwwwwwwjakdddddmndddddddddddddddddddddddddddd
-dbbbhddibbbwwwwddmbndoxddpqdddddddddddddddddddddddddddd
-dddbhddibbbwwwwjkpcqodydodzdddddddddddddddddddddddddddd
-dbbbhddibbbjaakmnAddodBodozzzzzzddddddddddddddddddddddd
-dbefCfdDfgbmbbnpqdddddAdoEddddddddddddddddddddddddddddd
-dbhddddddDfpccqdddoAAAAdddddddddddddddddddddddddddddddd
-dfCddddddddddddddxdodddoddzzzdddddddddddddddddddddddddd
-dzzzdddddddddddddydddEddzzzdzzzdddddddddddddddddddddddd
-FFdzzzdddddddddddBodddzzzdddddzzzdddddddddddddddddddddd
-FFdddzzzddddddddzzzzzzddddddddddzdddddddddddddddddddddd
-FFdddddzzzzzzzzzzdddddddddddddddddddddddddddddddddddddd
+dbeffffffgbddddddddhiiiiidddddddddddddddddddddddddddddd
+dbjddddddkbddddddddkbbbbbdddddddddddddddddddddddddddddd
+dbjdlddddkbddddddddkbbbbmdddddddddddddddddddddddddddddd
+dbjdddnddkbddddddddhccccopqdddddddddddddddddddddddddddd
+dbrisddhitbuuuuuupaqdddddvmdddddddddddddddddddddddddddd
+dbbbjddkbbbuuuuddvbmdnwddxodddddddddddddddddddddddddddd
+dddbjddkbbbuuuupqxcondydndzdddddddddddddddddddddddddddd
+dbbbjddkbbbpaatvmAddndBndnzzzzzzddddddddddddddddddddddd
+dbefCfdDfgbvbbmxodddddAdnEddddddddddddddddddddddddddddd
+dbjddddddDfxccodddnAAAAdddddddddddddddddddddddddddddddd
+deCddddddddddddddwdndddnddzzzdddddddddddddddddddddddddd
+drisdddddddddddddydddEddhzzdzzzdddddddddddddddddddddddd
+FFdrisdddddddddddBndddhitdddddzzzdddddddddddddddddddddd
+FFdddrisddddddddhiiiiitdddddddddzdddddddddddddddddddddd
+FFdddddriiiiiiiitdddddddddddddddddddddddddddddddddddddd
 "}
