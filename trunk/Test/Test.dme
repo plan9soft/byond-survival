@@ -7,7 +7,7 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "backup"
+#define FILE_DIR "Items"
 #define FILE_DIR "objects"
 #define FILE_DIR "Plants"
 #define FILE_DIR "sfx"
@@ -24,7 +24,6 @@
 #include "Main.dm"
 #include "objects.dm"
 #include "procs.dm"
-#include "rewrite.dm"
 #include "save.dm"
 #include "vars.dm"
 #include "verbs.dm"
