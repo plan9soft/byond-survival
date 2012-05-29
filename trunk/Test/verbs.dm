@@ -13,7 +13,7 @@ mob/verb
 			flick("Attack",src)
 			src.AttackDelay=world.time+AttackRate //Add AttackRate to the current time, we can't attack again till that is past.
 			for(var/mob/M in get_step(src,src.dir))
-				if(src!=M)
+				if(src!=M)//Make sure the src isn't attacking itself.
 					var/Damage=max(0,src.Str-M.Def)
 					M.TakeDamage(Damage,src)
 		else
@@ -29,8 +29,11 @@ mob/verb
 
 	//Ranged Attack verb
 	Shoot()
-		var/obj/projectile/Arrow/P = new(null,usr)
-		walk(P,P.dir,0)
+		if(src.AttackDelay<world.time) //First, we check the clock to see if we can attack again.
+			flick("Attack",src)
+			src.AttackDelay=world.time+AttackRate //Add AttackRate to the current time, we can't attack again till that is past.
+			var/obj/projectile/Arrow/P = new(null,usr)
+			walk(P,P.dir,0)
 
 	//change name command
 	set_name(N as text)
