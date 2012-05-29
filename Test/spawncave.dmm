@@ -1,10 +1,10 @@
 "a" = (/turf/Cave/CaveWallN,/area)
 "b" = (/turf/Cave/CaveWallC,/area)
 "c" = (/turf/Cave/CaveWallS,/area)
-"d" = (/turf/Cave/CavefloorC,/area)
-"e" = (/turf/Cave/CaveRimNW,/area)
-"f" = (/turf/Cave/CaveRimN,/area)
-"g" = (/turf/Cave/CaveRimNE,/area)
+"d" = (/turf/Cave/CaveRimNW,/area)
+"e" = (/turf/Cave/CaveRimN,/area)
+"f" = (/turf/Cave/CaveRimNE,/area)
+"g" = (/turf/Cave/CavefloorC,/area)
 "h" = (/turf/Cave/CaveRimSE2,/area)
 "i" = (/turf/Cave/CaveRimS,/area)
 "j" = (/turf/Cave/CaveRimW,/area)
@@ -26,28 +26,29 @@
 "z" = (/turf/Bush3,/area)
 "A" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
 "B" = (/turf/Cave/CaveWallBot,/area)
-"C" = (/turf/Cave/CaveRimNW2,/area)
-"D" = (/turf/Cave/CaveRimNE2,/area)
-"E" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
-"F" = (/turf,/area)
+"C" = (/mob/Enemies/skele_archer,/turf/Cave/CavefloorC,/area)
+"D" = (/turf/Cave/CaveRimNW2,/area)
+"E" = (/turf/Cave/CaveRimNE2,/area)
+"F" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+"G" = (/obj/Pushable_Boulder,/turf/Cave/CaveRimS,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-cbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccc
-dbeffffffgbddddddddhiiiiidddddddddddddddddddddddddddddd
-dbjddddddkbddddddddkbbbbbdddddddddddddddddddddddddddddd
-dbjdlddddkbddddddddkbbbbmdddddddddddddddddddddddddddddd
-dbjdddnddkbddddddddhccccopqdddddddddddddddddddddddddddd
-dbrisddhitbuuuuuupaqdddddvmdddddddddddddddddddddddddddd
-dbbbjddkbbbuuuuddvbmdnwddxodddddddddddddddddddddddddddd
-dddbjddkbbbuuuupqxcondydndzdddddddddddddddddddddddddddd
-dbbbjddkbbbpaatvmAddndBndnzzzzzzddddddddddddddddddddddd
-dbefCfdDfgbvbbmxodddddAdnEddddddddddddddddddddddddddddd
-dbjddddddDfxccodddnAAAAdddddddddddddddddddddddddddddddd
-deCddddddddddddddwdndddnddzzzdddddddddddddddddddddddddd
-drisdddddddddddddydddEddhzzdzzzdddddddddddddddddddddddd
-FFdrisdddddddddddBndddhitdddddzzzdddddddddddddddddddddd
-FFdddrisddddddddhiiiiitdddddddddzdddddddddddddddddddddd
-FFdddddriiiiiiiitdddddddddddddddddddddddddddddddddddddd
+bbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccc
+bbdeeeeeefbgggggggghiiiiigggggggggggggggggggggggggggggg
+bbjggggggkbggggggggkbbbbbgggggggggggggggggggggggggggggg
+bbjglggggkbggggggggkbbbbmgggggggggggggggggggggggggggggg
+bbjgggnggkbgggggggghccccopqgggggggggggggggggggggggggggg
+bbrisgghitbuuuuuupaqgggggvmgggggggggggggggggggggggggggg
+bbbbjggkbbbuuuuggvbmgnwggxogggggggggggggggggggggggggggg
+bbbbjggkbbbuuuupqxcongygngzgggggggggggggggggggggggggggg
+bbbbjggkbbbpaatvmAggngBnCnzzzzzzggggggggggggggggggggggg
+bbdeDegEefbvbbmxoggggCAgnFggggggggggggggggggggggggggggg
+bbjggggggEexccogggnAAAAgggggggggggggggggggggggggggggggg
+bdDggggggggggggggwgngggnggzzzgggggggggggggggggggggggggg
+brisgggggggggggggygggFgghzzbzzzgggggggggggggggggggggggg
+bbbrisgggggggggggBnggghitbbbbbzzzgggggggggggggggggggggg
+bbbbbrisgggggggghiGiiitbbbbbbbbbzgggggggggggggggggggggg
+bbbbbbbriiiiiiiitbbbbbbbbbbbbbbbbgggggggggggggggggggggg
 "}

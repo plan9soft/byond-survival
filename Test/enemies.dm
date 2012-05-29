@@ -4,9 +4,9 @@ mob
 	Enemies
 		zombie_guy //Zombies
 			icon='Male zombie.dmi'
-			MaxHP=100
-			Str=10
-			Def=5
+			MaxHP=70
+			Str=8
+			Def=3
 			Bodtype="Flesh"
 			AttackRate=10
 			AI="Zombie"
@@ -31,7 +31,7 @@ mob/Enemies/proc
 					src.Attack()
 				else
 					step_to(src,M)
-					break
+				break
 			sleep(rand(4,8))
 
 	ArcherAI() //AI for ranged attack mobs. Work in progress. TODO:Make mobs face target when shooting >_>.
@@ -41,12 +41,13 @@ mob/Enemies/proc
 					src.dir=get_dir(src,M)
 					src.Attack()
 				else if(get_dist(src,M)>=1 && get_dist(src,M)<=3)//If we're too close..
-					walk_away(src,M,4,1,0) //Step away from the hero!
+					walk_away(src,M,6,0,4) //Step away from the hero!
 					sleep(4) //Pause
 					walk(src,0)//Stop moving
 				else //Face the hero and shoot!
+					src.dir=get_dir(src,M)
 					Shoot()
-					break
+				break
 			sleep(4)
 
  //Initializes stats & specifies AI
