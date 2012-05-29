@@ -7,6 +7,7 @@ obj
 		icon='Boulder.dmi'
 		density=1
 		Pushable=1 //Boulders are pushable.
+
 	//Projectiles
 	projectile
 		Arrow //Arrow Projectile. Arrows use default range and damage.
