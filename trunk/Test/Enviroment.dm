@@ -91,6 +91,9 @@ turf
 		icon = 'Cave floor W.dmi'
 	Cave/CavefloorC
 		icon = 'Cave floor C.dmi'
+	Cave/ImpassibleFloor
+		icon = 'Cave floor C.dmi'
+		density = 1
 	Cave/CavefloorE
 		icon = 'Cave floor E.dmi'
 	Cave/CavefloorW2
@@ -101,28 +104,40 @@ turf
 		icon = 'Cave floor E2.dmi'
 	Cave/CaveWallW
 		icon = 'Cave wall W.dmi'
+		density = 1
 	Cave/CaveWallC
 		icon = 'Cave wall C.dmi'
+		density = 1
 	Cave/CaveWallE
 		icon = 'Cave wall E.dmi'
+		density = 1
 	Cave/CaveWallSW
 		icon = 'Cave wall SW.dmi'
+		density = 1
 	Cave/CaveWallS
 		icon = 'Cave wall S.dmi'
+		density = 1
 	Cave/CaveWallSE
 		icon = 'Cave wall SE.dmi'
+		density = 1
 	Cave/CaveWallNE
 		icon = 'Cave wall NE.dmi'
+		density = 1
 	Cave/CaveWallN
 		icon = 'Cave wall N.dmi'
+		density = 1
 	Cave/CaveWallNW
 		icon = 'Cave wall NW.dmi'
+		density = 1
 	Cave/CaveWallTop
 		icon = 'Cave wall top.dmi'
+		density = 1
 	Cave/CaveWallMid
 		icon = 'Cave wall middle.dmi'
+		density = 1
 	Cave/CaveWallBot
 		icon = 'Cave wall bottom.dmi'
+		density = 1
 
 	Cave/CaveRimN
 		icon = 'Cave wall rim N.dmi'
