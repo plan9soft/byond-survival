@@ -3,6 +3,7 @@ obj
 	Torch //torch
 		icon = 'torchlit.dmi'
 		luminosity = 3
+		pickup = 1
 		verb //torch specific verbs !LEAVE HERE!
 			Use_Torch()
 				usr << "You use the torch."
@@ -19,6 +20,7 @@ obj
 
 	Berry //berry
 		icon = 'Berrys.dmi'
+		pickup = 1
 		verb  //berry specific verbs !LEAVE HERE!
 			Eat_Berry()
 				usr << "You eat a berry. It's pretty tasty!"
@@ -32,7 +34,8 @@ obj
 obj //move to objects.dm when complete
 	verb
 		get()
-			set src in oview(1)     //You have to be standing next to it.
+			set src in oview(1)     //You have to be standing next to it
+			//if(pickup = 1)
 			usr << "You get [src]"
 			Move(usr)               //Put it in the user's contents.
 
@@ -42,3 +45,4 @@ obj //move to objects.dm when complete
 
 	var
 		torch_lit = 1 //1=Lit 0=Not lit
+		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default/
