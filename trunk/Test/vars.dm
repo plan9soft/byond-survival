@@ -12,8 +12,10 @@ mob
 
 //Variables for Objects.
 obj
+
 	var //Variables that apply to each Object
 		Pushable=0 //1=Pushable 0=No
+
 	projectile/var //Projectile specific variables
 		maxrange=20
 		damage=2

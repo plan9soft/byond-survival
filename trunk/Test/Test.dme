@@ -24,6 +24,7 @@
 #include "Main.dm"
 #include "objects.dm"
 #include "procs.dm"
+#include "rewrite.dm"
 #include "save.dm"
 #include "vars.dm"
 #include "verbs.dm"

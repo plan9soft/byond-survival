@@ -258,3 +258,4 @@ obj/TreetopE
 	icon = 'Tree top E.dmi'
 	layer = MOB_LAYER+1  //overhead
 obj/enemyspawner
+	icon = 'Blue mob.dmi'
