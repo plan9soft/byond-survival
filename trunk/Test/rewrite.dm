@@ -1,6 +1,6 @@
 //move to objects.dm/Interactable Objects when complete
 obj
-	Torch //torch
+	lightsource/Torch //torch
 		icon = 'torchlit.dmi'
 		luminosity = 3
 		pickup = 1
@@ -35,14 +35,18 @@ obj //move to objects.dm when complete
 	verb
 		get()
 			set src in oview(1)     //You have to be standing next to it
-			//if(pickup = 1)
-			usr << "You get [src]"
-			Move(usr)               //Put it in the user's contents.
+			if(src.pickup == 1)
+				usr << "You get [src]"
+				Move(usr)		//Put it in the user's contents.
 
 		drop()
 			usr << "You drop [src]"
 			Move(usr.loc)
 
 	var
-		torch_lit = 1 //1=Lit 0=Not lit
 		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default/
+
+obj
+	lightsource //Create a new class of objects, "lightsource". For things like wall lanterns, etc.
+		var //lightsource specific variables.
+			torch_lit = 1 //1=Lit 0=Not lit
