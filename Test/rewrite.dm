@@ -1,27 +1,44 @@
-//move to objects.dm/Interactable Objectswhen complete
+//move to objects.dm/Interactable Objects when complete
 obj
 	Torch //torch
 	icon = 'torchlit.dmi'
 	luminosity = 3
 	verb //torch specific verbs !LEAVE HERE!
 		Use_Torch()
-			set src in view(1)
-			if (luminosity = 3)
+			usr << "You use the torch."
+			/* if (torch_lit = 1)
 				luminosity = 0
 				usr << "You extinguish the torch."
 				icon = 'torch_un.dmi'
+				torch_lit = 0
 			else
 				luminosity = 3
 				usr << "You light the torch."
 				icon = 'torchlit.dmi'
+				var torch_lit = 1 */
 
 	Berry //berry
-	icon = 'blue mob.dmi'
+	icon = 'Berrys.dmi'
 	verb  //berry specific verbs !LEAVE HERE!
 		Eat_Berry()
-			if (mob/Player.HP < mob/Player.MaxHP)
+			usr << "You eat a berry. It's pretty tasty!"
+			/*if (mob/Player.HP < mob/Player.MaxHP)
 				mob/Player.HP + 5
 				if (mob/Player.HP > mob/Player.MaxHP)
 					mob/Player.HP == mob/Player.MaxHP
 				usr << "You eat a berry. It's pretty tasty!"
-				del src
+				del src*/
+
+obj //move to objects.dm when complete
+	verb
+		get()
+			set src in oview(1)     //You have to be standing next to it.
+			usr << "You get [src]"
+			Move(usr)               //Put it in the user's contents.
+
+		drop()
+			usr << "You drop [src]"
+			Move(usr.loc)
+
+	var
+		torch_lit = 1 //1=Lit 0=Not lit
