@@ -34,7 +34,7 @@ mob/Enemies/proc
 				break
 			sleep(rand(4,8))
 
-	ArcherAI() //AI for ranged attack mobs. Work in progress. TODO:Make mobs face target when shooting >_>.
+	ArcherAI() //AI for ranged attack mobs.
 		while(src)
 			for(var/mob/Player/M in oview())
 				if(get_dist(src,M)<=1) //If we're right next to our target, attack him
