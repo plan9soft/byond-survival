@@ -31,7 +31,7 @@ mob
 				var/obj/projectile/Arrow/P = new(null,usr)
 				walk(P,P.dir,0)
 
-		set_name(N as text) //change name command
+		Set_name(N as text) //change name command
 			set desc = "(\"new name\") Change your name."
 			name = N
 
@@ -42,14 +42,14 @@ mob
 				src<<"[M]"
 			src<<"<b>[counter] players online"
 
-obj //move to objects.dm when complete
+obj //obj related verbs
 	verb
-		get()
-			set src in oview(1)     //You have to be standing next to it
+		Get()
+			set src in oview(1) //You have to be standing next to it
 			if(src.pickup == 1)
 				usr << "You get [src]"
-				Move(usr)		//Put it in the user's contents.
+				Move(usr) //Put it in the user's contents.
 
-		drop()
+		Drop()
 			usr << "You drop [src]"
 			Move(usr.loc)
