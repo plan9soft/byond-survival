@@ -6,8 +6,7 @@ obj
 		pickup = 1
 		verb //torch specific verbs !LEAVE HERE!
 			Use_Torch()
-				usr << "You use the torch."
-				/* if (torch_lit = 1)
+				if (torch_lit==1)
 					luminosity = 0
 					usr << "You extinguish the torch."
 					icon = 'torch_un.dmi'
@@ -16,7 +15,7 @@ obj
 					luminosity = 3
 					usr << "You light the torch."
 					icon = 'torchlit.dmi'
-					var torch_lit = 1 */
+					torch_lit = 1
 
 	Berry //berry
 		icon = 'Berrys.dmi'
@@ -28,8 +27,8 @@ obj
 					mob/Player.HP + 5
 					if (mob/Player.HP > mob/Player.MaxHP)
 						mob/Player.HP == mob/Player.MaxHP
-					usr << "You eat a berry. It's pretty tasty!"
-					del src*/
+					usr << "You eat a berry. It's pretty tasty!" */
+				del src
 
 obj //move to objects.dm when complete
 	verb
@@ -46,7 +45,6 @@ obj //move to objects.dm when complete
 	var
 		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default/
 
-obj
 	lightsource //Create a new class of objects, "lightsource". For things like wall lanterns, etc.
 		var //lightsource specific variables.
 			torch_lit = 1 //1=Lit 0=Not lit
