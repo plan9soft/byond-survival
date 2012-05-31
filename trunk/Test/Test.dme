@@ -7,9 +7,13 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "backup"
 #define FILE_DIR "gfx"
 #define FILE_DIR "Items"
+#define FILE_DIR "Items/Clothes"
+#define FILE_DIR "Items/Clothes/Armor"
+#define FILE_DIR "Items/Tools"
+#define FILE_DIR "Items/Weapons"
+#define FILE_DIR "Items/Weapons/Ranged"
 #define FILE_DIR "objects"
 #define FILE_DIR "Plants"
 #define FILE_DIR "sfx"
