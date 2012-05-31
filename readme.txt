@@ -11,4 +11,3 @@ S: Down
 D: Right
 Space: Attack (Hold space to attack at max speed.)
 E: Action
-Q: Get
