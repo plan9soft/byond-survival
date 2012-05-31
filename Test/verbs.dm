@@ -6,6 +6,8 @@ mob
 					walk(e,usr.dir,0,4) //The mob then walks in the direction the usr is facing.
 					sleep(3.5) //Give the mob time to walk
 					walk(e,0,0,0) //The mob then halts
+				if(e.pickup==1) // Check if the target can be picked up.
+					e.Get() //Pick up the object
 
 		Attack() //The Attack action
 			if(src.AttackDelay<world.time) //First, we check the clock to see if we can attack again.
