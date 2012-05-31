@@ -22,12 +22,15 @@ obj
 		pickup = 1
 		verb  //berry specific verbs !LEAVE HERE!
 			Eat_Berry()
-				usr << "You eat a berry. It's pretty tasty!"
-				/*if (mob/Player.HP < mob/Player.MaxHP)
-					mob/Player.HP + 5
-					if (mob/Player.HP > mob/Player.MaxHP)
-						mob/Player.HP == mob/Player.MaxHP
-					usr << "You eat a berry. It's pretty tasty!" */
+				usr << "You eat a berry. It's pretty tasty!" //delete this line when fully functional
+				/*if (src.HP << src.MaxHP)
+					src.HP + 5
+					if (src.HP >> src.MaxHP) //don't want to exceed MaxHP
+						src.HP = src.MaxHP
+					usr << "You eat a berry. It's pretty tasty!"
+					del src
+				else if (src.HP >= src.MaxHP)
+					usr << "You don't feel hungry right now after all..."*/
 				del src
 
 obj //move to objects.dm when complete
