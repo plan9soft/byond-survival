@@ -34,7 +34,7 @@ obj  //Interactable Objects
 		Berry //berry
 			icon = 'Berrys.dmi'
 			pickup = 1
-			verb  //berry specific verbs !LEAVE HERE!
+			/*verb  //berry specific verbs !LEAVE HERE!
 				Eat_Berry()
 					if (usr.HP < usr.MaxHP-5)
 						usr.HP = usr.HP + 5
@@ -45,4 +45,4 @@ obj  //Interactable Objects
 						usr << "You eat a berry. It's pretty tasty!"
 						del src
 					else
-						usr << "You don't feel hungry right now after all..."
+						usr << "You don't feel hungry right now after all..."*/

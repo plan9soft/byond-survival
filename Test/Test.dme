@@ -31,6 +31,7 @@
 #include "Main.dm"
 #include "objects.dm"
 #include "procs.dm"
+#include "rewrite.dm"
 #include "save.dm"
 #include "Sliding Trap.dm"
 #include "vars.dm"
