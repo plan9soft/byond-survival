@@ -26,6 +26,15 @@ mob //mob related procs
 			sleep(2)
 			src.overlays -= image('Overlay hit.dmi')
 
+		TakeArrowDamage(var/Damage,var/mob/Attacker,var/obj/projectile/proj)//Special proc for ranged attacks.
+			src.HP-=Damage
+			del proj //delete the arrow
+			src.overlays += image('Overlay hit arrow.dmi')
+			world << sound('Attack - Arrow Woosh.wav', volume=45)
+			src.DeathCheck(Attacker)
+			sleep(2)
+			src.overlays -= image('Overlay hit arrow.dmi')
+
 		DeathCheck(var/mob/Killer)
 			if(src.HP<=0)
 				if(src.client)
@@ -57,8 +66,7 @@ obj //Object Specific Procs
 		//What happens when a projectile hits something.
 		Bump(atom/O) //Called when movement fails due to blockage. O is the blockage, src is the arrow.
 			if(ismob(O)) //if O is a mob, deal damage then delete the arrow
-				O:TakeDamage(src.damage,src.owner)
-				del src
+				O:TakeArrowDamage(src.damage,src.owner,src)
 			else if(isobj(O)) del src //If we hit an object, delete the arrow
 			//else if(isturf(O)) ;//If we hit obstructing turf...
 			del src
