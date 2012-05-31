@@ -16,10 +16,6 @@ macro "macro"
 		command = "Action"
 		is-disabled = false
 	elem 
-		name = "Q"
-		command = "Get"
-		is-disabled = false
-	elem 
 		name = "S+REP"
 		command = ".south"
 		is-disabled = false
