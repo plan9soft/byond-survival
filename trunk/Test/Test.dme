@@ -27,6 +27,7 @@
 #include "objects.dm"
 #include "procs.dm"
 #include "save.dm"
+#include "Sliding Trap.dm"
 #include "vars.dm"
 #include "verbs.dm"
 #include "Interface.dmf"

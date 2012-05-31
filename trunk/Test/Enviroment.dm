@@ -194,67 +194,67 @@ turf
 obj/Bigrock
 	icon = 'Big rock.dmi'
 	density = 1
-obj/Treestump
+obj/plants/Treestump
 	icon = 'Tree stump.dmi'
 	density = 1
-obj/Treestump1
+obj/plants/Treestump1
 	icon = 'Tree stump 1.dmi'
 	density = 1
-obj/Treestump2
+obj/plants/Treestump2
 	icon = 'Tree stump 2.dmi'
 	density = 1
-obj/Tree2topE
+obj/plants/Tree2topE
 	icon = 'Tree 2 top E.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topN
+obj/plants/Tree2topN
 	icon = 'Tree 2 top N.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topNE
+obj/plants/Tree2topNE
 	icon = 'Tree 2 top NE.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topNW
+obj/plants/Tree2topNW
 	icon = 'Tree 2 top NW.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topS
+obj/plants/Tree2topS
 	icon = 'Tree 2 top S.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topSE
+obj/plants/Tree2topSE
 	icon = 'Tree 2 top SE.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topSW
+obj/plants/Tree2topSW
 	icon = 'Tree 2 top SW.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Tree2topW
+obj/plants/Tree2topW
 	icon = 'Tree 2 top W.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Treecenter1
+obj/plants/Treecenter1
 	icon = 'Tree center 1.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/Treecenter2
+obj/plants/Treecenter2
 	icon = 'Tree center 2.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopN
+obj/plants/TreetopN
 	icon = 'Tree top N.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopNE
+obj/plants/TreetopNE
 	icon = 'Tree top NE.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopNW
+obj/plants/TreetopNW
 	icon = 'Tree top NW.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopS
+obj/plants/TreetopS
 	icon = 'Tree top S.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopSE
+obj/plants/TreetopSE
 	icon = 'Tree top SE.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopSW
+obj/plants/TreetopSW
 	icon = 'Tree top SW.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopW
+obj/plants/TreetopW
 	icon = 'Tree top W.dmi'
 	layer = MOB_LAYER+1  //overhead
-obj/TreetopE
+obj/plants/TreetopE
 	icon = 'Tree top E.dmi'
 	layer = MOB_LAYER+1  //overhead
 obj/enemyspawner
