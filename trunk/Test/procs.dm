@@ -35,14 +35,6 @@ mob //mob related procs
 			sleep(2)
 			src.overlays -= image('Overlay hit arrow.dmi')
 
-		TakeTrapDamage(var/Damage,var/mob/Attacker)//Special proc for traps attacks.
-			src.HP-=Damage
-			src.overlays += image('Overlay hit arrow.dmi')
-			world << sound('Impact - Metal.wav', volume=45)
-			src.DeathCheck(Attacker)
-			sleep(2)
-			src.overlays -= image('Overlay hit arrow.dmi')
-
 		DeathCheck(var/mob/Killer)
 			if(src.HP<=0)
 				if(src.client)
