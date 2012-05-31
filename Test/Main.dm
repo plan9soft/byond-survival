@@ -9,6 +9,7 @@ world
 obj //defines global properties of obj
 	step_size = 8
 
+
 mob
 	step_size = 8 //global step size for all mobs
 

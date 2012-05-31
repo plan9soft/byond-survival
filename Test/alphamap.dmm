@@ -23,7 +23,7 @@
 "aw" = (/obj/Tree2topN,/turf/Grass/Grass,/area)
 "ax" = (/obj/Tree2topNE,/turf/Grass/Grass,/area)
 "ay" = (/turf/Bush2,/area)
-"az" = (/obj/Berry,/turf/Bush3,/area)
+"az" = (/obj/food/Berry,/turf/Bush3,/area)
 "aA" = (/turf/Grass/GrassWaterNE2,/area)
 "aB" = (/turf/Grass/GrassWaterN,/area)
 "aC" = (/turf/Grass/GrassWaterNE,/area)
