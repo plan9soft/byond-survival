@@ -1,5 +1,4 @@
-mob
-
+mob //mob related procs
 	Login() //login related
 		if(src.LoadProc())
 			world<<"[src] has Returned"
@@ -36,3 +35,36 @@ mob
 				else
 					Killer<<"<b>You Killed [src]"
 					del src
+
+obj //Object Specific Procs
+	projectile //Projectile Specific Procs
+
+		//Spawns a projectile Object
+		New(_loc,mob/_owner)
+			if(_owner) //if an owner was specified...
+				//src.dmg = max(_owner.Level * src.dmg,1) //dynamic dmg example
+				//src.length = max(round(_owner.MaxMP / src.length),5) //dynamic length example
+				src.dir = _owner.dir
+				if(!src.loc) src.loc = get_step(_owner,_owner.dir) //if loc isn't set, initialize it.
+				src.owner = _owner
+
+		//Makes a projectile move
+		Move()
+			src.maxrange-- //remove 1 from src.maxrange
+			if(src.maxrange<=0) del src //if length is 0, delete the projectile
+			return ..() //otherwise, continue on.
+
+		//What happens when a projectile hits something.
+		Bump(atom/O) //Called when movement fails due to blockage. O is the blockage, src is the arrow.
+			if(ismob(O)) //if O is a mob, deal damage then delete the arrow
+				O:TakeDamage(src.damage,src.owner)
+				del src
+			else if(isobj(O)) del src //If we hit an object, delete the arrow
+			//else if(isturf(O)) ;//If we hit obstructing turf...
+			del src
+
+	lightsource //Create a new class of objects, "lightsource". For things like wall lanterns, etc.
+		var //lightsource specific variables.
+			torch_lit = 1 //1=Lit 0=Not lit
+
+	food //create a new class of objects, "food". for things like berries, ect
