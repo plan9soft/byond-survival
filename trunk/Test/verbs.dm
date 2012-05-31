@@ -17,8 +17,6 @@ mob
 					if(src!=M)//Make sure the src isn't attacking itself.
 						var/Damage=max(0,src.Str-M.Def)
 						M.TakeDamage(Damage,src)
-			else
-				return
 
 		OOC_chat(t as text) //Out of Character chat
 			world<<"<b>[src]:</b> [t]"

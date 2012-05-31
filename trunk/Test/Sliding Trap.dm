@@ -4,6 +4,14 @@ obj
 		SlideTrap
 			icon='Spike trap.dmi'
 			density = 1
+		var
+			damage = 5
+
+
+		Bump(atom/O) //Called when movement fails due to blockage. O is the blockage, src is the arrow.
+			if(ismob(O)) //if O is a mob, deal damage then delete the arrow
+				O:TakeTrapDamage(src.damage,"A Trap")
+			else //If we hit anything that isn't a mob, we return to start location.
 
 //Initiallizes Trap AI
 obj/trap/New()

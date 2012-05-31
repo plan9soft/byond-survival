@@ -35,6 +35,14 @@ mob //mob related procs
 			sleep(2)
 			src.overlays -= image('Overlay hit arrow.dmi')
 
+		TakeTrapDamage(var/Damage,var/mob/Attacker)//Special proc for traps attacks.
+			src.HP-=Damage
+			src.overlays += image('Overlay hit arrow.dmi')
+			world << sound('Impact - Metal.wav', volume=45)
+			src.DeathCheck(Attacker)
+			sleep(2)
+			src.overlays -= image('Overlay hit arrow.dmi')
+
 		DeathCheck(var/mob/Killer)
 			if(src.HP<=0)
 				if(src.client)
@@ -57,13 +65,11 @@ obj //Object Specific Procs
 				if(!src.loc) src.loc = get_step(_owner,_owner.dir) //if loc isn't set, initialize it.
 				src.owner = _owner
 
-		//Makes a projectile move
-		Move()
+		Move() //Triggers each time the projectile moves
 			src.maxrange-- //remove 1 from src.maxrange
 			if(src.maxrange<=0) del src //if length is 0, delete the projectile
 			return ..() //otherwise, continue on.
 
-		//What happens when a projectile hits something.
 		Bump(atom/O) //Called when movement fails due to blockage. O is the blockage, src is the arrow.
 			if(ismob(O)) //if O is a mob, deal damage then delete the arrow
 				O:TakeArrowDamage(src.damage,src.owner,src)
