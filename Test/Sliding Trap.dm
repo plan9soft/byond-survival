@@ -6,6 +6,8 @@ obj
 
 		SlideTrap
 			icon='Spike trap.dmi'
+			bound_width=28
+			bound_height=28
 			density = 1
 		var
 			damage = -1
@@ -28,9 +30,10 @@ obj
 obj/trap/proc
 	TrapAI()
 		StartLocation = src.loc //Save our starting location
+		sleep(20)
 		while(src)
 			if(src.loc==StartLocation)//If we're at our starting location
-				walk(src,NORTH,0,40)	//Check if there's a player to our N,S,E,W
+				walk(src,WEST,0,40)	//Check if there's a player to our N,S,E,W
 			sleep(5)
 
 				//Check that the player is in a straight N,S,E,W direction
