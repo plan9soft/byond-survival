@@ -1,10 +1,6 @@
 //Lists and defines all INTERACTABLE objects used in the game, and all Object specific procs
 //Non-interactable objects are considered Turf and go in Enviroment.dm
 
-obj //Global obj variables
-	var
-		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default
-
 obj  //Interactable Objects
 	Pushable_Boulder //Pushable Boulder
 		icon='Boulder.dmi'
@@ -40,11 +36,13 @@ obj  //Interactable Objects
 			pickup = 1
 			verb  //berry specific verbs !LEAVE HERE!
 				Eat_Berry()
-					if (usr.HP < usr.MaxHP)
+					if (usr.HP < usr.MaxHP-5)
 						usr.HP = usr.HP + 5
-						if (usr.HP > usr.MaxHP) //don't want to exceed MaxHP
-							usr.HP = usr.MaxHP
 						usr << "You eat a berry. It's pretty tasty!"
 						del src
-					else if (usr.HP >= usr.MaxHP)
+					else if (usr.HP >= usr.MaxHP-5 && usr.HP != usr.MaxHP) //don't want to exceed MaxHP
+						usr.HP = usr.MaxHP
+						usr << "You eat a berry. It's pretty tasty!"
+						del src
+					else
 						usr << "You don't feel hungry right now after all..."

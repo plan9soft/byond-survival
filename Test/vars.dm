@@ -15,6 +15,7 @@ obj
 
 	var //Variables that apply to each Object
 		Pushable=0 //1=Pushable 0=No
+		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default
 
 	projectile/var //Projectile specific variables
 		maxrange=20
