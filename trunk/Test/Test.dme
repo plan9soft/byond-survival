@@ -20,13 +20,13 @@
 #define FILE_DIR "sprites"
 #define FILE_DIR "turf"
 #define FILE_DIR "turf/Brick"
+#define FILE_DIR "turf/Cave"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "Day&Night and weather.dm"
 #include "enemies.dm"
 #include "Enviroment.dm"
 #include "Main.dm"
