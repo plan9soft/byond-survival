@@ -1,16 +1,3 @@
-/*
-Outside Area Demo
-By: Shadowdarke (shadowdarke@hotmail.com)
-Sept. 6th, 2001
-
-Outside Area Demo demonstrates how to implement day/night cycles two ways,
-with overlays or with the luminosity variable. This demo also shows how to
-change a turf from one area to another.
-
-The area overlay day/night cycle is much faster than turf overlay day/night
-systems, accomplishing the same effect with a couple lines of code and no
-lag producing loops. I've tested it with maps as large as 500x500x5 with no
-lag at all from the day/night cycle.
 
 */
 
@@ -52,14 +39,6 @@ area
 					luminosity = 1 - luminosity
 				spawn(20) daycycle()	// change the 20 to make longer days and nights
 
-/*
-	If you prefer real darkness (luminosity = 0), replace the daycycle() proc
-	with the one below. Using luminosity for outside darkness is better if
-	you want to use other light sources like torches.
-
-			daycycle()
-				luminosity = 1 - luminosity	// toggle between 1 and 0
-				spawn(20) daycycle()	// change the 20 to make longer days and nights
 */
 
 			SetWeather(WeatherType)
