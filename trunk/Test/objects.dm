@@ -34,15 +34,15 @@ obj  //Interactable Objects
 		Berry //berry
 			icon = 'Berrys.dmi'
 			pickup = 1
-			/*verb  //berry specific verbs !LEAVE HERE!
+			healing = 5
+			verb  //berry specific verb !LEAVE HERE!
 				Eat_Berry()
-					if (usr.HP < usr.MaxHP-5)
-						usr.HP = usr.HP + 5
-						usr << "You eat a berry. It's pretty tasty!"
-						del src
-					else if (usr.HP >= usr.MaxHP-5 && usr.HP != usr.MaxHP) //don't want to exceed MaxHP
-						usr.HP = usr.MaxHP
-						usr << "You eat a berry. It's pretty tasty!"
-						del src
-					else
-						usr << "You don't feel hungry right now after all..."*/
+					Eat()
+
+		Acorns //acorns
+			icon = 'Acorns.dmi'
+			pickup = 1
+			healing = 2
+			verb //acorn specific verb !LEAVE HERE!
+				Eat_Acorns()
+					Eat()
