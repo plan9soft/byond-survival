@@ -18,7 +18,6 @@ mob
 		stat("Health:","[src.HP]/[src.MaxHP]")
 		stat("Strength:","[src.Str]")
 		stat("Defense:","[src.Def]")
-		//statpanel("Inventory",contents) //creates inventory panel
 
 	Player //defines player info
 		icon='knight.dmi'
