@@ -258,6 +258,18 @@ turf
 	Cave2/NewCaveWallNW2
 		icon = 'New cave wall NW2.dmi'
 
+	Cave2/Stairs1
+		icon = 'Stairs1.dmi'
+	Cave2/Stairs2
+		icon = 'Stairs2.dmi'
+	Cave2/Stairs3
+		icon = 'Stairs3.dmi'
+	Cave2/Stairs4
+		icon = 'Stairs4.dmi'
+	Cave2/Stairs5
+		icon = 'Stairs5.dmi'
+
+
 obj/Bigrock
 	icon = 'Big rock.dmi'
 	density = 1

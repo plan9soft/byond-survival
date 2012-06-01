@@ -16,17 +16,22 @@
 "p" = (/turf/Start,/area)
 "q" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area)
 "r" = (/turf/Cave/CaveRimSW2,/area)
-"s" = (/turf/Cave/CaveWallW,/area)
-"t" = (/turf/Cave/CaveWallTop,/area)
-"u" = (/turf/Cave/CaveWallE,/area)
-"v" = (/turf/Cave/CaveWallMid,/area)
-"w" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
-"x" = (/turf/Cave/CaveWallBot,/area)
-"y" = (/mob/Enemies/skele_archer,/turf/Cave/CavefloorC,/area)
-"z" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
-"A" = (/turf/Cave/CaveRimSE2,/area)
-"B" = (/turf/Cave/CaveRimS,/area)
-"C" = (/turf/Filler,/area)
+"s" = (/turf/Cave2/Stairs1,/area)
+"t" = (/turf/Cave2/Stairs5,/area)
+"u" = (/turf/Cave2/Stairs4,/area)
+"v" = (/turf/Cave/CaveWallW,/area)
+"w" = (/turf/Cave2/Stairs2,/area)
+"x" = (/turf/Cave/CaveWallTop,/area)
+"y" = (/turf/Cave/CaveWallE,/area)
+"z" = (/turf/Cave2/Stairs3,/area)
+"A" = (/turf/Cave/CaveWallMid,/area)
+"B" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
+"C" = (/turf/Cave/CaveWallBot,/area)
+"D" = (/mob/Enemies/skele_archer,/turf/Cave/CavefloorC,/area)
+"E" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+"F" = (/turf/Cave/CaveRimSE2,/area)
+"G" = (/turf/Cave/CaveRimS,/area)
+"H" = (/turf/Filler,/area)
 
 (1,1,1) = {"
 aaaaaaaaabcbdddddddddddefgbhhhhhhhhhhhhffgiiiiiiiiiiiii
@@ -36,15 +41,15 @@ hhhhhhhhhbcbhhhhhhhhhhhhhhbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 hhhhhhhhhbcbhhhhhhhcefffgbbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 hhhhphhhhbcbhhhhhhhckaaalbbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 hhhhhhqbhbcbhhhhhhhcmjjjneefrhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhchhhefegbhhhhcefghhhhhssdefrhhhhhhhhhhhhhhhhhhhhhhhh
-fffghhhsaslbhhhhckalhqthhmsdsdeffhhhhhhhhhhhhhhhhhhhhhh
-aaulhhhsaslbhhcegmjnqhvhqhsdsdsddhhhhhhhhhhhhhhhhhhhhhh
-aaunhhhmjkleffgklwhhqhxqyqmjsdsddhhhhhhhhhhhhhhhhhhhhhh
-aanhhhhhhmnkaalmnhhhhywhqzhhmjsddhhhhhhhhhhhhhhhhhhhhhh
-abhhhhhhhhhmjjnhhhqwwwwhhhhhhhmjjhhhhhhhhhhhhhhhhhhhhhh
-abhhhhhhhhhhhhhhhthqhhhqhhAfrhhhhhhhhhhhhhhhhhhhhhhhhhh
-aeBrhhhhhhhhhhhhhvhhhzhhAfgaefrhhhhhhhhhhhhhhhhhhhhhhhh
-akaeBrhhhhhhhhhhhxqhhhAfgalakaefrhhhhhhhhhhhhhhhhhhhhhh
-CsasaeBrhhhhhhhhhAefffgalauasakaehhhhhhhhhhhhhhhhhhhhhh
-CkakakaefffffffffgkaaalaualCkasakhhhhhhhhhhhhhhhhhhhhhh
+hhhcstuefegbhhhhcefghhhhhvvdefrhhhhhhhhhhhhhhhhhhhhhhhh
+fffgwttvavlbhhhhckalhqxhhmvdvdeffhhhhhhhhhhhhhhhhhhhhhh
+aayltzsvavlbhhcegmjnqhAhqhvdvdvddhhhhhhhhhhhhhhhhhhhhhh
+aayntstmjkleffgklBhhqhCqDqmjvdvddhhhhhhhhhhhhhhhhhhhhhh
+aanhhhhhhmnkaalmnhhhhDBhqEhhmjvddhhhhhhhhhhhhhhhhhhhhhh
+abhhhhhhhhhmjjnhhhqBBBBhhhhhhhmjjhhhhhhhhhhhhhhhhhhhhhh
+abhhhhhhhhhhhhhhhxhqhhhqhhFfrhhhhhhhhhhhhhhhhhhhhhhhhhh
+aeGrhhhhhhhhhhhhhAhhhEhhFfgaefrhhhhhhhhhhhhhhhhhhhhhhhh
+akaeGrhhhhhhhhhhhCqhhhFfgalakaefrhhhhhhhhhhhhhhhhhhhhhh
+HvavaeGrhhhhhhhhhFefffgalayavakaehhhhhhhhhhhhhhhhhhhhhh
+HkakakaefffffffffgkaaalayalHkavakhhhhhhhhhhhhhhhhhhhhhh
 "}
