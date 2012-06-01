@@ -199,6 +199,7 @@ turf
 	Brick/BrickWallC
 		icon = 'Brick wall C.dmi'
 		density = 1
+		opacity = 1
 	Brick/BrickWallE
 		icon = 'Brick wall E.dmi'
 	Brick/BrickWallN
