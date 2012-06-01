@@ -17,7 +17,8 @@ obj
 		Pushable=0 //1=Pushable 0=No
 		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default
 
-	projectile/var //Projectile specific variables
-		maxrange=20
-		damage=2
-		mob/owner //The mob who fired the projectile
+	projectile
+		var //Projectile specific variables
+			maxrange=20
+			damage=2
+			mob/owner //The mob who fired the projectile

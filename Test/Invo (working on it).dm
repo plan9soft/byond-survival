@@ -129,7 +129,6 @@ HudInventory
 
 item
 	parent_type = /obj
-
 	icon = 'inventory-icons.dmi'
 
 	var
@@ -137,9 +136,7 @@ item
 
 	Move()
 		. = ..()
-
 		var/mob/m = loc
-
 		if(istype(m))
 			m.hud_inventory.add_item(src)
 
