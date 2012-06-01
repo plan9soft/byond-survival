@@ -1,25 +1,20 @@
 //Directional Density.
 //Lets us walk some directions on tiles, but not others
 
-/* turf
-	Enter(atom/movable/O)
-		if(get_dir(src,O) == src.CantEnterFrom)
-			return 0
-		else
-			return 1
-
-	Exit(atom/movable/O)
-		if(get_dir(src,O) == src.CantExitFrom)
-			return 0
-		else
-			return 1
-
 turf
-	var
-		CantEnterFrom
-		CantExitFrom */
+	Enter(atom/movable/O) //Runs when we TRY and enter a new tile
+		var/turf/CurrentTile = O.loc
+		//If we're trying to enter or exit from an illegal direction
+		if(get_dir(O,src) == src.CantEnterFrom || O.dir == CurrentTile.CantExitFrom)
+			return 0 //Then kill the movement.
+		else
+			return 1
 
 //Turf Defenitions
+//When you add turf, PLEASE add illegal entry and exit locations
+//CantExitFrom and CantEnterFrom
+//If you don't want the player to be able to move enter/exit from a certain location
+//See the above Enter() proc and vars.dm
 turf
 
 	Start
@@ -271,6 +266,8 @@ turf
 		icon = 'New cave wall NW.dmi'
 	Cave2/NewCaveWallRimW
 		icon = 'New cave wall rim W.dmi'
+		CantEnterFrom = EAST
+		CantExitFrom = WEST
 	Cave2/NewCaveWallRimE
 		icon = 'New cave wall rim E.dmi'
 	Cave2/NewCaveWallN2
