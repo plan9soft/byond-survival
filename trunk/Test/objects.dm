@@ -46,4 +46,3 @@ obj  //Interactable Objects
 			verb //acorn specific verb !LEAVE HERE!
 				Eat_Acorns()
 					Eat()
-					//call(/mob/proc/UpdateInventory)()
