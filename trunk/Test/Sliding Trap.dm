@@ -10,7 +10,7 @@ obj
 			bound_height=28
 			density = 1
 		var
-			damage = -1
+			damage = 25
 			StartLocation
 
 
@@ -33,7 +33,7 @@ obj/trap/proc
 		sleep(20)
 		while(src)
 			if(src.loc==StartLocation)//If we're at our starting location
-				walk(src,WEST,0,40)	//Check if there's a player to our N,S,E,W
+				walk(src,NORTH,0,40)	//Check if there's a player to our N,S,E,W
 			sleep(5)
 
 				//Check that the player is in a straight N,S,E,W direction
