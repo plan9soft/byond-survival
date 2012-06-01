@@ -11,3 +11,8 @@ S: Down
 D: Right
 Space: Attack (Hold space to attack at max speed.)
 E: Action
+
+Inventory:
+Right click on an item in the inventory to activate it
+
+Other commands are avaliable on the "Commands" tab.
