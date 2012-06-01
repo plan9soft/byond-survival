@@ -229,6 +229,35 @@ turf
 		density = 1
 		opacity = 1
 
+	Cave2/NewCaveWallS
+		icon = 'New cave wall S.dmi'
+	Cave2/NewCaveWallSW
+		icon = 'New cave wall SW.dmi'
+	Cave2/NewCaveWallSE
+		icon = 'New cave wall SE.dmi'
+	Cave2/NewCaveWallW
+		icon = 'New cave wall W.dmi'
+	Cave2/NewCaveWallC
+		icon = 'New cave wall C.dmi'
+	Cave2/NewCaveWallE
+		icon = 'New cave wall E.dmi'
+	Cave2/NewCaveWallN
+		icon = 'New cave wall N.dmi'
+	Cave2/NewCaveWallNE
+		icon = 'New cave wall NE.dmi'
+	Cave2/NewCaveWallNW
+		icon = 'New cave wall NW.dmi'
+	Cave2/NewCaveWallRimW
+		icon = 'New cave wall rim W.dmi'
+	Cave2/NewCaveWallRimE
+		icon = 'New cave wall rim E.dmi'
+	Cave2/NewCaveWallN2
+		icon = 'New cave wall N2.dmi'
+	Cave2/NewCaveWallNE2
+		icon = 'New cave wall NE2.dmi'
+	Cave2/NewCaveWallNW2
+		icon = 'New cave wall NW2.dmi'
+
 obj/Bigrock
 	icon = 'Big rock.dmi'
 	density = 1
