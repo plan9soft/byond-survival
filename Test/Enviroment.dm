@@ -191,6 +191,43 @@ turf
 	Grass/GrasscliffSE
 		icon = 'Grass cliff SE.dmi'
 		density = 1
+
+	Brick/BrickFloor1
+		icon = 'Brick floor 1.dmi'
+	Brick/BrickFloor2
+		icon = 'Brick floor 2.dmi'
+	Brick/BrickWallC
+		icon = 'Brick wall C.dmi'
+		density = 1
+	Brick/BrickWallE
+		icon = 'Brick wall E.dmi'
+	Brick/BrickWallN
+		icon = 'Brick wall N.dmi'
+	Brick/BrickWallNE
+		icon = 'Brick wall NE.dmi'
+	Brick/BrickWallNE2
+		icon = 'Brick wall NE2.dmi'
+	Brick/BrickWallNW
+		icon = 'Brick wall NW.dmi'
+	Brick/BrickWallNW2
+		icon = 'Brick wall NW2.dmi'
+	Brick/BrickWallS
+		icon = 'Brick wall S.dmi'
+	Brick/BrickWallSE
+		icon = 'Brick wall SE.dmi'
+	Brick/BrickWallSE2
+		icon = 'Brick wall SE2.dmi'
+	Brick/BrickWallW
+		icon = 'Brick wall W.dmi'
+	Brick/BrickWallSW
+		icon = 'Brick wall SW.dmi'
+	Brick/BrickWallSW2
+		icon = 'Brick wall SW2.dmi'
+	Filler
+		icon = 'Filler.dmi'
+		density = 1
+		opacity = 1
+
 obj/Bigrock
 	icon = 'Big rock.dmi'
 	density = 1

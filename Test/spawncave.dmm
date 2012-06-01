@@ -1,11 +1,11 @@
-"a" = (/turf/Cave/CaveWallN,/area)
-"b" = (/turf/Cave/CaveWallC,/area)
-"c" = (/turf/Cave/CaveWallS,/area)
-"d" = (/turf/Cave/CaveRimNW,/area)
-"e" = (/turf/Cave/CaveRimN,/area)
-"f" = (/turf/Cave/CaveRimNE,/area)
-"g" = (/turf/Cave/CavefloorC,/area)
-"h" = (/turf/Cave/CaveRimSE2,/area)
+"a" = (/turf/Filler,/area)
+"b" = (/turf/Cave/CaveWallN,/area)
+"c" = (/turf/Cave/CaveWallC,/area)
+"d" = (/turf/Cave/CaveWallS,/area)
+"e" = (/turf/Cave/CaveRimNW,/area)
+"f" = (/turf/Cave/CaveRimN,/area)
+"g" = (/turf/Cave/CaveRimNE,/area)
+"h" = (/turf/Cave/CavefloorC,/area)
 "i" = (/turf/Cave/CaveRimS,/area)
 "j" = (/turf/Cave/CaveRimW,/area)
 "k" = (/turf/Cave/CaveRimE,/area)
@@ -17,38 +17,39 @@
 "q" = (/turf/Cave/CaveWallNE,/area)
 "r" = (/turf/Cave/CaveRimSW,/area)
 "s" = (/turf/Cave/CaveRimSW2,/area)
-"t" = (/turf/Cave/CaveRimSE,/area)
-"u" = (/turf/Cave/CavefloorE2,/area)
-"v" = (/turf/Cave/CaveWallW,/area)
-"w" = (/turf/Cave/CaveWallTop,/area)
-"x" = (/turf/Cave/CaveWallSW,/area)
-"y" = (/turf/Cave/CaveWallMid,/area)
-"z" = (/turf/Bush3,/area)
-"A" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
-"B" = (/turf/Cave/CaveWallBot,/area)
-"C" = (/mob/Enemies/skele_archer,/turf/Cave/CavefloorC,/area)
-"D" = (/turf/Cave/CaveRimNW2,/area)
-"E" = (/turf/Cave/CaveRimNE2,/area)
-"F" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
-"G" = (/obj/Pushable_Boulder,/turf/Cave/CaveRimS,/area)
+"t" = (/turf/Cave/CaveRimSE2,/area)
+"u" = (/turf/Cave/CaveRimSE,/area)
+"v" = (/turf/Cave/CavefloorE2,/area)
+"w" = (/turf/Cave/CaveWallW,/area)
+"x" = (/turf/Cave/CaveWallTop,/area)
+"y" = (/turf/Cave/CaveWallSW,/area)
+"z" = (/turf/Cave/CaveWallMid,/area)
+"A" = (/turf/Bush3,/area)
+"B" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
+"C" = (/turf/Cave/CaveWallBot,/area)
+"D" = (/mob/Enemies/skele_archer,/turf/Cave/CavefloorC,/area)
+"E" = (/turf/Cave/CaveRimNW2,/area)
+"F" = (/turf/Cave/CaveRimNE2,/area)
+"G" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
+"H" = (/obj/Pushable_Boulder,/turf/Cave/CaveRimS,/area)
 
 (1,1,1) = {"
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-bbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccc
-bbdeeeeeefbgggggggghiiiiigggggggggggggggggggggggggggggg
-bbjggggggkbggggggggkbbbbbgggggggggggggggggggggggggggggg
-bbjglggggkbggggggggkbbbbmgggggggggggggggggggggggggggggg
-bbjgggnggkbgggggggghccccopqgggggggggggggggggggggggggggg
-bbrisgghitbuuuuuupaqgggggvmgggggggggggggggggggggggggggg
-bbbbjggkbbbuuuuggvbmgnwggxogggggggggggggggggggggggggggg
-bbbbjggkbbbuuuupqxcongygngzgggggggggggggggggggggggggggg
-bbbbjggkbbbpaatvmAggngBnCnzzzzzzggggggggggggggggggggggg
-bbdeDegEefbvbbmxoggggCAgnFggggggggggggggggggggggggggggg
-bbjggggggEexccogggnAAAAgggggggggggggggggggggggggggggggg
-bdDggggggggggggggwgngggnggzzzgggggggggggggggggggggggggg
-brisgggggggggggggygggFgghzzbzzzgggggggggggggggggggggggg
-bbbrisgggggggggggBnggghitbbbbbzzzgggggggggggggggggggggg
-bbbbbrisgggggggghiGiiitbbbbbbbbbzgggggggggggggggggggggg
-bbbbbbbriiiiiiiitbbbbbbbbbbbbbbbbgggggggggggggggggggggg
+aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaaaaaaaaaacccccccccccccccccccccccccccccccc
+accccccccccaaaaaaaaaaaadddddddddddddddddddddddddddddddd
+aceffffffgcaahhhhhhaiiiiihhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acjhhhhhhkcaahhhhhhaccccchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acjhlhhhhkcaahhhhhhaccccmhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acjhhhnhhkcaahhhhhhaddddopqhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acrishhtiucaavaaaaaahhhhhwmhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acccjhhkcccaaaaaawcmhnxhhyohhhhhhhhhhhhhhhhhhhhhhhhhhhh
+aaacjhhkcacaaaaaaydonhzhnhAhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acccjhhkcccaaaawmBhhnhCnDnAAAAAAhhhhhhhhhhhhhhhhhhhhhhh
+acefEfhFfgcwccmyohhhhDBhnGhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+acjhhhhhhFfyddohhhnBBBBhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ceEhhhhhhhhhhhhhhxhnhhhnhhAAAhhhhhhhhhhhhhhhhhhhhhhhhhh
+crishhhhhhhhhhhhhzhhhGhhtAAcAAAhhhhhhhhhhhhhhhhhhhhhhhh
+cccrishhhhhhhhhhhCnhhhtiuccaccAAAhhhhhhhhhhhhhhhhhhhhhh
+aaaccrishhhhhhhhtiHiiiucccaaacccAhhhhhhhhhhhhhhhhhhhhhh
+aaaccccriiiiiiiiucccccccaaaaaaaachhhhhhhhhhhhhhhhhhhhhh
 "}

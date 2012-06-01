@@ -7,7 +7,6 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "backup"
 #define FILE_DIR "gfx"
 #define FILE_DIR "Items"
 #define FILE_DIR "Items/Clothes"
@@ -20,6 +19,7 @@
 #define FILE_DIR "sfx"
 #define FILE_DIR "sprites"
 #define FILE_DIR "turf"
+#define FILE_DIR "turf/Brick"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
