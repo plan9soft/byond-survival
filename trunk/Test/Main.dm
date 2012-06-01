@@ -18,13 +18,19 @@ mob
 		stat("Health:","[src.HP]/[src.MaxHP]")
 		stat("Strength:","[src.Str]")
 		stat("Defense:","[src.Def]")
-		statpanel("Inventory",contents) //creates inventory panel
+		//statpanel("Inventory",contents) //creates inventory panel
 
 	Player //defines player info
 		icon='knight.dmi'
 		icon_state="Player"
 		Bodtype="Hero"
 		AttackRate=5
+
+	Entered(atom/movable/thing) // Something has been added to my contents (inventory), so update my inventory display.
+		UpdateInventory()
+
+	Exited(atom/movable/thing) // Something has been removed from my contents (inventory), so update my inventory display.
+		UpdateInventory()
 
 area //defines areas
 	dark
