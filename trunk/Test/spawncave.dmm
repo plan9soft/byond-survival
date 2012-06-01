@@ -14,13 +14,13 @@
 "n" = (/turf/Cave2/NewCaveWallSE,/area)
 "o" = (/turf/Cave/CaveWallS,/area)
 "p" = (/turf/Start,/area)
-"q" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area)
-"r" = (/turf/Cave/CaveRimSW2,/area)
-"s" = (/turf/Cave2/Stairs1,/area)
-"t" = (/turf/Cave2/Stairs5,/area)
-"u" = (/turf/Cave2/Stairs4,/area)
-"v" = (/turf/Cave/CaveWallW,/area)
-"w" = (/turf/Cave2/Stairs2,/area)
+"q" = (/turf/Cave/CaveRimSW2,/area)
+"r" = (/turf/Cave2/Stairs1,/area)
+"s" = (/turf/Cave2/Stairs5,/area)
+"t" = (/turf/Cave2/Stairs4,/area)
+"u" = (/turf/Cave/CaveWallW,/area)
+"v" = (/turf/Cave2/Stairs2,/area)
+"w" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area)
 "x" = (/turf/Cave/CaveWallTop,/area)
 "y" = (/turf/Cave/CaveWallE,/area)
 "z" = (/turf/Cave2/Stairs3,/area)
@@ -40,16 +40,16 @@ jjjjjjjjjbcbhhhhhhhhhhhmjnbhhhhhhhhhhhhjjnooooooooooooo
 hhhhhhhhhbcbhhhhhhhhhhhhhhbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 hhhhhhhhhbcbhhhhhhhcefffgbbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 hhhhphhhhbcbhhhhhhhckaaalbbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhqbhbcbhhhhhhhcmjjjneefrhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhcstuefegbhhhhcefghhhhhvvdefrhhhhhhhhhhhhhhhhhhhhhhhh
-fffgwttvavlbhhhhckalhqxhhmvdvdeffhhhhhhhhhhhhhhhhhhhhhh
-aayltzsvavlbhhcegmjnqhAhqhvdvdvddhhhhhhhhhhhhhhhhhhhhhh
-aayntstmjkleffgklBhhqhCqDqmjvdvddhhhhhhhhhhhhhhhhhhhhhh
-aanhhhhhhmnkaalmnhhhhDBhqEhhmjvddhhhhhhhhhhhhhhhhhhhhhh
-abhhhhhhhhhmjjnhhhqBBBBhhhhhhhmjjhhhhhhhhhhhhhhhhhhhhhh
-abhhhhhhhhhhhhhhhxhqhhhqhhFfrhhhhhhhhhhhhhhhhhhhhhhhhhh
-aeGrhhhhhhhhhhhhhAhhhEhhFfgaefrhhhhhhhhhhhhhhhhhhhhhhhh
-akaeGrhhhhhhhhhhhCqhhhFfgalakaefrhhhhhhhhhhhhhhhhhhhhhh
-HvavaeGrhhhhhhhhhFefffgalayavakaehhhhhhhhhhhhhhhhhhhhhh
-HkakakaefffffffffgkaaalayalHkavakhhhhhhhhhhhhhhhhhhhhhh
+hhhhhhhbhbcbhhhhhhhcmjjjneefqhhhhhhhhhhhhhhhhhhhhhhhhhh
+hhhcrstefegbhhhhcefghhhhhuudefqhhhhhhhhhhhhhhhhhhhhhhhh
+fffgvssuaulbhhhhckalhwxhhmududeffhhhhhhhhhhhhhhhhhhhhhh
+aaylszruaulbhhcegmjnwhAhwhudududdhhhhhhhhhhhhhhhhhhhhhh
+aaynsrsmjkleffgklBhhwhCwDwmjududdhhhhhhhhhhhhhhhhhhhhhh
+aanhhhhhhmnkaalmnhhhhDBhwEhhmjuddhhhhhhhhhhhhhhhhhhhhhh
+abhhhhhhhhhmjjnhhhwBBBBhhhhhhhmjjhhhhhhhhhhhhhhhhhhhhhh
+abhhhhhhhhhhhhhhhxhwhhhwhhFfqhhhhhhhhhhhhhhhhhhhhhhhhhh
+aeGqhhhhhhhhhhhhhAhhhEhhFfgaefqhhhhhhhhhhhhhhhhhhhhhhhh
+akaeGqhhhhhhhhhhhCwhhhFfgalakaefqhhhhhhhhhhhhhhhhhhhhhh
+HuauaeGqhhhhhhhhhFefffgalayauakaehhhhhhhhhhhhhhhhhhhhhh
+HkakakaefffffffffgkaaalayalHkauakhhhhhhhhhhhhhhhhhhhhhh
 "}

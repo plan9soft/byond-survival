@@ -22,3 +22,9 @@ obj
 			maxrange=20
 			damage=2
 			mob/owner //The mob who fired the projectile
+
+//Variables for Turf
+turf
+	var
+		CantEnterFrom //Illegal entry direction
+		CantExitFrom //Illegal exit direction
