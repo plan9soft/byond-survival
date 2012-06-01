@@ -35,3 +35,7 @@ mob
 area //defines areas
 	dark
 		luminosity = 0
+
+	outside
+
+	inside
