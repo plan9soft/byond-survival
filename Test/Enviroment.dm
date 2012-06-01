@@ -1,3 +1,25 @@
+//Directional Density.
+//Lets us walk some directions on tiles, but not others
+
+turf
+	Enter(atom/movable/O)
+		if(get_dir(src,O) == src.CantEnterFrom)
+			return 0
+		else
+			return 1
+
+	Exit(atom/movable/O)
+		if(get_dir(src,O) == src.CantExitFrom)
+			return 0
+		else
+			return 1
+
+turf
+	var
+		CantEnterFrom
+		CantExitFrom
+
+//Turf Defenitions
 turf
 
 	Start
@@ -237,10 +259,12 @@ turf
 		icon = 'New cave wall SE.dmi'
 	Cave2/NewCaveWallW
 		icon = 'New cave wall W.dmi'
+		CantExitFrom = WEST
 	Cave2/NewCaveWallC
 		icon = 'New cave wall C.dmi'
 	Cave2/NewCaveWallE
 		icon = 'New cave wall E.dmi'
+		CantExitFrom = EAST
 	Cave2/NewCaveWallN
 		icon = 'New cave wall N.dmi'
 	Cave2/NewCaveWallNE
@@ -249,10 +273,13 @@ turf
 		icon = 'New cave wall NW.dmi'
 	Cave2/NewCaveWallRimW
 		icon = 'New cave wall rim W.dmi'
+		CantExitFrom = WEST
 	Cave2/NewCaveWallRimE
 		icon = 'New cave wall rim E.dmi'
+		CantExitFrom = EAST
 	Cave2/NewCaveWallN2
 		icon = 'New cave wall N2.dmi'
+		CantExitFrom = NORTH
 	Cave2/NewCaveWallNE2
 		icon = 'New cave wall NE2.dmi'
 	Cave2/NewCaveWallNW2
