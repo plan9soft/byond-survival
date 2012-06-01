@@ -7,6 +7,7 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "backup"
 #define FILE_DIR "gfx"
 #define FILE_DIR "Items"
 #define FILE_DIR "Items/Clothes"
@@ -30,7 +31,6 @@
 #include "Main.dm"
 #include "objects.dm"
 #include "procs.dm"
-#include "rewrite.dm"
 #include "save.dm"
 #include "Sliding Trap.dm"
 #include "vars.dm"
