@@ -81,12 +81,8 @@ obj //Object Specific Procs
 			del src
 
 	lightsource //Create a new class of objects, "lightsource". For things like wall lanterns, etc.
-		var //lightsource specific variables.
-			lit //1=Lit 0=Not lit
 
 	food //create a new class of objects, "food". for things like berries, ect
-		var
-			healing //determine the amount of healing to be done
 
 		proc  //proc to make food heal when eaten
 			Eat()
