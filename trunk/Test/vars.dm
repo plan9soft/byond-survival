@@ -9,6 +9,8 @@ mob
 		AttackRate=6 //1/10ths of seconds between attacks.
 		AttackDelay //Used to determine when mob can next attack. Leave undefined!
 		AI="Zombie" //The AI that this mob will use.
+		CantExitFrom
+		CantEnterFrom
 
 //Variables for Objects.
 obj
