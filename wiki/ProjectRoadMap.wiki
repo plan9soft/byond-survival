@@ -26,7 +26,7 @@ _Alpha 2 is the remaining engine work needed to get started on the first dungeon
 
 == Dungeon 1 ==
 ----
-_Dungeon 1 is the first gameplay milestone._
+_Dungeon 1 is the first gameplay milestone.  See [https://code.google.com/p/byond-survival/issues/list?can=2&q=Milestone%3DDungeon1+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Dungeon 1 Milestone]_
 
 === Engine ===
  * Boulder Push mechanic - Partially Complete (pending Bracelets mechanic)
