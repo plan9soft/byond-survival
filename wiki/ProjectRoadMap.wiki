@@ -31,6 +31,8 @@ _Dungeon 1 is the first gameplay milestone.  See [https://code.google.com/p/byon
 === Engine ===
  * Boulder Push mechanic - Partially Complete (pending Bracelets mechanic)
  * Way to increase health (heart pieces)
+ * Treasure Chests
+ * Locked doors and keys
 
 === Mobs ===
  * Zombie - Complete
