@@ -1,55 +1,39 @@
-"a" = (/turf/Cave/CaveWallC,/area)
-"b" = (/turf/Cave2/NewCaveWallRimW,/area)
-"c" = (/turf/Cave2/NewCaveWallRimE,/area)
-"d" = (/turf/Cave2/NewCaveWallC,/area)
-"e" = (/turf/Cave2/NewCaveWallNW,/area)
-"f" = (/turf/Cave2/NewCaveWallN,/area)
-"g" = (/turf/Cave2/NewCaveWallNE,/area)
-"h" = (/turf/Cave/CavefloorC,/area)
-"i" = (/turf/Cave/CaveWallN,/area)
-"j" = (/turf/Cave2/NewCaveWallS,/area)
-"k" = (/turf/Cave2/NewCaveWallW,/area)
-"l" = (/turf/Cave2/NewCaveWallE,/area)
-"m" = (/turf/Cave2/NewCaveWallSW,/area)
-"n" = (/turf/Cave2/NewCaveWallSE,/area)
-"o" = (/turf/Cave/CaveWallS,/area)
-"p" = (/turf/Start,/area)
-"q" = (/turf/Cave/CaveRimSW2,/area)
-"r" = (/turf/Cave2/Stairs1,/area)
-"s" = (/turf/Cave2/Stairs5,/area)
-"t" = (/turf/Cave2/Stairs4,/area)
-"u" = (/turf/Cave/CaveWallW,/area)
-"v" = (/turf/Cave2/Stairs2,/area)
-"w" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area)
-"x" = (/turf/Cave/CaveWallTop,/area)
-"y" = (/turf/Cave/CaveWallE,/area)
-"z" = (/turf/Cave2/Stairs3,/area)
-"A" = (/turf/Cave/CaveWallMid,/area)
-"B" = (/obj/Bigrock,/turf/Cave/CavefloorC,/area)
-"C" = (/turf/Cave/CaveWallBot,/area)
-"D" = (/mob/Enemies/skele_archer,/turf/Cave/CavefloorC,/area)
-"E" = (/mob/Enemies/zombie_guy,/turf/Cave/CavefloorC,/area)
-"F" = (/turf/Cave/CaveRimSE2,/area)
-"G" = (/turf/Cave/CaveRimS,/area)
-"H" = (/turf/Filler,/area)
+"a" = (/turf/Cave/CavefloorC,/area/outside)
+"b" = (/obj/food/Berry,/turf/Cave/CavefloorC,/area/outside)
+"c" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area/outside)
+"d" = (/obj/food/Acorns,/turf/Cave/CavefloorC,/area/outside)
+"e" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNW,/area/outside)
+"f" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimN,/area/outside)
+"g" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNE,/area/outside)
+"h" = (/turf/Cave/CaveWallRimW,/area/outside)
+"i" = (/turf/Cave/CaveWallRimE,/area/outside)
+"j" = (/turf/Cave/CaveWallNW,/area/outside)
+"k" = (/turf/Cave/CaveWallN,/area/outside)
+"l" = (/turf/Cave/CaveWallNE,/area/outside)
+"m" = (/turf/Cave/CaveWallW,/area/outside)
+"n" = (/turf/Cave/CaveWallC,/area/outside)
+"o" = (/turf/Cave/CaveWallE,/area/outside)
+"p" = (/turf/Cave/CaveWallSW,/area/outside)
+"q" = (/turf/Cave/CaveWallS,/area/outside)
+"r" = (/turf/Cave/CaveWallSE,/area/outside)
 
 (1,1,1) = {"
-aaaaaaaaabcbdddddddddddefgbhhhhhhhhhhhhffgiiiiiiiiiiiii
-aaaaaaaaabcbjjjjjjjjjjjkalbhhhhhhhhhhhhaalaaaaaaaaaaaaa
-jjjjjjjjjbcbhhhhhhhhhhhmjnbhhhhhhhhhhhhjjnooooooooooooo
-hhhhhhhhhbcbhhhhhhhhhhhhhhbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhbcbhhhhhhhcefffgbbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhphhhhbcbhhhhhhhckaaalbbhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhbhbcbhhhhhhhcmjjjneefqhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhcrstefegbhhhhcefghhhhhuudefqhhhhhhhhhhhhhhhhhhhhhhhh
-fffgvssuaulbhhhhckalhwxhhmududeffhhhhhhhhhhhhhhhhhhhhhh
-aaylszruaulbhhcegmjnwhAhwhudududdhhhhhhhhhhhhhhhhhhhhhh
-aaynsrsmjkleffgklBhhwhCwDwmjududdhhhhhhhhhhhhhhhhhhhhhh
-aanhhhhhhmnkaalmnhhhhDBhwEhhmjuddhhhhhhhhhhhhhhhhhhhhhh
-abhhhhhhhhhmjjnhhhwBBBBhhhhhhhmjjhhhhhhhhhhhhhhhhhhhhhh
-abhhhhhhhhhhhhhhhxhwhhhwhhFfqhhhhhhhhhhhhhhhhhhhhhhhhhh
-aeGqhhhhhhhhhhhhhAhhhEhhFfgaefqhhhhhhhhhhhhhhhhhhhhhhhh
-akaeGqhhhhhhhhhhhCwhhhFfgalakaefqhhhhhhhhhhhhhhhhhhhhhh
-HuauaeGqhhhhhhhhhFefffgalayauakaehhhhhhhhhhhhhhhhhhhhhh
-HkakakaefffffffffgkaaalayalHkauakhhhhhhhhhhhhhhhhhhhhhh
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+acaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaacaaaaaaaaaaaaaaaaaaaaaaa
+aaefgaaabaaaaaaaaaaaaaaaaaaaaaaaaaa
+aahaiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aajklaaaadaaaaaaaaaaaaaaaaaaaaaaaaa
+aamnoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aapqraaacaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}

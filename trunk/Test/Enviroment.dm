@@ -2,13 +2,16 @@
 //Lets us walk some directions on tiles, but not others
 
 turf
-	/*Enter(atom/movable/O) //Runs when we TRY and enter a new tile
-		var/turf/CurrentTile = O.loc
-		//If we're trying to enter or exit from an illegal direction
-		if(get_dir(O,src) == src.CantEnterFrom || O.dir == CurrentTile.CantExitFrom)
-			return 0 //Then kill the movement.
+	Enter(var/atom/movable/O) //Runs when we TRY and enter a new tile
+		if(src.density==1) //If density is 1, don't even try moving on
+			return 0
 		else
-			return 1*/
+			var/turf/CurrentTile = O.loc
+			//If we're trying to enter or exit from an illegal direction
+			if(O.dir == src.CantEnterFrom || O.dir == CurrentTile.CantExitFrom)
+				return 0 //Then kill the movement.
+			else
+				return 1
 
 //Turf Defenitions
 //When you add turf, PLEASE add illegal entry and exit locations
@@ -104,82 +107,61 @@ turf
 		icon = 'Grass flower 1.dmi'
 	Grassflower2
 		icon = 'Grass flower 2.dmi'
-	Cave/CavefloorW
-		icon = 'Cave floor W.dmi'
+
 	Cave/CavefloorC
 		icon = 'Cave floor C.dmi'
 	Cave/ImpassibleFloor
 		icon = 'Cave floor C.dmi'
 		density = 1
-	Cave/CavefloorE
-		icon = 'Cave floor E.dmi'
-	Cave/CavefloorW2
-		icon = 'Cave floor W2.dmi'
-	Cave/CavefloorC2
-		icon = 'Cave floor C2.dmi'
-	Cave/CavefloorE2
-		icon = 'Cave floor E2.dmi'
+	Cave/CaveWallS
+		icon = 'cave wall S.dmi'
+	Cave/CaveWallSW
+		icon = 'cave wall SW.dmi'
+	Cave/CaveWallSE
+		icon = 'cave wall SE.dmi'
 	Cave/CaveWallW
-		icon = 'Cave wall W.dmi'
+		icon = 'cave wall W.dmi'
 		density = 1
 	Cave/CaveWallC
-		icon = 'Cave wall C.dmi'
+		icon = 'cave wall C.dmi'
 		density = 1
 	Cave/CaveWallE
-		icon = 'Cave wall E.dmi'
-		density = 1
-	Cave/CaveWallSW
-		icon = 'Cave wall SW.dmi'
-		density = 1
-	Cave/CaveWallS
-		icon = 'Cave wall S.dmi'
-		density = 1
-	Cave/CaveWallSE
-		icon = 'Cave wall SE.dmi'
-		density = 1
-	Cave/CaveWallNE
-		icon = 'Cave wall NE.dmi'
+		icon = 'cave wall E.dmi'
 		density = 1
 	Cave/CaveWallN
-		icon = 'Cave wall N.dmi'
-		density = 1
+		icon = 'cave wall N.dmi'
+	Cave/CaveWallNE
+		icon = 'cave wall NE.dmi'
 	Cave/CaveWallNW
-		icon = 'Cave wall NW.dmi'
-		density = 1
-	Cave/CaveWallTop
-		icon = 'Cave wall top.dmi'
-		density = 1
-	Cave/CaveWallMid
-		icon = 'Cave wall middle.dmi'
-		density = 1
-	Cave/CaveWallBot
-		icon = 'Cave wall bottom.dmi'
-		density = 1
-
-	Cave/CaveRimN
-		icon = 'Cave wall rim N.dmi'
-	Cave/CaveRimE
-		icon = 'Cave wall rim E.dmi'
-	Cave/CaveRimSW
-		icon = 'Cave wall rim SW.dmi'
-	Cave/CaveRimS
-		icon = 'Cave wall rim S.dmi'
-	Cave/CaveRimSE
-		icon = 'Cave wall rim SE.dmi'
-	Cave/CaveRimNE
-		icon = 'Cave wall rim NE.dmi'
-	Cave/CaveRimW
-		icon = 'Cave wall rim W.dmi'
-	Cave/CaveRimNW
-		icon = 'Cave wall rim NW.dmi'
-	Cave/CaveRimSW2
-		icon = 'Cave wall rim SW2.dmi'
-	Cave/CaveRimSE2
-		icon = 'Cave wall rim SE2.dmi'
-	Cave/CaveRimNW2
-		icon = 'Cave wall rim NW2.dmi'
-	Cave/CaveRimNE2
-		icon = 'Cave wall rim NE2.dmi'
+		icon = 'cave wall NW.dmi'
+		CantEnterFrom = NORTH
+		CantExitFrom = SOUTH
+	Cave/CaveWallRimW
+		icon = 'cave wall rim W.dmi'
+		CantEnterFrom = EAST
+		CantExitFrom = WEST
+	Cave/CaveWallRimE
+		icon = 'cave wall rim E.dmi'
+	Cave/CaveWallRimN
+		icon = 'cave wall N2.dmi'
+		CantEnterFrom = SOUTH
+		CantExitFrom = NORTH
+	Cave/CaveWallRimNE
+		icon = 'cave wall NE2.dmi'
+		//Needs Dir Density
+	Cave/CaveWallRimNW
+		icon = 'cave wall NW2.dmi'
+		//Needs Dir Density
+	Cave/Stairs1
+		icon = 'Stairs1.dmi'
+	Cave/Stairs2
+		icon = 'Stairs2.dmi'
+	Cave/Stairs3
+		icon = 'Stairs3.dmi'
+	Cave/Stairs4
+		icon = 'Stairs4.dmi'
+	Cave/Stairs5
+		icon = 'Stairs5.dmi'
 
 	Grass/GrasscliffNW
 		icon = 'Grass cliff NW.dmi'
@@ -245,48 +227,6 @@ turf
 		icon = 'Filler.dmi'
 		density = 1
 		opacity = 1
-
-	Cave2/NewCaveWallS
-		icon = 'New cave wall S.dmi'
-	Cave2/NewCaveWallSW
-		icon = 'New cave wall SW.dmi'
-	Cave2/NewCaveWallSE
-		icon = 'New cave wall SE.dmi'
-	Cave2/NewCaveWallW
-		icon = 'New cave wall W.dmi'
-	Cave2/NewCaveWallC
-		icon = 'New cave wall C.dmi'
-	Cave2/NewCaveWallE
-		icon = 'New cave wall E.dmi'
-	Cave2/NewCaveWallN
-		icon = 'New cave wall N.dmi'
-	Cave2/NewCaveWallNE
-		icon = 'New cave wall NE.dmi'
-	Cave2/NewCaveWallNW
-		icon = 'New cave wall NW.dmi'
-	Cave2/NewCaveWallRimW
-		icon = 'New cave wall rim W.dmi'
-		CantEnterFrom = EAST
-		CantExitFrom = WEST
-	Cave2/NewCaveWallRimE
-		icon = 'New cave wall rim E.dmi'
-	Cave2/NewCaveWallN2
-		icon = 'New cave wall N2.dmi'
-	Cave2/NewCaveWallNE2
-		icon = 'New cave wall NE2.dmi'
-	Cave2/NewCaveWallNW2
-		icon = 'New cave wall NW2.dmi'
-
-	Cave2/Stairs1
-		icon = 'Stairs1.dmi'
-	Cave2/Stairs2
-		icon = 'Stairs2.dmi'
-	Cave2/Stairs3
-		icon = 'Stairs3.dmi'
-	Cave2/Stairs4
-		icon = 'Stairs4.dmi'
-	Cave2/Stairs5
-		icon = 'Stairs5.dmi'
 
 
 obj/Bigrock
