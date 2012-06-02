@@ -9,8 +9,6 @@ mob
 		AttackRate=6 //1/10ths of seconds between attacks.
 		AttackDelay //Used to determine when mob can next attack. Leave undefined!
 		AI //The AI that this mob will use.
-		CantExitFrom
-		CantEnterFrom
 
 //Variables for Objects.
 obj
@@ -33,8 +31,10 @@ obj
 		var //food specific variables/
 			healing //determine the amount of healing to be done
 
-//Variables for Turf
-turf
+//These variables are used in the directional density system.
+atom
 	var
-		CantEnterFrom //Illegal entry direction
-		CantExitFrom //Illegal exit direction
+		BlockedEntry1
+		BlockedEntry2
+		BlockedExit1
+		BlockedExit2

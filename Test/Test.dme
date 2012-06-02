@@ -37,5 +37,5 @@
 #include "vars.dm"
 #include "verbs.dm"
 #include "Interface.dmf"
-#include "alphamap.dmm"
+#include "spawncave.dmm"
 // END_INCLUDE

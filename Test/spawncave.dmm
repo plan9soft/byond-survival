@@ -1,21 +1,27 @@
 "a" = (/turf/Cave/CavefloorC,/area/outside)
 "b" = (/obj/food/Berry,/turf/Cave/CavefloorC,/area/outside)
 "c" = (/obj/Pushable_Boulder,/turf/Cave/CavefloorC,/area/outside)
-"d" = (/obj/food/Acorns,/turf/Cave/CavefloorC,/area/outside)
-"e" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNW,/area/outside)
-"f" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimN,/area/outside)
-"g" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNE,/area/outside)
-"h" = (/turf/Cave/CaveWallRimW,/area/outside)
-"i" = (/turf/Cave/CaveWallRimE,/area/outside)
-"j" = (/turf/Cave/CaveWallNW,/area/outside)
-"k" = (/turf/Cave/CaveWallN,/area/outside)
-"l" = (/turf/Cave/CaveWallNE,/area/outside)
-"m" = (/turf/Cave/CaveWallW,/area/outside)
-"n" = (/turf/Cave/CaveWallC,/area/outside)
-"o" = (/turf/Cave/CaveWallE,/area/outside)
-"p" = (/turf/Cave/CaveWallSW,/area/outside)
-"q" = (/turf/Cave/CaveWallS,/area/outside)
-"r" = (/turf/Cave/CaveWallSE,/area/outside)
+"d" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNW,/area/outside)
+"e" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimN,/area/outside)
+"f" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNE,/turf/Cave/CaveWallRimN,/area/outside)
+"g" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNW,/turf/Cave/CaveWallRimN,/area/outside)
+"h" = (/turf/Cave/CavefloorC,/turf/Cave/CaveWallRimNE,/area/outside)
+"i" = (/turf/Cave/CaveWallRimW,/area/outside)
+"j" = (/turf/Cave/CaveWallRimE,/area/outside)
+"k" = (/turf/Cave/CaveWallNW,/area/outside)
+"l" = (/turf/Cave/CaveWallN,/area/outside)
+"m" = (/turf/Cave/CaveWallNE,/area/outside)
+"n" = (/turf/Cave/Stairs1,/area/outside)
+"o" = (/turf/Cave/Stairs2,/area/outside)
+"p" = (/turf/Cave/Stairs3,/area/outside)
+"q" = (/turf/Cave/CaveWallW,/area/outside)
+"r" = (/turf/Cave/CaveWallC,/area/outside)
+"s" = (/turf/Cave/CaveWallE,/area/outside)
+"t" = (/turf/Cave/Stairs4,/area/outside)
+"u" = (/turf/Cave/Stairs5,/area/outside)
+"v" = (/turf/Cave/CaveWallSW,/area/outside)
+"w" = (/turf/Cave/CaveWallS,/area/outside)
+"x" = (/turf/Cave/CaveWallSE,/area/outside)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -27,13 +33,13 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-acaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaa
+acaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaacaaaaaaaaaaaaaaaaaaaaaaa
-aaefgaaabaaaaaaaaaaaaaaaaaaaaaaaaaa
-aahaiaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aajklaaaadaaaaaaaaaaaaaaaaaaaaaaaaa
-aamnoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aapqraaacaaaaaaaaaaaaaaaaaaaaaaaaaa
+aadefeeegehcaaaaaaaaaaaaaaaaaaaaaaa
+aaiaaaaaaajaaaaaaaaaaaaaaaaaaaaaaaa
+aaklmnopklmaaaaaaaaaaaaaaaaaaaaaaaa
+aaqrsntuqrsaaaaaaaaaaaaaaaaaaaaaaaa
+aavwxpntvwxaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaacaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
