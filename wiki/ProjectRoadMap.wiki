@@ -16,7 +16,7 @@ _Alpha 2 is the remaining engine work needed to get started on the first dungeon
 === Engine ===
  * Directional Density - In progress - Ckromie
  * Inventory Screen
-  * Equipping items
+  * Equipping items - In progress - Shporang
     * Sword
     * Shield
     * Bracelet of Str +1 (Allows Boulder Push mechanic)
