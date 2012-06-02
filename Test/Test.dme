@@ -7,7 +7,6 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "backup"
 #define FILE_DIR "gfx"
 #define FILE_DIR "Items"
 #define FILE_DIR "Items/Clothes"
@@ -28,7 +27,6 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "Day&Night and weather.dm"
 #include "enemies.dm"
 #include "Enviroment.dm"
 #include "Main.dm"
@@ -39,5 +37,5 @@
 #include "vars.dm"
 #include "verbs.dm"
 #include "Interface.dmf"
-#include "alphamap.dmm"
+#include "spawncave.dmm"
 // END_INCLUDE
