@@ -40,7 +40,7 @@ mob/Enemies/proc
 				if(get_dist(src,M)<=1) //If we're right next to our target, attack him
 					src.dir=get_dir(src,M)
 					src.Attack()
-				else if(get_dist(src,M)>=1 && get_dist(src,M)<=3)//If we're too close..
+				else if(get_dist(src,M)>=1 && get_dist(src,M)<=2.5)//If we're too close..
 					walk_away(src,M,6,0,4) //Step away from the hero!
 					sleep(4) //Pause
 					walk(src,0)//Stop moving

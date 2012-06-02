@@ -9,27 +9,11 @@ mob
 				if(e.pickup==1) // Check if the target can be picked up.
 					e.Get() //Pick up the object
 
-		Attack() //The Attack action
-			if(src.AttackDelay<world.time) //First, we check the clock to see if we can attack again.
-				flick("Attack",src)
-				src.AttackDelay=world.time+AttackRate //Add AttackRate to the current time, we can't attack again till that is past.
-				for(var/mob/M in get_step(src,src.dir))
-					if(src!=M)//Make sure the src isn't attacking itself.
-						var/Damage=max(0,src.Str-M.Def)
-						M.TakeDamage(Damage,src)
-
 		OOC_chat(t as text) //Out of Character chat
 			world<<"<b>[src]:</b> [t]"
 
 		Say(t as text) //In Character chat
 			view() <<"[src] says: [t]"
-
-		Shoot() //Ranged Attack verb
-			if(src.AttackDelay<world.time) //First, we check the clock to see if we can attack again.
-				flick("Attack",src)
-				src.AttackDelay=world.time+AttackRate //Add AttackRate to the current time, we can't attack again till that is past.
-				var/obj/projectile/Arrow/P = new(null,usr)
-				walk(P,P.dir,0)
 
 		Set_name(N as text) //change name command
 			set desc = "(\"new name\") Change your name."
