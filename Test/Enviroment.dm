@@ -1,5 +1,11 @@
 //Directional Density.
 //Lets us walk some directions on tiles, but not others
+//
+// See this thread for more details
+// http://www.byond.com/forum/?post=791175
+//
+// The system uses bitflags. See this for more details
+//http://files.byondhome.com/UnknownPerson/bitflags.html
 
 turf
 	Enter(var/atom/movable/O) //Runs when we TRY and enter a new tile
@@ -8,11 +14,10 @@ turf
 		else
 			var/turf/CurrentTile = O.loc
 			//If we're trying to enter from an illegal direction
-			if(O.dir == src.BlockedEntry1 || O.dir == src.BlockedEntry2)
+			if(O.dir & src.BlockedEntry || O.dir & CurrentTile.BlockedExit)
 				return 0 //Then kill the movement.
-			else if(O.dir == CurrentTile.BlockedExit1 || O.dir == CurrentTile.BlockedExit2)
-				return 0 //Then kill the movement.
-			return 1
+			else
+				return 1
 
 //Turf Defenitions
 //When you add turf, PLEASE add illegal entry and exit locations
@@ -134,44 +139,36 @@ turf
 		density = 1
 	Cave/CaveWallN
 		icon = 'cave wall N.dmi'
-		BlockedEntry1 = NORTH
-		BlockedExit1 = SOUTH
+		BlockedEntry = NORTH
+		BlockedExit = SOUTH
 	Cave/CaveWallNE
 		icon = 'cave wall NE.dmi'
-		BlockedEntry1 = WEST
-		BlockedExit1 = EAST
-		BlockedEntry2 = NORTH
-		BlockedExit2 = SOUTH
+		BlockedEntry = WEST | NORTH
+		BlockedExit = EAST | SOUTH
 	Cave/CaveWallNW
 		icon = 'cave wall NW.dmi'
-		BlockedEntry1 = NORTH
-		BlockedExit1 = SOUTH
-		BlockedEntry2 = EAST
-		BlockedExit2 = WEST
+		BlockedEntry = NORTH | EAST
+		BlockedExit = SOUTH | WEST
 	Cave/CaveWallRimW
 		icon = 'cave wall rim W.dmi'
-		BlockedEntry1 = EAST
-		BlockedExit1 = WEST
+		BlockedEntry = EAST
+		BlockedExit = WEST
 	Cave/CaveWallRimE
 		icon = 'cave wall rim E.dmi'
-		BlockedEntry1 = WEST
-		BlockedExit1 = EAST
+		BlockedEntry = WEST
+		BlockedExit = EAST
 	Cave/CaveWallRimN
 		icon = 'cave wall N2.dmi'
-		BlockedEntry1 = SOUTH
-		BlockedExit1 = NORTH
+		BlockedEntry = SOUTH
+		BlockedExit = NORTH
 	Cave/CaveWallRimNE
 		icon = 'cave wall NE2.dmi'
-		BlockedEntry1 = WEST
-		BlockedExit1 = EAST
-		BlockedEntry2 = SOUTH
-		BlockedExit2 = NORTH
+		BlockedEntry = WEST | SOUTH
+		BlockedExit = EAST | NORTH
 	Cave/CaveWallRimNW
 		icon = 'cave wall NW2.dmi'
-		BlockedEntry1 = EAST
-		BlockedExit1 = WEST
-		BlockedEntry2 = SOUTH
-		BlockedExit2 = NORTH
+		BlockedEntry = EAST | SOUTH
+		BlockedExit = WEST | NORTH
 	Cave/Stairs1
 		icon = 'Stairs1.dmi'
 	Cave/Stairs2

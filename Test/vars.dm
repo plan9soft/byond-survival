@@ -34,7 +34,6 @@ obj
 //These variables are used in the directional density system.
 atom
 	var
-		BlockedEntry1
-		BlockedEntry2
-		BlockedExit1
-		BlockedExit2
+		BlockedEntry = 0
+		BlockedExit = 0
+
