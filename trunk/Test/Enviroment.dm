@@ -12,9 +12,8 @@ turf
 		if(src.density==1) //If density is 1, don't even try moving on
 			return 0
 		else
-			var/turf/CurrentTile = O.loc
-			//If we're trying to enter from an illegal direction
-			if(O.dir & src.BlockedEntry || O.dir & CurrentTile.BlockedExit)
+			//If we're trying to enter/exit from an illegal direction
+			if(O.dir & src.BlockedEntry || O.dir & O.loc.BlockedExit)
 				return 0 //Then kill the movement.
 			else
 				return 1
