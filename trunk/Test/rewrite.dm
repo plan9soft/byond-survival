@@ -7,28 +7,35 @@ obj
 		lightsource
 
 	lightsource //lightsources
+		lightsource = 1 //declares item a lightsource
 		var //lightsource specific variables.
 			lit //1=Lit 0=Not lit
-		lightsource = 1 //declares item a lightsource
+			licon //lit icon
+			uicon //unlit icon
 
-		Torch //torch
-			icon = 'torchlit.dmi'
-			luminosity = 3
-			pickup = 1
-			wield = 1
-			lit = 1
-			verb //torch specific verbs !LEAVE HERE!
-				Use_Torch()
-					if (lit==1)
-						luminosity = 0
-						usr << "You extinguish the torch."
-						icon = 'torch_un.dmi'
-						lit = 0
-					else
-						luminosity = 3
-						usr << "You light the torch."
-						icon = 'torchlit.dmi'
-						lit = 1
+	proc
+		light()
+			if (src.lit==1)
+				usr.luminosity = 0
+				usr << "You extinguish the [src]."
+				src.icon = src.uicon
+				src.lit = 0
+			else
+				usr.luminosity = 3
+				usr << "You light the [src]."
+				src.icon = src.licon
+				src.lit = 1
+
+	Torch //torch
+		licon = Torch_Lit.dmi
+		uicon = Torch_Unlit.dmi
+		luminosity = 3
+		pickup = 1
+		wield = 1
+		lit = 1
+		verb //torch specific verbs !LEAVE HERE!
+			Use_Torch()
+				light()
 
 /*
 Need verbs named wield/unequip - verbs call procs which applies changes to usr.

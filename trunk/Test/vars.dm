@@ -24,8 +24,7 @@ obj
 			mob/owner //The mob who fired the projectile
 
 	lightsource
-		var //lightsource specific variables.
-			lit //1=Lit 0=Not lit
+
 
 	food
 		var //food specific variables/
