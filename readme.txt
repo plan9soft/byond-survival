@@ -9,7 +9,8 @@ W: Up
 A: Left
 S: Down
 D: Right
-Space: Attack (Hold space to attack at max speed.)
+Space: Attack (Hold Space to attack at max speed.)
+Q: Shoot (Hold Q to shoot at max speed.)
 E: Action
 
 Inventory:
