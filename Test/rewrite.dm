@@ -1,20 +1,41 @@
-mob
-	Entered(atom/movable/thing)
-		// Something has been added to my contents (inventory), so update my inventory display.
-		UpdateInventory()
+/*
+Attempting to make torches change usr luminocity when wielded.
+*/
+obj
+	var
+		wield = 0 //1=Yes, 0=No.
+		lightsource
 
-	Exited(atom/movable/thing)
-		// Something has been removed from my contents (inventory), so update my inventory display.
-		UpdateInventory()
+	lightsource //lightsources
+		var //lightsource specific variables.
+			lit //1=Lit 0=Not lit
+		lightsource = 1 //declares item a lightsource
 
-	proc
-		UpdateInventory()
-			var
-				item_count = 0
-			winset(src, "inventory", "current-cell=1,1")
-			src << output("Inventory\n(Right click an item for more options)", "inventory")
-			for(var/obj/O in src)
-				item_count++
-				winset(src, "inventory", "current-cell=1,[item_count+1]")
-				src << output(O, "inventory")
-			winset(src, "inventory", "cells=1x[item_count+1]")
+		Torch //torch
+			icon = 'torchlit.dmi'
+			luminosity = 3
+			pickup = 1
+			wield = 1
+			lit = 1
+			verb //torch specific verbs !LEAVE HERE!
+				Use_Torch()
+					if (lit==1)
+						luminosity = 0
+						usr << "You extinguish the torch."
+						icon = 'torch_un.dmi'
+						lit = 0
+					else
+						luminosity = 3
+						usr << "You light the torch."
+						icon = 'torchlit.dmi'
+						lit = 1
+
+/*
+Need verbs named wield/unequip - verbs call procs which applies changes to usr.
+verbs should apply to all obj that can be wielded (need var)
+*/
+	verb
+		Wield()
+			if(src.wield==1)
+				if(src.lightsource==1)
+					usr.luminosity = src.luminocity+1

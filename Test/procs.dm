@@ -82,7 +82,7 @@ obj //Object Specific Procs
 
 	lightsource //Create a new class of objects, "lightsource". For things like wall lanterns, etc.
 		var //lightsource specific variables.
-			torch_lit = 1 //1=Lit 0=Not lit
+			lit //1=Lit 0=Not lit
 
 	food //create a new class of objects, "food". for things like berries, ect
 		var

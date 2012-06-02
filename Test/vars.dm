@@ -8,7 +8,7 @@ mob
 		Bodtype //This is the mob's body type. The sound played when this mob is hit depends on their body type.
 		AttackRate=6 //1/10ths of seconds between attacks.
 		AttackDelay //Used to determine when mob can next attack. Leave undefined!
-		AI="Zombie" //The AI that this mob will use.
+		AI //The AI that this mob will use.
 		CantExitFrom
 		CantEnterFrom
 
