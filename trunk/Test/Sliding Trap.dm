@@ -31,7 +31,7 @@ obj/trap/proc
 	TrapAI()
 		StartLocation = src.loc //Save our starting location
 		sleep(20)
-		while(src)
+		while(src) //Should be able to make this more generic by using variables & pre-definig start & end points programatically.
 			if(src.loc==StartLocation)//If we're at our starting location
 				walk(src,NORTH,0,40)	//Check if there's a player to our N,S,E,W
 			sleep(5)
