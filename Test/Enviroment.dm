@@ -2,13 +2,13 @@
 //Lets us walk some directions on tiles, but not others
 
 turf
-	Enter(atom/movable/O) //Runs when we TRY and enter a new tile
+	/*Enter(atom/movable/O) //Runs when we TRY and enter a new tile
 		var/turf/CurrentTile = O.loc
 		//If we're trying to enter or exit from an illegal direction
 		if(get_dir(O,src) == src.CantEnterFrom || O.dir == CurrentTile.CantExitFrom)
 			return 0 //Then kill the movement.
 		else
-			return 1
+			return 1*/
 
 //Turf Defenitions
 //When you add turf, PLEASE add illegal entry and exit locations
