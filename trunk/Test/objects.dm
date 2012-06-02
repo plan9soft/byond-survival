@@ -1,4 +1,5 @@
-//Lists and defines all INTERACTABLE objects used in the game, and all Object specific procs
+//Lists and defines all INTERACTABLE objects, object specific procs
+//and object specific verbs.
 //Non-interactable objects are considered Turf and go in Enviroment.dm
 
 obj  //Interactable Objects
@@ -14,7 +15,7 @@ obj  //Interactable Objects
 
 	lightsource //lightsources
 		Torch //torch
-			icon = 'torchlit.dmi'
+			icon = 'Torch Lit.dmi'
 			luminosity = 3
 			lit = 1
 			pickup = 1
@@ -23,12 +24,12 @@ obj  //Interactable Objects
 					if (lit==1)
 						luminosity = 0
 						usr << "You extinguish the torch."
-						icon = 'torch_un.dmi'
+						icon = 'Torch Unlit.dmi'
 						lit = 0
 					else
 						luminosity = 3
 						usr << "You light the torch."
-						icon = 'torchlit.dmi'
+						icon = 'Torch Lit.dmi'
 						lit = 1
 
 	food //foods
