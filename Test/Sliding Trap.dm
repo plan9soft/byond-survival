@@ -19,11 +19,11 @@ obj
 				//O:TakeTrapDamage(src.damage,"A Trap")
 				walk_to(src,src.StartLocation,0,0,4)//Return to starting location.
 				O:HP-=src.damage
-				O.overlays += image('Overlay hit arrow.dmi')
+				O.overlays += image('Overlay hit.dmi')
 				world << sound('Impact - Metal.wav', volume=45)
 				O:DeathCheck(src)
 				sleep(2)
-				O.overlays -= image('Overlay hit arrow.dmi')
+				O.overlays -= image('Overlay hit.dmi')
 			walk_to(src,src.StartLocation,0,0,4)//Return to starting location.
 
 //Trap AI

@@ -13,25 +13,26 @@ obj  //Interactable Objects
 			icon = 'Arrow.dmi'
 			density = 1
 
-	lightsource //lightsources
+	lightsource
 		Torch //torch
-			icon = 'Torch Lit.dmi'
-			luminosity = 3
-			lit = 1
+			icon = 'Torch Unlit.dmi'
+			luminosity = 0
+			lit = 0
 			pickup = 1
 			verb //torch specific verbs !LEAVE HERE!
 				Use_Torch()
 					if (lit==1)
+						usr.luminosity = 0
 						luminosity = 0
 						usr << "You extinguish the torch."
 						icon = 'Torch Unlit.dmi'
 						lit = 0
 					else
+						usr.luminosity = 3
 						luminosity = 3
 						usr << "You light the torch."
 						icon = 'Torch Lit.dmi'
 						lit = 1
-
 	food //foods
 		Berry //berry
 			icon = 'Berrys.dmi'

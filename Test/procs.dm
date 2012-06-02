@@ -24,8 +24,6 @@ mob //mob related procs
 			winset(src, "inventory", "cells=1x[item_count+1]")
 
 obj //Object Specific Procs
-	lightsource //Create a new class of objects, "lightsource". For things like wall lanterns, etc.
-
 	food //create a new class of objects, "food". for things like berries, ect
 
 		proc  //proc to make food heal when eaten

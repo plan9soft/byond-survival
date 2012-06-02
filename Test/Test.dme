@@ -32,8 +32,10 @@
 #include "Combat_General.dm"
 #include "Combat_Melee.dm"
 #include "Combat_Ranged.dm"
+#include "Day&Night and weather.dm"
 #include "enemies.dm"
 #include "Enviroment.dm"
+#include "Lightsources.dm"
 #include "Main.dm"
 #include "objects.dm"
 #include "procs.dm"
@@ -42,5 +44,5 @@
 #include "vars.dm"
 #include "verbs.dm"
 #include "Interface.dmf"
-#include "spawncave.dmm"
+#include "alphamap.dmm"
 // END_INCLUDE
