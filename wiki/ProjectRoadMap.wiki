@@ -6,39 +6,39 @@
 == Alpha 1 ==
 _Alpha 1 is a bare-bones basic tech demo. See [https://code.google.com/p/byond-survival/issues/list?can=1&q=Milestone%3DAlpha1+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Alpha 1 Milestone]_
 
-* Completed
+ * Completed
 
 == Alpha 2 ==
 _Alpha 2 is the remaining engine work needed to get started on the first dungeon. See [https://code.google.com/p/byond-survival/issues/list?can=1&q=Milestone%3DAlpha2+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Alpha 2 Milestone]_
 
 === Engine ===
-* Directional Density - In progress - Ckromie
-* Inventory Screen
-** Equipping items
-* HUD elements
-* Dialog Boxes
-* Logon (make Char -> set name, choose avatar)
+ * Directional Density - In progress - Ckromie
+ * Inventory Screen
+  * Equipping items
+ * HUD elements
+ * Dialog Boxes
+ * Logon (make Char -> set name, choose avatar)
 
 == Dungeon 1 ==
 _Dungeon 1 is the first gameplay milestone._
 
 === Engine ===
-* Boulder Push mechanic - Complete
-* Way to increase health (heart pieces)
+ * Boulder Push mechanic - Complete
+ * Way to increase health (heart pieces)
 
 === Mobs ===
-* Zombie - Complete
-* Bat
-* Skeleton Archer - Complete
-* Slime
-* 1st Dungeon Boss Mob
+ * Zombie - Complete
+ * Bat
+ * Skeleton Archer - Complete
+ * Slime
+ * 1st Dungeon Boss Mob
 
 === Equipment ===
-* Sword
-* Shield
-* Bracelet of Str +1 (Allows Boulder Push mechanic)
+ * Sword
+ * Shield
+ * Bracelet of Str +1 (Allows Boulder Push mechanic)
 
 === Other ===
-* Sliding Traps - In progress - Ckromie
-* Bottomless Pit
+ * Sliding Traps - In progress - Ckromie
+ * Bottomless Pit
  
