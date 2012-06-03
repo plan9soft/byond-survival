@@ -14,9 +14,6 @@
 #define FILE_DIR "Items/Food"
 #define FILE_DIR "Items/Lights"
 #define FILE_DIR "Items/Tools"
-#define FILE_DIR "Items/Weapons"
-#define FILE_DIR "Items/Weapons/Melee"
-#define FILE_DIR "Items/Weapons/Ranged"
 #define FILE_DIR "objects"
 #define FILE_DIR "Plants"
 #define FILE_DIR "sfx"
@@ -24,6 +21,9 @@
 #define FILE_DIR "turf"
 #define FILE_DIR "turf/Brick"
 #define FILE_DIR "turf/Cave"
+#define FILE_DIR "Weapons"
+#define FILE_DIR "Weapons/Melee"
+#define FILE_DIR "Weapons/Ranged"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
@@ -41,6 +41,7 @@
 #include "Main.dm"
 #include "Movement.dm"
 #include "objects.dm"
+#include "rewrite.dm"
 #include "save.dm"
 #include "Sliding Trap.dm"
 #include "verbs.dm"
