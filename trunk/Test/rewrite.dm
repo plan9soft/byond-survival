@@ -1,10 +1,49 @@
+obj
+
+/*
+Need verbs named wield/unequip - verbs call procs which applies changes to usr.
+verbs should apply to all obj that can be wielded (need var)
+*/
+	weapon
+		verb
+			Wield_Weapon()
+				if(melee==1)
+					usr.Str=usr.Str+src.strength
+					usr<<"You equip a [src]."
+
+		var
+			strength
+			melee = 0
+
+		Sword
+			icon = 'SSwordinvo.dmi'
+			pickup = 1
+			melee = 1
+			strength = 2
+			density=1
+
+	armor
+		verb
+			Wield_Armor()
+				if(shield==1)
+					usr.Def=usr.Def+src.defense
+					usr<<"You equip a [src]."
+
+		var
+			defense
+			shield = 0
+
+		Wooden_Shield
+			icon = 'Wooden Shield.dmi'
+			pickup = 1
+			shield = 1
+			defense = 2
+			density = 1
+
 /*
 Attempting to make torches change usr luminocity when wielded.
-*/
-obj
 	var
-		wield = 0 //1=Yes, 0=No.
-		/*ghtsource
+		lightsource
 
 	lightsource //lightsources
 		lightsource = 1 //declares item a lightsource
@@ -35,28 +74,4 @@ obj
 		lit = 1
 		verb //torch specific verbs !LEAVE HERE!
 			Use_Torch()
-				light()
-
-/*
-Need verbs named wield/unequip - verbs call procs which applies changes to usr.
-verbs should apply to all obj that can be wielded (need var)
-*/
-	verb
-		Wield()
-			if(src.wield==1)
-				if(src.lightsource==1)
-					usr.luminosity = src.luminocity+1*/
-
-	weapon
-		Sword
-			icon = 'SSwordinvo.dmi'
-			pickup = 1
-			wield = 1
-			density=1
-
-	armor
-		Wooden_Shield
-			icon = 'Wooden Shield.dmi'
-			pickup = 1
-			wield = 1
-			density = 1
+				light()*/
