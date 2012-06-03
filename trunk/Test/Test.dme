@@ -15,6 +15,7 @@
 #define FILE_DIR "Items/Lights"
 #define FILE_DIR "Items/Tools"
 #define FILE_DIR "Items/Weapons"
+#define FILE_DIR "Items/Weapons/Melee"
 #define FILE_DIR "Items/Weapons/Ranged"
 #define FILE_DIR "objects"
 #define FILE_DIR "Plants"
