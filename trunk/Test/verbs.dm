@@ -26,7 +26,7 @@ mob
 				src<<"[M]"
 			src<<"<b>[counter] players online"
 
-obj //obj related verbs
+obj
 	verb
 		Get()
 			set src in oview(1) //You have to be standing next to it
