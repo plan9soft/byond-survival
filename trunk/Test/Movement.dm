@@ -1,3 +1,11 @@
+//We'll need a new movement system, as the default doesn't support
+//features we need. We'll have to impliment
+//Directional Density
+//Strafing
+//Diagonal movement
+//Knockback.
+
+
 //Directional Density.
 //Lets us walk some directions on tiles, but not others
 //
