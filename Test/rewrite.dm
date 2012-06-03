@@ -4,7 +4,7 @@ Attempting to make torches change usr luminocity when wielded.
 obj
 	var
 		wield = 0 //1=Yes, 0=No.
-		lightsource
+		/*ghtsource
 
 	lightsource //lightsources
 		lightsource = 1 //declares item a lightsource
@@ -45,4 +45,18 @@ verbs should apply to all obj that can be wielded (need var)
 		Wield()
 			if(src.wield==1)
 				if(src.lightsource==1)
-					usr.luminosity = src.luminocity+1
+					usr.luminosity = src.luminocity+1*/
+
+	weapon
+		Sword
+			icon = 'SSwordinvo.dmi'
+			pickup = 1
+			wield = 1
+			density=1
+
+	armor
+		Wooden_Shield
+			icon = 'Wooden Shield.dmi'
+			pickup = 1
+			wield = 1
+			density = 1
