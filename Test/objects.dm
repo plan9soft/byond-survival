@@ -1,6 +1,10 @@
 //Lists and defines all INTERACTABLE objects, object specific procs
 //and object specific verbs.
 //Non-interactable objects are considered Turf and go in Enviroment.dm
+obj
+	var //Variables that apply to each Object
+		Pushable=0 //1=Pushable 0=No
+		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default
 
 obj  //Interactable Objects
 	Pushable_Boulder //Pushable Boulder

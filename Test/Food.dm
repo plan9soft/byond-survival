@@ -1,30 +1,8 @@
-mob //mob related procs
-	Login() //login related
-		if(src.LoadProc())
-			world<<"[src] has Returned"
-		else
-			src.loc=locate(5,5,1)
-			world<<"[src] has Logged In"
-
-	Logout() //logout related
-		world<<"[src] has Logged Out"
-		src.SaveProc()
-		del src
-
-	proc
-		UpdateInventory() //updates inventory panel
-			var
-				item_count = 0
-			winset(src, "inventory", "current-cell=1,1")
-			src << output("Inventory\n(Right click an item for more options)", "inventory")
-			for(var/obj/O in src)
-				item_count++
-				winset(src, "inventory", "current-cell=1,[item_count+1]")
-				src << output(O, "inventory")
-			winset(src, "inventory", "cells=1x[item_count+1]")
-
 obj //Object Specific Procs
 	food //create a new class of objects, "food". for things like berries, ect
+
+		var //food specific variables/
+			healing //determine the amount of healing to be done
 
 		proc  //proc to make food heal when eaten
 			Eat()

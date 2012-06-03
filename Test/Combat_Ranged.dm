@@ -12,6 +12,13 @@ mob/verb
 			var/obj/projectile/Arrow/P = new(null,usr)
 			walk(P,P.dir,0)
 
+obj
+	projectile
+		var //Projectile specific variables
+			maxrange=20
+			damage=2
+			mob/owner //The mob who fired the projectile
+
 //Procs
 obj //Object Specific Procs
 	projectile //Projectile Specific Procs
