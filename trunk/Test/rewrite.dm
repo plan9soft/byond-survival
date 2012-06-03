@@ -4,12 +4,19 @@ obj
 Need verbs named wield/unequip - verbs call procs which applies changes to usr.
 verbs should apply to all obj that can be wielded (need var)
 */
+	var
+		equipped = 0
+
 	weapon
 		verb
 			Wield_Weapon()
 				if(melee==1)
-					usr.Str=usr.Str+src.strength
-					usr<<"You equip a [src]."
+					if(src.equipped==0)
+						usr.Str=10+src.strength
+						src.equipped = 1
+						usr<<"You equip a [src]."
+					else
+						usr<<"[src] is already equipped"
 
 		var
 			strength
@@ -26,8 +33,12 @@ verbs should apply to all obj that can be wielded (need var)
 		verb
 			Wield_Armor()
 				if(shield==1)
-					usr.Def=usr.Def+src.defense
-					usr<<"You equip a [src]."
+					if(equipped==0)
+						usr.Def=5+src.defense
+						src.equipped = 1
+						usr<<"You equip a [src]."
+					else
+						usr<<"[src] is already equipped"
 
 		var
 			defense
