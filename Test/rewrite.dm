@@ -9,7 +9,7 @@ verbs should apply to all obj that can be wielded (need var)
 
 	weapon
 		verb
-			Wield_Weapon()
+			Equip()
 				if(melee==1)
 					if(src.equipped==0)
 						usr.Str=10+src.strength
@@ -17,6 +17,15 @@ verbs should apply to all obj that can be wielded (need var)
 						usr<<"You equip a [src]."
 					else
 						usr<<"[src] is already equipped"
+
+			Unequip()
+				if(melee==1)
+					if(src.equipped==0)
+						usr<<"[src] is not yet equipped"
+					else
+						usr.Str=10
+						src.equipped = 0
+						usr<<"You unequip the [src]."
 
 		var
 			strength
@@ -31,7 +40,7 @@ verbs should apply to all obj that can be wielded (need var)
 
 	armor
 		verb
-			Wield_Armor()
+			Equip()
 				if(shield==1)
 					if(equipped==0)
 						usr.Def=5+src.defense
@@ -39,6 +48,15 @@ verbs should apply to all obj that can be wielded (need var)
 						usr<<"You equip a [src]."
 					else
 						usr<<"[src] is already equipped"
+
+			Unequip()
+				if(shield==1)
+					if(src.equipped==0)
+						usr<<"[src] is not yet equipped"
+					else
+						usr.Def=5
+						src.equipped = 0
+						usr<<"You unequip the [src]."
 
 		var
 			defense
