@@ -2,9 +2,10 @@
 //and object specific verbs.
 //Non-interactable objects are considered Turf and go in Enviroment.dm
 obj
-	var //Variables that apply to each Object
+	var //Variables that apply to every object
 		Pushable=0 //1=Pushable 0=No
 		pickup = 0 //1=Yes 0=No. Objects cannot be picked up by default
+		equipped = 0 //1=Yes 0=No
 
 obj  //Interactable Objects
 	Pushable_Boulder //Pushable Boulder
@@ -53,3 +54,19 @@ obj  //Interactable Objects
 			verb //acorn specific verb !LEAVE HERE!
 				Eat_Acorns()
 					Eat()
+
+	weapon //weapons
+		Sword
+			icon = 'SSwordinvo.dmi'
+			pickup = 1
+			melee = 1
+			strength = 2
+			density = 1
+
+	armor //armor
+		Wooden_Shield
+			icon = 'Wooden Shield.dmi'
+			pickup = 1
+			shield = 1
+			defense = 2
+			density = 1

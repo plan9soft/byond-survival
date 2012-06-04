@@ -39,4 +39,4 @@ obj
 				usr <<"You cannot drop the [src]. Please unequip first"
 			else
 				usr << "You drop [src]"
-				Move(usr.loc)
+				src.Move(usr.loc)

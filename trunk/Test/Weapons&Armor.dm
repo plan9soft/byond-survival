@@ -1,7 +1,4 @@
 obj
-	var
-		equipped = 0
-
 	weapon
 		verb
 			Equip()
@@ -23,15 +20,9 @@ obj
 						usr<<"You unequip the [src]."
 
 		var
-			strength
-			melee = 0
-
-		Sword
-			icon = 'SSwordinvo.dmi'
-			pickup = 1
-			melee = 1
-			strength = 2
-			density=1
+			strength //amount usr.Str increases by
+			melee = 0 //melee weapon toggle
+			ranged = 0 //ranged weapon toggle
 
 	armor
 		verb
@@ -54,12 +45,5 @@ obj
 						usr<<"You unequip the [src]."
 
 		var
-			defense
+			defense //amount usr.Def increases by
 			shield = 0
-
-		Wooden_Shield
-			icon = 'Wooden Shield.dmi'
-			pickup = 1
-			shield = 1
-			defense = 2
-			density = 1
