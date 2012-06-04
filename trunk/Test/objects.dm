@@ -29,12 +29,14 @@ obj  //Interactable Objects
 					if (lit==1)
 						usr.luminosity = 0
 						luminosity = 0
+						equipped = 0
 						usr << "You extinguish the torch."
 						icon = 'Torch Unlit.dmi'
 						lit = 0
 					else
 						usr.luminosity = 3
 						luminosity = 3
+						equipped = 1
 						usr << "You light the torch."
 						icon = 'Torch Lit.dmi'
 						lit = 1
