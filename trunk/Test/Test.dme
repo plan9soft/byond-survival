@@ -37,6 +37,7 @@
 #include "enemies.dm"
 #include "Enviroment.dm"
 #include "Food.dm"
+#include "Inventory.dm"
 #include "Lightsources.dm"
 #include "Main.dm"
 #include "Movement.dm"
@@ -45,6 +46,7 @@
 #include "save.dm"
 #include "Sliding Trap.dm"
 #include "verbs.dm"
+#include "Weapons&Armor.dm"
 #include "Interface.dmf"
 #include "alphamap.dmm"
 // END_INCLUDE
