@@ -17,6 +17,8 @@ obj  //Interactable Objects
 		Arrow //Arrow Projectile. Arrows use default range and damage.
 			icon = 'Arrow.dmi'
 			density = 1
+			damage = 2
+			maxrange = 20
 
 	lightsource
 		Torch //torch
