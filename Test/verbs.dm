@@ -35,5 +35,8 @@ obj
 				Move(usr) //Put it in the user's contents.
 
 		Drop()
-			usr << "You drop [src]"
-			Move(usr.loc)
+			if(src.equipped==1)
+				usr <<"You cannot drop the [src]. Please unequip first"
+			else
+				usr << "You drop [src]"
+				Move(usr.loc)
