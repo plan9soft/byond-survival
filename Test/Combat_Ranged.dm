@@ -15,8 +15,8 @@ mob/verb
 obj
 	projectile
 		var //Projectile specific variables
-			maxrange=20
-			damage=2
+			maxrange
+			damage
 			mob/owner //The mob who fired the projectile
 
 //Procs
