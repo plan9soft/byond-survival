@@ -7,18 +7,18 @@
 ----
 _Alpha 1 is a bare-bones basic tech demo. See [https://code.google.com/p/byond-survival/issues/list?can=1&q=Milestone%3DAlpha1+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Alpha 1 Milestone]_
 
- * Completed
+ * *Completed*
 
 == Alpha 2 ==
 ----
 _Alpha 2 is the remaining engine work needed to get started on the first dungeon. See [https://code.google.com/p/byond-survival/issues/list?can=1&q=Milestone%3DAlpha2+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles Alpha 2 Milestone]_
 
 === Engine ===
- * Directional Density - Complete
+ * *Directional Density* - Complete
  * Inventory Screen
   * Equipping items - In progress - Shporang
-    * Sword - In progress - Shporang
-    * Shield - In progress - Shporang
+    * *Sword* - Complete
+    * *Shield* - Complete
     * Bracelet of Str +1 (Allows Boulder Push mechanic)
  * New Attack system
  * HUD elements
@@ -36,9 +36,9 @@ _Dungeon 1 is the first gameplay milestone.  See [https://code.google.com/p/byon
  * Locked doors and keys
 
 === Mobs ===
- * Zombie - Complete
+ * *Zombie* - Complete
  * Bat
- * Skeleton Archer - Complete
+ * *Skeleton Archer* - Complete
  * Slime
  * 1st Dungeon Boss Mob
 
