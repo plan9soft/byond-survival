@@ -1,0 +1,20 @@
+# Add a Commiter #
+This guide will show Project Owners how to add people to the project so that they can commit changes.
+
+## You Will Need ##
+**You must be a Project Owner**
+
+**The email of the person to be added**
+  * Gmail is preferred, but other emails should work just fine.
+
+## Step 1: Add the User ##
+First, log into your Gmail Account that is a Project Owner for Byond-Survival. Then, from the project's Google Code page, click on the [Administer tab](https://code.google.com/p/byond-survival/admin) and then on the [Sharing subtab](https://code.google.com/p/byond-survival/adminMembers).
+
+![https://byond-survival.googlecode.com/svn-history/r23/wiki/adduser.png](https://byond-survival.googlecode.com/svn-history/r23/wiki/adduser.png)
+
+Input the user's email address into the appropriate box, with one email per line.
+
+## Step 2: Things to Remember ##
+  * Project Owners have _**complete control**_ over the project! They can add or remove memebers, delete files, or even the entire project.
+  * Most people should be added as Project Committers.
+  * Project Contributors can't commit code to the project.

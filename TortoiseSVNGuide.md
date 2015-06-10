@@ -1,0 +1,62 @@
+# Using Subversion with TortoiseSVN #
+This guide will walk you through setting up TortoiseSVN to keep your version of the game in sync, and for committing changes you make to the code base.
+
+This guide was created based on the guide at [WildfireGames.com](http://trac.wildfiregames.com/wiki/TortoiseSVN_Guide).
+
+## You Will Need ##
+**TortoiseSVN:** [Link](http://tortoisesvn.tigris.org)
+
+  * "A free/open-source client for the Subversion version control system."
+  * An easy-to-use tool that integrates with Windows Explorer. It is used to access the Subversion repository.
+
+**Commit Permission**
+
+  * If you wish to add to the official version of the game, you must have commit permission. Have [someone listed as an Owner](https://code.google.com/p/byond-survival/people/list) add you to the project as either a **Project Owner** or **Project Committer**. They will need your e-mail address to do this (Gmail is perfered, it's easier to work with). (Owners: See the AddingCommitter guide for detailed instructions on how to add somebody as a project committer.)
+  * People who don't want to commit changes to the official version don't need this.
+
+## Step 1: Getting and Installing TortoiseSVN ##
+You can obtain TortoiseSVN from [here](http://tortoisesvn.net/downloads). Select the latest version available for your operating system. Follow the standard installation procedure and reboot when asked.
+
+## Step 2: Making your first Checkout ##
+First, you need to create a folder where you want the project files stored. I use `D:\Byond-Survial`, but feel free to use whatever folder you wish.
+
+Once you have the folder created (hereafter called the "base folder"), right click on it and select "SVN Checkout..."
+
+Now we need to point you to the correct SVN URL. The URL of repository is:
+
+> `https://byond-survival.googlecode.com/svn/trunk/`
+
+(The URL for the project wiki is `https://byond-survival.googlecode.com/svn/wiki` )
+
+The default settings should be correct, just hit OK, and TortoiseSVN should checkout the latest version of the game to your base folder.
+
+Congratulations, you now have the latest version of the game!
+
+## Step 3: Updating the Game Files ##
+Whenever somebody updates the game files, you need to tell TortiseSVN to update your base folder. Right click on your base folder and select "SVN Update".
+
+## Step 4: Committing Changes to SVN ##
+When you commit changes to SVN, you submit files you modified or added to the Google Code servers so that other people can use them.
+
+Navigate to your base folder (where the Byond project is), right click on it and hit "SVN Commit." A window will pop up that looks like this:
+
+![https://byond-survival.googlecode.com/svn-history/r19/wiki/guide2.png](https://byond-survival.googlecode.com/svn-history/r19/wiki/guide2.png)
+
+There is a space for a log message. **Please write out a brief description of the changes you are committing!** Next, check the box next to each modified file you wish to upload. Finally, hit "OK"
+
+A prompt should open, asking for your user name and password. To get your username and password, do the following:
+  * Log into the Gmail account that was added to the project as a committer.
+  * Go to the project's Google Code Page.
+  * Click on the [Source](https://code.google.com/p/byond-survival/source/checkout) link on the top banner of the Google Code page. You should see a box that looks like this:
+
+![https://byond-survival.googlecode.com/svn-history/r19/wiki/guide1.png](https://byond-survival.googlecode.com/svn-history/r19/wiki/guide1.png)
+
+Put in your username (circled in red in the picture), click the link and put in the password found there. Click the box on TortoiseSVN to save  your logon credentials so you don't have to jump through this hoop every time you want to make a commit. Then click "OK" and you're good to go!
+
+Congratulations, you can now add to the SVN at will!
+
+## Step 5: Things to Remember ##
+  * You must right click and select "SVN Update" to update your _local copy_ of the game files.
+  * You must hit "SVN Commit" to commit changes to the master version.
+  * TortoiseSVN can't see changes you made that aren't in your base folder.
+  * Write a brief description of your changes when you commit an update to the master version!

@@ -1,0 +1,50 @@
+# Project Roadmap #
+
+## Alpha 1 ##
+
+---
+
+_Alpha 1 is a bare-bones basic tech demo. See [Alpha 1 Milestone](https://code.google.com/p/byond-survival/issues/list?can=1&q=Milestone%3DAlpha1+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles)_
+
+  * **Completed**
+
+## Alpha 2 ##
+
+---
+
+_Alpha 2 is the remaining engine work needed to get started on the first dungeon. See [Alpha 2 Milestone](https://code.google.com/p/byond-survival/issues/list?can=1&q=Milestone%3DAlpha2+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles)_
+
+### Engine ###
+  * **Directional Density** - Complete
+  * Inventory Screen
+    * Equipping items - In progress - Shporang
+      * **Sword** - Complete
+      * **Shield** - Complete
+      * Bracelet of Str +1 (Allows Boulder Push mechanic)
+  * New Attack system
+  * HUD elements
+  * Dialog Boxes
+  * Logon (make Char -> set name, choose avatar)
+
+## Dungeon 1 ##
+
+---
+
+_Dungeon 1 is the first gameplay milestone.  See [Dungeon 1 Milestone](https://code.google.com/p/byond-survival/issues/list?can=2&q=Milestone%3DDungeon1+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles)_
+
+### Engine ###
+  * Boulder Push mechanic - Partially Complete (pending Bracelets mechanic)
+  * Way to increase health (heart pieces)
+  * Treasure Chests
+  * Locked doors and keys
+
+### Mobs ###
+  * **Zombie** - Complete
+  * Bat
+  * **Skeleton Archer** - Complete
+  * Slime
+  * 1st Dungeon Boss Mob
+
+### Other ###
+  * Sliding Traps - In progress - Ckromie
+  * Bottomless Pit
